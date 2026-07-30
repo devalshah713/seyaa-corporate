@@ -40,19 +40,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               className="group flex items-center gap-3 transition-opacity hover:opacity-80"
             >
               <Image
-                src="/brand/mark.png"
+                src="/brand/mark.webp"
                 alt=""
-                width={266}
-                height={362}
+                width={176}
+                height={240}
                 priority
                 className="h-9 w-auto sm:h-11"
               />
               <span className="flex flex-col leading-none">
                 <Image
-                  src="/brand/wordmark.png"
+                  src="/brand/wordmark.webp"
                   alt="Seyaa Jewels"
-                  width={608}
-                  height={123}
+                  width={480}
+                  height={97}
                   priority
                   className="h-5 w-auto sm:h-6"
                 />
@@ -91,19 +91,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-24 bg-brand text-white">
           <div className="shell grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
             <div>
+              {/* The artwork is a single flat colour, so brightness(0) invert(1)
+                  renders the same file in white — no second asset to keep in
+                  step with the first. */}
               <Image
-                src="/brand/mark-white.png"
+                src="/brand/mark.webp"
                 alt=""
-                width={266}
-                height={362}
-                className="h-16 w-auto"
+                width={176}
+                height={240}
+                className="h-16 w-auto [filter:brightness(0)_invert(1)]"
               />
               <Image
-                src="/brand/wordmark-white.png"
+                src="/brand/wordmark.webp"
                 alt="Seyaa Jewels"
-                width={608}
-                height={123}
-                className="mt-4 h-7 w-auto"
+                width={480}
+                height={97}
+                className="mt-4 h-7 w-auto [filter:brightness(0)_invert(1)]"
               />
               <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/80">
                 14K gold jewellery set with lab-grown diamonds, made for corporate

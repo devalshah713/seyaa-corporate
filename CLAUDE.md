@@ -1,4 +1,4 @@
-# Seyaa — corporate jewellery showcase
+# Seyaa Jewels — corporate jewellery showcase
 
 A catalogue site for lab-grown diamond jewellery. It **showcases** pieces —
 there is no cart and nothing is sold online. Buyers note a SKU and enquire.
@@ -100,8 +100,8 @@ composited over the orange, so per-pixel alpha is exact) and recolouring:
 
 | Asset | Use |
 | --- | --- |
-| `mark.png` / `wordmark.png` | orange on transparent — header on ivory |
-| `mark-white.png` / `wordmark-white.png` | white on transparent — orange footer |
+| `mark.webp` / `wordmark.webp` | orange on transparent — the only lockup files |
+| `brightness(0) invert(1)` on the above | white lockup for the orange footer |
 | `og.jpg` | 1200×630 social card, the brand lockup |
 | `src/app/icon.png`, `apple-icon.png` | white mark on orange, per the brand kit |
 
