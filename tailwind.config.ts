@@ -28,6 +28,9 @@ export default {
           deep: themed('--accent-deep'),
         },
         onGold: themed('--on-accent'), // text sitting on an accent fill
+        // True brand orange (#DD611C). Display sizes and rules only — it does
+        // not meet AA at body size on ivory, which is what `gold` is for.
+        brand: themed('--brand'),
       },
       fontFamily: {
         // System stacks only — nothing to download, so the site renders

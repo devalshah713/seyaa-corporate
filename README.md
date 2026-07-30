@@ -1,4 +1,4 @@
-# Seyaa — Lab Grown Diamond Jewellery
+# Seyaa Jewels — Lab Grown Diamond Jewellery
 
 A showcase catalogue of 14K gold lab-grown diamond jewellery for corporate
 partners. Photos, full specifications and prices — no cart, no checkout.

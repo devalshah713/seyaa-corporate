@@ -88,6 +88,35 @@ Next.js (App Router, SSG) + Tailwind. Every product page is prerendered.
   default **because every packshot is shot on pure white** — on a dark ground
   they render as glaring white tiles.
 
+## Brand
+
+From the Seyaa Jewels brand kit: a rearing horse holding a diamond, a script
+wordmark, and one colour — **`#DD611C`** orange — with white and `#1C2120`
+near-black.
+
+The logo ships as white artwork on a solid orange field, so `public/brand/*`
+was derived from it by recovering the alpha (the artwork is pure white
+composited over the orange, so per-pixel alpha is exact) and recolouring:
+
+| Asset | Use |
+| --- | --- |
+| `mark.png` / `wordmark.png` | orange on transparent — header on ivory |
+| `mark-white.png` / `wordmark-white.png` | white on transparent — orange footer |
+| `og.jpg` | 1200×630 social card, the brand lockup |
+| `src/app/icon.png`, `apple-icon.png` | white mark on orange, per the brand kit |
+
+**Two orange tokens, and the distinction matters.** `#DD611C` on ivory is
+3.42:1 — fine at display size, but it fails WCAG AA for body text, and white
+on it is only 3.62:1. So:
+
+- `--brand` (`#DD611C`) — the true brand orange. Logo, the `.rule-gold`
+  divider, the hero accent, large numerals. Never body-size text.
+- `--accent` (`#B54D17`) — a deeper cut of the same hue for buttons and links.
+  White on it is 4.8:1; as text on ivory it is 4.9:1. Both clear AA.
+
+Use `text-brand` only where the type is genuinely large; `text-gold-soft`
+(which maps to `--accent`) everywhere else.
+
 ## House style
 
 - Prices are shown publicly, in whole dollars.

@@ -29,7 +29,7 @@ export default function HomePage() {
             <h1 className="mt-6 font-serif text-[2.75rem] leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               Brilliance,
               <br />
-              <span className="text-gold-soft">without compromise.</span>
+              <span className="text-brand">without compromise.</span>
             </h1>
 
             <p className="mt-7 max-w-lg text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
@@ -61,7 +61,7 @@ export default function HomePage() {
                 { value: stats.categories, label: 'Categories' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <dt className="font-serif text-3xl text-gold-soft sm:text-4xl">{stat.value}</dt>
+                  <dt className="font-serif text-3xl text-brand sm:text-4xl">{stat.value}</dt>
                   <dd className="eyebrow mt-2">{stat.label}</dd>
                 </div>
               ))}
@@ -146,7 +146,7 @@ export default function HomePage() {
             },
           ].map((item, i) => (
             <div key={item.title}>
-              <p className="font-serif text-5xl text-gold/25">0{i + 1}</p>
+              <p className="font-serif text-5xl text-brand/30">0{i + 1}</p>
               <h3 className="mt-5 font-serif text-2xl">{item.title}</h3>
               <p className="mt-3 text-[0.9375rem] leading-relaxed text-bone-dim">{item.body}</p>
             </div>

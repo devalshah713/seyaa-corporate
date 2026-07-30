@@ -9,29 +9,43 @@
  * ground each one becomes a glaring white tile; on warm ivory the packshot
  * dissolves into the page and the jewellery reads as the only object on screen.
  */
+/**
+ * Seyaa Jewels brand palette.
+ *
+ *   #DD611C  brand orange   — the logo colour, taken from the brand kit
+ *   #1C2120  brand near-black
+ *   #FFFFFF  white
+ *
+ * The brand orange is a mid-tone: it clears WCAG AA against ivory only at
+ * display sizes (3.42:1). So it stays reserved for the logo, rules and large
+ * numerals via --brand, while --accent carries a deeper cut of the same hue
+ * for buttons and links, where body-size contrast has to hold up.
+ */
 :root {
-  --surface: 251 249 245;
+  --surface: 251 248 244;
   --surface-raised: 255 255 255;
-  --line: 228 221 208;
-  --text: 26 24 21;
-  --text-muted: 122 113 100;
-  --accent: 154 123 50;
-  --accent-text: 124 98 38;
-  --accent-deep: 90 70 26;
+  --line: 232 223 212;
+  --text: 28 33 32; /* brand near-black */
+  --text-muted: 110 101 88; /* 5.4:1 on ivory */
+  --brand: 221 97 28; /* #DD611C — display + logo only */
+  --accent: 181 77 23; /* #B54D17 — white on this is 4.8:1 */
+  --accent-text: 181 77 23; /* 4.9:1 on ivory */
+  --accent-deep: 143 61 16;
   --on-accent: 255 255 255;
 }
 
 /* Charcoal — set data-theme="charcoal" on <html> to switch the whole site. */
 [data-theme='charcoal'] {
-  --surface: 11 11 12;
-  --surface-raised: 19 19 21;
-  --line: 38 38 42;
-  --text: 237 233 227;
-  --text-muted: 154 149 140;
-  --accent: 201 162 75;
-  --accent-text: 227 199 127;
-  --accent-deep: 138 109 43;
-  --on-accent: 11 11 12;
+  --surface: 20 24 23;
+  --surface-raised: 28 33 32; /* brand near-black */
+  --line: 48 54 52;
+  --text: 240 236 230;
+  --text-muted: 158 152 143;
+  --brand: 221 97 28;
+  --accent: 221 97 28;
+  --accent-text: 235 141 82; /* lifted for contrast on dark */
+  --accent-deep: 181 77 23;
+  --on-accent: 255 255 255;
 }
 
 @layer base {
@@ -70,10 +84,10 @@
     @apply relative overflow-hidden bg-ink-soft ring-1 ring-inset ring-ink-line;
   }
 
-  /* Thin gold rule used as a section divider. */
+  /* Thin brand-orange rule used as a section divider. */
   .rule-gold::after {
     content: '';
-    @apply mt-5 block h-px w-14 bg-gold;
+    @apply mt-5 block h-px w-14 bg-brand;
   }
 }
 
