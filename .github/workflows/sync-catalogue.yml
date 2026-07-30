@@ -1,0 +1,64 @@
+name: Sync catalogue from Google Sheet
+
+# Pulls the master sheet every morning and commits any changes, which triggers
+# a redeploy. Adding a row to the sheet is all it takes to publish a product.
+on:
+  schedule:
+    - cron: '0 5 * * *' # 05:00 UTC daily
+  workflow_dispatch: # lets anyone run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-catalogue
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No credentials needed — the sheet is shared as "anyone with the link".
+      - name: Pull the sheet
+        run: node scripts/sync-sheet.mjs
+
+      - name: Summarise data health
+        if: always()
+        run: |
+          if [ -f data/data-health.json ]; then
+            node -e "
+              const h = require('./data/data-health.json');
+              const line = (x) => '- **' + x.code + '** — ' + x.message;
+              const out = [
+                '## Catalogue sync',
+                '',
+                '| | Count |',
+                '|---|---|',
+                '| Errors | ' + h.errors.length + ' |',
+                '| Warnings | ' + h.warnings.length + ' |',
+                '| Notes | ' + h.notes.length + ' |',
+                '',
+                ...(h.errors.length ? ['### Errors', ...h.errors.map(line), ''] : []),
+                ...(h.warnings.length ? ['### Warnings', ...h.warnings.map(line)] : []),
+              ].join('\n');
+              require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, out);
+            "
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "Catalogue unchanged."
+            exit 0
+          fi
+          git add data/
+          git commit -m "chore: sync catalogue from Google Sheet"
+          git push

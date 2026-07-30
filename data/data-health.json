@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-07-30T15:45:52.119Z",
+  "errors": [
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 5ER 5ERY, 6ER 6ERW.",
+      "detail": "https://drive.google.com/file/d/1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 29RG 29RGW, 30RG 30RGW.",
+      "detail": "https://drive.google.com/file/d/1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 34RG 34RGY, 35RG 35RGW.",
+      "detail": "https://drive.google.com/file/d/1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 36RG 36RGY, 37RG 37RGW.",
+      "detail": "https://drive.google.com/file/d/1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 43RG 43RGY, 44RG 44RGW.",
+      "detail": "https://drive.google.com/file/d/18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 47RG 47RGW, 48RG 48RGW.",
+      "detail": "https://drive.google.com/file/d/1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 49RG 49RGY, 50RG 50RGW.",
+      "detail": "https://drive.google.com/file/d/1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 3NK 3NKY, 4NK 4NKW.",
+      "detail": "https://drive.google.com/file/d/1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 9NK 9NKY, 10NK 10NKY.",
+      "detail": "https://drive.google.com/file/d/1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 8PD 8PDW, 9PD 9PDY.",
+      "detail": "https://drive.google.com/file/d/1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu/view"
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 29PD 29PDY, 30PD 30PDW.",
+      "detail": "https://drive.google.com/file/d/1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq/view"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "DUPLICATE_ROW",
+      "message": "Duplicate row in \"Bracelets\" — SKU 36BRW."
+    },
+    {
+      "code": "DUPLICATE_ROW",
+      "message": "Duplicate row in \"Bracelets\" — SKU 36BRY."
+    },
+    {
+      "code": "TITLE_MISMATCH",
+      "message": "Design hoop-earrings/6HE has different titles per colour: 20 Pts Round Diamond Hoops Earrings / 21 Pts Round Diamond Hoops Earrings.",
+      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
+    },
+    {
+      "code": "TITLE_MISMATCH",
+      "message": "Design hoop-earrings/7HE has different titles per colour: 22 Pts Round Diamond Hoops Earrings / 23 Pts Round Diamond Hoops Earrings.",
+      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
+    },
+    {
+      "code": "TITLE_MISMATCH",
+      "message": "Design hoop-earrings/24HE has different titles per colour: 15 Pts Round Hoops Earrings / 16 Pts Round Hoops Earrings.",
+      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
+    },
+    {
+      "code": "TITLE_MISMATCH",
+      "message": "Design necklaces/3NK has different titles per colour: 10 Cts Straight Line Tennis Necklace / 10 cts Straight Line Tennis Necklace.",
+      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
+    }
+  ],
+  "notes": [
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design bracelets/41BR uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design bracelets/11BR uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design rings/27RG uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design rings/33RG uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design rings/40RG uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design necklaces/1NK uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design pendants/11PD uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design pendants/32PD uses one photo for all metal colours."
+    }
+  ]
+}

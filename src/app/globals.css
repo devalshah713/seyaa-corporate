@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Ivory — the default.
+ *
+ * Every product photograph in the catalogue is shot on pure white. On a dark
+ * ground each one becomes a glaring white tile; on warm ivory the packshot
+ * dissolves into the page and the jewellery reads as the only object on screen.
+ */
+:root {
+  --surface: 251 249 245;
+  --surface-raised: 255 255 255;
+  --line: 228 221 208;
+  --text: 26 24 21;
+  --text-muted: 122 113 100;
+  --accent: 154 123 50;
+  --accent-text: 124 98 38;
+  --accent-deep: 90 70 26;
+  --on-accent: 255 255 255;
+}
+
+/* Charcoal — set data-theme="charcoal" on <html> to switch the whole site. */
+[data-theme='charcoal'] {
+  --surface: 11 11 12;
+  --surface-raised: 19 19 21;
+  --line: 38 38 42;
+  --text: 237 233 227;
+  --text-muted: 154 149 140;
+  --accent: 201 162 75;
+  --accent-text: 227 199 127;
+  --accent-deep: 138 109 43;
+  --on-accent: 11 11 12;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink text-bone font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-gold text-onGold;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-ink;
+  }
+}
+
+@layer components {
+  /* Small uppercase eyebrow used above headings and on spec labels. */
+  .eyebrow {
+    @apply font-sans text-[0.6875rem] uppercase tracking-label text-bone-dim;
+  }
+
+  .shell {
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Image wells. On ivory a hairline keeps the white packshot from bleeding
+     into the page; on charcoal the panel itself provides the edge. */
+  .well {
+    @apply relative overflow-hidden bg-ink-soft ring-1 ring-inset ring-ink-line;
+  }
+
+  /* Thin gold rule used as a section divider. */
+  .rule-gold::after {
+    content: '';
+    @apply mt-5 block h-px w-14 bg-gold;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

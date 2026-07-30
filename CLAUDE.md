@@ -1,0 +1,98 @@
+# Seyaa — corporate jewellery showcase
+
+A catalogue site for lab-grown diamond jewellery. It **showcases** pieces —
+there is no cart and nothing is sold online. Buyers note a SKU and enquire.
+
+## The source of truth is a Google Sheet
+
+Everything on the site comes from one spreadsheet. Nothing is hand-authored.
+
+- **Sheet:** `JEWELERY PORTAL` — file id `1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U`
+- **Owner:** `seyaalabjewel@gmail.com`
+- **Sharing:** *Anyone with the link can view* — **this must stay true**, or the
+  daily sync breaks. It is what lets the sync run without credentials.
+- **Photography:** individual Drive files owned by `samkitgems713@gmail.com`,
+  also shared publicly, named by SKU (`5BRW.png`). They are hot-linked through
+  `drive.google.com/thumbnail?id=…`, so **adding a photo to Drive and pasting
+  its link into the sheet is all it takes to publish an image.**
+
+New products are added to the sheet daily. To refresh the catalogue:
+
+```bash
+npm run sync          # download the sheet, rebuild data/products.json
+npm run sync -- --file some.xlsx   # parse a local copy instead
+```
+
+`.github/workflows/sync-catalogue.yml` runs this every morning at 05:00 UTC and
+commits any change, which redeploys the site.
+
+## The sheet's headers are wrong — do not trust them
+
+The header row is mislabelled and shifted. `scripts/sync-sheet.mjs` maps columns
+**by position**, and that mapping is the authority:
+
+| Col | Header says | Actually holds |
+| --- | --- | --- |
+| A | Title | Title |
+| B | description | **Metal colour** (`14K WHITE` / `14K YELLOW` / `14K ROSE`) |
+| C | SKU | SKU |
+| D | Metal | *always empty* |
+| E | jewelry image1 | **The metal** — literally `14K GOLD` on every row |
+| F | gallery | **The image link(s)** |
+| G–J | — | Total carat, min carat, shape, stone count |
+| K | Each diamond size (mm) | *always empty* |
+| L–N | — | Colour, clarity, metal weight |
+| O | Design type | Category (`Bracelet`, `Hoops`, …) |
+| P | Metal length | **Size** (`7 INCH`, `US 7`, `16.5 INCH`, `NA`) |
+| Q | Type | *always empty* |
+| R–S | — | Price (USD), origin |
+
+Six tabs — `Bracelets`, `Hoops Earrings`, `Studs`, `Rings`, `Necklaces`,
+`Pendants` — each with the same layout. The tab is what determines the category.
+
+## Products are grouped by SKU, never by title
+
+A SKU is `<number><type><colour>`: `17HEW` = design `17HE` in **W**hite gold.
+One design = one product page, with a metal-colour toggle across its variants.
+
+**Titles are not unique** — two unrelated hoop designs are both called
+"Marquise Hoops Earrings" — so grouping by title silently merges different
+products. Always group on the SKU prefix.
+
+## Data health
+
+`npm run sync` also writes `data/data-health.json` and prints a summary. It
+reports problems in the *source sheet* for the team to fix — it never silently
+"corrects" them. Known open issues at last sync:
+
+- 10 photos are shared by unrelated designs (a photo is on the wrong product).
+- Three hoop designs give different titles to their White and Yellow rows,
+  suggesting two carat weights share one SKU number.
+
+Normalisation that *is* applied automatically: byte-identical duplicate rows are
+dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing
+spaces are trimmed, float noise (`633.0600000000001`) is rounded, and multiple
+links in one gallery cell are split into a real image gallery.
+
+## Stack
+
+Next.js (App Router, SSG) + Tailwind. Every product page is prerendered.
+
+- `scripts/sync-sheet.mjs` — sheet → `data/products.json`
+- `scripts/lib/xlsx.mjs` — a small dependency-free `.xlsx` reader. Deliberate:
+  the maintained spreadsheet libraries on npm carry unpatched advisories, and
+  this code runs unattended in CI. It is validated against openpyxl.
+- `src/lib/catalogue.ts` — typed access plus the plain-English glossary
+- Theme: `:root` in `globals.css` is the ivory palette; setting
+  `data-theme="charcoal"` on `<html>` flips the whole site. Ivory is the
+  default **because every packshot is shot on pure white** — on a dark ground
+  they render as glaring white tiles.
+
+## House style
+
+- Prices are shown publicly, in whole dollars.
+- Trade grading is always paired with plain English (`E-F` → "Colourless").
+  That mapping lives in `PLAIN_ENGLISH` in `src/lib/catalogue.ts`.
+- Product images use `object-contain`, never `cover` — cropping a solitaire out
+  of frame misrepresents the piece.
+- British spelling in copy ("colour", "jewellery").
