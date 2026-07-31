@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Allura, Montserrat } from 'next/font/google'
 import './globals.css'
+import SiteHeader from '@/components/SiteHeader'
 import { catalogue } from '@/lib/catalogue'
 
 /**
@@ -39,66 +40,11 @@ export const metadata: Metadata = {
   },
 }
 
-const NAV = [
-  { href: '/collection', label: 'Collection' },
-  { href: '/collection?category=bracelets', label: 'Bracelets' },
-  { href: '/collection?category=rings', label: 'Rings' },
-  { href: '/collection?category=necklaces', label: 'Necklaces' },
-  { href: '/guide', label: 'Diamond Guide' },
-]
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${allura.variable}`}>
       <body className="flex min-h-screen flex-col">
-        <header className="sticky top-0 z-40 border-b border-ink-line bg-ink/85 backdrop-blur-md">
-          <div className="shell flex h-16 items-center justify-between gap-6 sm:h-20">
-            <Link
-              href="/"
-              aria-label="Seyaa Jewels — home"
-              className="group flex items-center gap-3 transition-opacity hover:opacity-80"
-            >
-              <Image
-                src="/brand/mark.webp"
-                alt=""
-                width={117}
-                height={160}
-                priority
-                className="h-9 w-auto sm:h-11"
-              />
-              {/* The wordmark is set live in Allura rather than shipped as a
-                  raster: it is the brand's own typeface, so it matches exactly,
-                  stays crisp at any size and takes the theme colour. */}
-              <span className="flex flex-col leading-none">
-                <span className="font-script text-[1.75rem] leading-none text-brand sm:text-[2.125rem]">
-                  Seyaa Jewels
-                </span>
-                <span className="eyebrow mt-1 hidden text-[0.5rem] sm:block">
-                  Lab Grown Diamond Jewellery
-                </span>
-              </span>
-            </Link>
-
-            <nav className="hidden items-center gap-8 lg:flex">
-              {NAV.map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="text-[0.8125rem] tracking-wide text-bone-dim transition-colors hover:text-gold-soft"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-
-            <Link
-              href="/collection"
-              className="border border-gold/50 px-4 py-2.5 text-[0.6875rem] uppercase tracking-label text-gold-soft transition-colors hover:border-gold hover:bg-gold hover:text-onGold sm:px-6"
-            >
-              Browse
-            </Link>
-          </div>
-        </header>
+        <SiteHeader categories={catalogue.categories} />
 
         <main className="flex-1">{children}</main>
 
@@ -127,12 +73,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             <div>
               <p className="eyebrow text-white/70">Collection</p>
-              <ul className="mt-4 space-y-2.5">
+              <ul className="mt-3 space-y-0.5">
                 {catalogue.categories.map((c) => (
                   <li key={c.slug}>
                     <Link
                       href={`/collection?category=${c.slug}`}
-                      className="text-sm text-white/85 transition-colors hover:text-white"
+                      className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white"
                     >
                       {c.name}
                     </Link>
@@ -143,14 +89,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             <div>
               <p className="eyebrow text-white/70">Information</p>
-              <ul className="mt-4 space-y-2.5">
+              <ul className="mt-3 space-y-0.5">
                 <li>
-                  <Link href="/guide" className="text-sm text-white/85 transition-colors hover:text-white">
+                  <Link href="/guide" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
                     Understanding your diamond
                   </Link>
                 </li>
                 <li>
-                  <Link href="/collection" className="text-sm text-white/85 transition-colors hover:text-white">
+                  <Link href="/collection" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
                     Full catalogue
                   </Link>
                 </li>

@@ -46,15 +46,15 @@ export default async function PiecePage({ params }: Params) {
   return (
     <div className="shell py-10 lg:py-14">
       <nav aria-label="Breadcrumb" className="mb-10 flex flex-wrap items-center gap-2 text-xs text-bone-dim">
-        <Link href="/" className="hover:text-gold-soft">
+        <Link href="/" className="inline-block py-3 hover:text-gold-soft">
           Home
         </Link>
         <span aria-hidden>/</span>
-        <Link href="/collection" className="hover:text-gold-soft">
+        <Link href="/collection" className="inline-block py-3 hover:text-gold-soft">
           Collection
         </Link>
         <span aria-hidden>/</span>
-        <Link href={`/collection?category=${design.categorySlug}`} className="hover:text-gold-soft">
+        <Link href={`/collection?category=${design.categorySlug}`} className="inline-block py-3 hover:text-gold-soft">
           {design.category}
         </Link>
         <span aria-hidden>/</span>

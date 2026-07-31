@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'next/navigation'
 import ProductCard from './ProductCard'
 import { formatPrice, type Category, type Design } from '@/lib/catalogue'
@@ -77,6 +77,18 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     (metal !== 'all' ? 1 : 0) +
     (band !== null ? 1 : 0)
 
+  // The sheet covers the grid on mobile; let it scroll, not the page behind it.
+  useEffect(() => {
+    if (!filtersOpen) return
+    const isSheet = window.matchMedia('(max-width: 1023px)').matches
+    if (!isSheet) return
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => {
+      document.body.style.overflow = previous
+    }
+  }, [filtersOpen])
+
   const reset = () => {
     setCategory('all')
     setShape('all')
@@ -96,29 +108,28 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
         </h1>
       </div>
 
-      <div className="mt-10 flex flex-col gap-4 border-y border-ink-line py-4 lg:flex-row lg:items-center lg:justify-between">
-        <div className="flex flex-1 items-center gap-3">
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by name or SKU (e.g. 5BRW)"
-            aria-label="Search by name or SKU"
-            className="w-full max-w-sm border border-ink-line bg-transparent px-4 py-2.5 text-sm placeholder:text-bone-dim/60 focus:border-gold/60"
-          />
+      <div className="mt-10 flex flex-col gap-3 border-y border-ink-line py-4 lg:flex-row lg:items-center lg:justify-between">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search name or SKU"
+          aria-label="Search by name or SKU"
+          className="w-full border border-ink-line bg-transparent px-4 py-3 text-base placeholder:text-bone-dim/60 focus:border-gold/60 lg:max-w-sm lg:text-sm"
+        />
+
+        <div className="flex flex-wrap items-center gap-3 lg:flex-nowrap lg:justify-end lg:gap-4">
           <button
-            onClick={() => setFiltersOpen((v) => !v)}
-            className="shrink-0 border border-ink-line px-4 py-2.5 text-[0.6875rem] uppercase tracking-label text-bone-dim transition-colors hover:border-gold/50 hover:text-gold-soft lg:hidden"
-            aria-expanded={filtersOpen}
+            onClick={() => setFiltersOpen(true)}
+            className="flex-1 border border-ink-line px-4 py-3 text-[0.6875rem] uppercase tracking-label text-bone-dim transition-colors hover:border-gold/50 hover:text-gold-soft lg:hidden"
           >
             Filters{activeCount ? ` (${activeCount})` : ''}
           </button>
-        </div>
 
-        <div className="flex items-center gap-4">
-          <span className="text-sm text-bone-dim">
+          <span className="order-first w-full text-sm text-bone-dim lg:order-none lg:w-auto">
             {results.length} {results.length === 1 ? 'design' : 'designs'}
           </span>
+
           <label className="sr-only" htmlFor="sort">
             Sort
           </label>
@@ -126,7 +137,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
             id="sort"
             value={sort}
             onChange={(e) => setSort(e.target.value as Sort)}
-            className="border border-ink-line bg-ink px-3 py-2.5 text-sm text-bone focus:border-gold/60"
+            className="flex-1 border border-ink-line bg-ink px-3 py-3 text-sm text-bone focus:border-gold/60 lg:flex-none lg:py-2.5"
           >
             {SORTS.map((s) => (
               <option key={s.value} value={s.value}>
@@ -138,13 +149,31 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
       </div>
 
       <div className="mt-10 grid gap-10 lg:grid-cols-[15rem_1fr] lg:gap-14">
-        <aside className={`${filtersOpen ? 'block' : 'hidden'} lg:block`}>
+        {/* Below `lg` the filters are a sheet over the grid rather than a block
+            above it — expanding four filter groups inline pushed every product
+            off the screen. */}
+        {filtersOpen && (
+          <div
+            className="fixed inset-0 z-50 bg-black/40 lg:hidden"
+            onClick={() => setFiltersOpen(false)}
+            aria-hidden
+          />
+        )}
+        <aside
+          className={`${
+            filtersOpen
+              ? 'fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto overscroll-contain border-t border-ink-line bg-ink px-5 pb-28 pt-5 shadow-2xl'
+              : 'hidden'
+          } lg:static lg:z-auto lg:block lg:max-h-none lg:overflow-visible lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none`}
+          role={filtersOpen ? 'dialog' : undefined}
+          aria-label={filtersOpen ? 'Filters' : undefined}
+        >
           <div className="flex items-center justify-between">
             <p className="eyebrow">Refine</p>
             {activeCount > 0 && (
               <button
                 onClick={reset}
-                className="text-[0.6875rem] uppercase tracking-label text-gold-soft hover:text-gold"
+                className="py-2 text-[0.6875rem] uppercase tracking-label text-gold-soft hover:text-gold"
               >
                 Clear
               </button>
@@ -199,11 +228,24 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
               </FilterOption>
             ))}
           </FilterGroup>
+
+          {/* Pinned inside the sheet so the result count is always in view and
+              dismissing never means scrolling back up. */}
+          {filtersOpen && (
+            <div className="fixed inset-x-0 bottom-0 border-t border-ink-line bg-ink p-4 lg:hidden">
+              <button
+                onClick={() => setFiltersOpen(false)}
+                className="w-full bg-gold py-4 text-[0.6875rem] uppercase tracking-label text-onGold"
+              >
+                Show {results.length} {results.length === 1 ? 'design' : 'designs'}
+              </button>
+            </div>
+          )}
         </aside>
 
         <div>
           {results.length > 0 ? (
-            <div className="grid grid-cols-2 gap-x-6 gap-y-12 xl:grid-cols-3">
+            <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 sm:gap-y-12 xl:grid-cols-3">
               {results.map((design, i) => (
                 <ProductCard key={design.slug} design={design} priority={i < 6} />
               ))}
@@ -254,7 +296,7 @@ function FilterOption({
       <button
         onClick={onClick}
         aria-pressed={active}
-        className={`flex w-full items-baseline justify-between gap-3 py-1.5 text-left text-sm transition-colors ${
+        className={`flex w-full items-baseline justify-between gap-3 py-2.5 text-left text-sm transition-colors ${
           active ? 'text-gold-soft' : 'text-bone-dim hover:text-bone'
         }`}
       >

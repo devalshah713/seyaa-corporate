@@ -165,7 +165,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/collection"
-            className="text-[0.6875rem] uppercase tracking-label text-gold-soft transition-colors hover:text-gold"
+            className="py-3 text-[0.6875rem] uppercase tracking-label text-gold-soft transition-colors hover:text-gold"
           >
             View all {stats.designs} designs →
           </Link>
