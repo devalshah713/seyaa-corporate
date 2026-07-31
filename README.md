@@ -92,8 +92,8 @@ the enquiry list (everything selected), and in the footer (a general question).
 
 ## Deploying
 
-Vercel, connected to this repository. The one optional environment variable is
-the WhatsApp number above. The build
+Vercel, connected to this repository, deploying `main`. The one optional
+environment variable is the WhatsApp number above. The build
 command is:
 
 ```
@@ -113,15 +113,17 @@ any push      ──────────────────────
                                                               (re-syncs on the way)
 ```
 
-Two settings decide whether that loop actually closes:
+Two things decide whether that loop actually closes, and the first one bit
+once already:
 
-- **Vercel → Settings → Git → Production Branch** must match the branch the
-  Action pushes to. Vercel picks this up from the repository's default branch
-  when the project is first imported, so if the default was something else at
-  that moment, this needs setting by hand.
-- Vercel only builds on a *push*. Connecting the repository does not deploy
-  anything on its own — until the next commit lands, the project will read
-  "No Production Deployment".
+- **The sync has to land on the branch Vercel deploys.** A scheduled workflow
+  runs from the repository's *default* branch, which is not necessarily the
+  deployed one — the first nightly run committed to a stale feature branch and
+  never reached the site. The workflow now checks out and pushes to `main`
+  explicitly (`DEPLOY_BRANCH`), so the default-branch setting cannot break it.
+- **Vercel only builds on a push.** Connecting the repository does not deploy
+  anything by itself — until a commit lands, the project reads "No Production
+  Deployment".
 
 Product images are optimised and cached by Next.js at the edge, so visitors
 never wait on Drive for a 1.3 MB PNG.

@@ -14,11 +14,21 @@ concurrency:
   group: sync-catalogue
   cancel-in-progress: false
 
+env:
+  # The branch Vercel deploys. A scheduled run checks out the repository's
+  # *default* branch, which is not necessarily this one — and a sync that lands
+  # anywhere else never reaches the live site. Naming it explicitly makes the
+  # workflow independent of that setting.
+  DEPLOY_BRANCH: main
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -61,4 +71,4 @@ jobs:
           fi
           git add data/
           git commit -m "chore: sync catalogue from Google Sheet"
-          git push
+          git push origin "HEAD:${DEPLOY_BRANCH}"
