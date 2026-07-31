@@ -61,8 +61,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Image
                 src="/brand/mark.webp"
                 alt=""
-                width={176}
-                height={240}
+                width={117}
+                height={160}
                 priority
                 className="h-9 w-auto sm:h-11"
               />
@@ -114,8 +114,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Image
                 src="/brand/mark.webp"
                 alt=""
-                width={176}
-                height={240}
+                width={117}
+                height={160}
                 className="h-16 w-auto [filter:brightness(0)_invert(1)]"
               />
               <p className="mt-3 font-script text-[2.5rem] leading-none text-white">Seyaa Jewels</p>
