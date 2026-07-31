@@ -61,15 +61,24 @@ It reports them rather than silently patching them, so the source can be fixed.
 
 ## Deploying
 
-Vercel, connected to this repository. No environment variables and no build
-overrides — the stock `next build` is correct, because `data/products.json` is
-committed. That is deliberate: a deploy never depends on Google Drive being
-reachable, so a Drive outage can delay fresh data but can never break a build.
+Vercel, connected to this repository. No environment variables. The build
+command is:
 
-Freshness is the sync workflow's job, not the build's:
+```
+node scripts/sync-sheet.mjs && next build
+```
+
+so every deploy pulls the sheet fresh rather than shipping whatever was last
+committed. If the download fails, the sync says so and exits cleanly, and the
+build carries on with the committed `data/products.json` — the site goes stale,
+loudly, rather than a Drive outage blocking an unrelated deploy.
+
+Two paths therefore keep the site current, and either alone is enough:
 
 ```
 sheet edited  ─►  05:00 UTC Action runs  ─►  commits data/  ─►  Vercel redeploys
+any push      ─────────────────────────────────────────────►  Vercel redeploys
+                                                              (re-syncs on the way)
 ```
 
 Two settings decide whether that loop actually closes:

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T05:16:44.042Z",
+  "generatedAt": "2026-07-31T06:14:40.861Z",
   "source": {
     "sheetId": "1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U",
     "title": "JEWELERY PORTAL"
@@ -40,14 +40,14 @@
       "count": 51
     },
     {
-      "name": "Hoop Earrings",
-      "slug": "hoop-earrings",
-      "count": 28
-    },
-    {
       "name": "Stud Earrings",
       "slug": "stud-earrings",
       "count": 16
+    },
+    {
+      "name": "Hoop Earrings",
+      "slug": "hoop-earrings",
+      "count": 28
     },
     {
       "name": "Rings",
@@ -752,7 +752,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 26.5,
-      "minCarat": 25,
+      "minCarat": 26,
       "diamondCount": 25,
       "metalColours": [
         "White",
@@ -772,7 +772,7 @@
           "metal": "14K Gold",
           "price": 5000,
           "carat": 26.5,
-          "minCarat": 25,
+          "minCarat": 26,
           "diamondCount": 25,
           "metalWeight": 16.5,
           "shape": "Marquise",
@@ -800,7 +800,7 @@
           "metal": "14K Gold",
           "price": 5000,
           "carat": 26.5,
-          "minCarat": 25,
+          "minCarat": 26,
           "diamondCount": 25,
           "metalWeight": 16.5,
           "shape": "Marquise",
@@ -893,15 +893,10 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY",
-          "image": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w800",
+          "imageId": "1NZtompBtspbr7O4fZURCDVWKkhydMP2j",
+          "image": "https://drive.google.com/thumbnail?id=1NZtompBtspbr7O4fZURCDVWKkhydMP2j&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1NZtompBtspbr7O4fZURCDVWKkhydMP2j&sz=w800",
           "gallery": [
-            {
-              "id": "1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY",
-              "full": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w800"
-            },
             {
               "id": "1NZtompBtspbr7O4fZURCDVWKkhydMP2j",
               "full": "https://drive.google.com/thumbnail?id=1NZtompBtspbr7O4fZURCDVWKkhydMP2j&sz=w1600",
@@ -1332,8 +1327,8 @@
       ]
     },
     {
-      "id": "31BT",
-      "slug": "13ct-color-diamond-all-mix-fancy-bracelet-31bt",
+      "id": "31BR",
+      "slug": "13ct-color-diamond-all-mix-fancy-bracelet-31br",
       "title": "13CT Color Diamond All Mix Fancy Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
@@ -1358,8 +1353,8 @@
       "thumbnail": "https://drive.google.com/thumbnail?id=1lirz6DPd-L7mG2BfGhayId8x9J542ot2&sz=w800",
       "variants": [
         {
-          "designId": "31BT",
-          "sku": "31BTW",
+          "designId": "31BR",
+          "sku": "31BRW",
           "title": "13CT Color Diamond All Mix Fancy Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
@@ -1386,8 +1381,8 @@
           ]
         },
         {
-          "designId": "31BT",
-          "sku": "31BTY",
+          "designId": "31BR",
+          "sku": "31BRY",
           "title": "13CT Color Diamond All Mix Fancy Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
@@ -1822,14 +1817,14 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd",
-          "image": "https://drive.google.com/thumbnail?id=1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd&sz=w800",
+          "imageId": "1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6",
+          "image": "https://drive.google.com/thumbnail?id=1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6&sz=w800",
           "gallery": [
             {
-              "id": "1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd",
-              "full": "https://drive.google.com/thumbnail?id=1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1m8KgnIOSgUNQR-4nkOH_DV3veTEKG1Nd&sz=w800"
+              "id": "1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6",
+              "full": "https://drive.google.com/thumbnail?id=1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1U-zlTScvUqsQL5F2JKMa3IoZsCWw8Ri6&sz=w800"
             }
           ]
         }
@@ -2324,7 +2319,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 16.5,
-      "minCarat": 15.5,
+      "minCarat": 16,
       "diamondCount": 31,
       "metalColours": [
         "White",
@@ -2344,7 +2339,7 @@
           "metal": "14K Gold",
           "price": 3050,
           "carat": 16.5,
-          "minCarat": 15.5,
+          "minCarat": 16,
           "diamondCount": 31,
           "metalWeight": 14,
           "shape": "Marquise",
@@ -2372,7 +2367,7 @@
           "metal": "14K Gold",
           "price": 3050,
           "carat": 16.5,
-          "minCarat": 15.5,
+          "minCarat": 16,
           "diamondCount": 31,
           "metalWeight": 14,
           "shape": "Marquise",
@@ -2492,7 +2487,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 11.5,
-      "minCarat": 10.5,
+      "minCarat": 10,
       "diamondCount": 35,
       "metalColours": [
         "White",
@@ -2512,7 +2507,7 @@
           "metal": "14K Gold",
           "price": 3000,
           "carat": 11.5,
-          "minCarat": 10.5,
+          "minCarat": 10,
           "diamondCount": 35,
           "metalWeight": 11.896,
           "shape": "Oval",
@@ -2540,7 +2535,7 @@
           "metal": "14K Gold",
           "price": 3000,
           "carat": 11.5,
-          "minCarat": 10.5,
+          "minCarat": 10,
           "diamondCount": 35,
           "metalWeight": 11.896,
           "shape": "Oval",
@@ -3080,7 +3075,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 11.5,
-      "minCarat": 10.5,
+      "minCarat": 11,
       "diamondCount": 35,
       "metalColours": [
         "White",
@@ -3100,7 +3095,7 @@
           "metal": "14K Gold",
           "price": 2550,
           "carat": 11.5,
-          "minCarat": 10.5,
+          "minCarat": 11,
           "diamondCount": 35,
           "metalWeight": 13,
           "shape": "Marquise",
@@ -3128,7 +3123,7 @@
           "metal": "14K Gold",
           "price": 2550,
           "carat": 11.5,
-          "minCarat": 10.5,
+          "minCarat": 11,
           "diamondCount": 35,
           "metalWeight": 13,
           "shape": "Marquise",
@@ -3425,8 +3420,8 @@
       "priceFrom": 1850,
       "priceTo": 1850,
       "caratFrom": 10.1,
-      "image": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w800",
       "variants": [
         {
           "designId": "35BR",
@@ -3445,14 +3440,14 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1w_YC87MXTfucIj9sayBPWqWd3sByAiJz",
-          "image": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w800",
+          "imageId": "1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5",
+          "image": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w800",
           "gallery": [
             {
-              "id": "1w_YC87MXTfucIj9sayBPWqWd3sByAiJz",
-              "full": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1w_YC87MXTfucIj9sayBPWqWd3sByAiJz&sz=w800"
+              "id": "1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5",
+              "full": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1rPoyBfo32cr1AGCSdbdA_9WMe0T6cHu5&sz=w800"
             }
           ]
         },
@@ -3473,14 +3468,14 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY",
-          "image": "https://drive.google.com/thumbnail?id=15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY&sz=w800",
+          "imageId": "1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt",
+          "image": "https://drive.google.com/thumbnail?id=1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt&sz=w800",
           "gallery": [
             {
-              "id": "15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY",
-              "full": "https://drive.google.com/thumbnail?id=15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=15eqJ9SsH2JdMHNBPxL4b5y6E_UH7FjWY&sz=w800"
+              "id": "1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt",
+              "full": "https://drive.google.com/thumbnail?id=1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1BmKwGjqcgPihiKmXM1bhyHkHK_OMlfrt&sz=w800"
             }
           ]
         }
@@ -3593,8 +3588,8 @@
       "priceFrom": 1500,
       "priceTo": 1500,
       "caratFrom": 7.1,
-      "image": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w800",
       "variants": [
         {
           "designId": "34BR",
@@ -3613,14 +3608,14 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-",
-          "image": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w800",
+          "imageId": "1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls",
+          "image": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w800",
           "gallery": [
             {
-              "id": "1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-",
-              "full": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1qXDN3PbXIOE84p0_2iNvgctA3LJcE0v-&sz=w800"
+              "id": "1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls",
+              "full": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1TsXaOPvYO0AbGw4HJKH5Dlasi9wAFBls&sz=w800"
             }
           ]
         },
@@ -3641,14 +3636,14 @@
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS",
-          "image": "https://drive.google.com/thumbnail?id=16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS&sz=w800",
+          "imageId": "1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD",
+          "image": "https://drive.google.com/thumbnail?id=1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD&sz=w800",
           "gallery": [
             {
-              "id": "16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS",
-              "full": "https://drive.google.com/thumbnail?id=16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=16DjxHN4kZjTUrGNZQ8W00RMTV6F97ZFS&sz=w800"
+              "id": "1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD",
+              "full": "https://drive.google.com/thumbnail?id=1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1UYYGxv7H3Gk9jgdWqoDIzhpEUXuj9UVD&sz=w800"
             }
           ]
         }
@@ -7338,8 +7333,8 @@
       "priceFrom": 5300,
       "priceTo": 5300,
       "caratFrom": 25.9,
-      "image": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w800",
       "variants": [
         {
           "designId": "23NK",
@@ -7358,14 +7353,14 @@
           "origin": "Lab Grown",
           "designType": "Necklace",
           "size": "16.5 INCH",
-          "imageId": "18OCHv087z64Ba945E8J3GNzapiQyixy1",
-          "image": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w800",
+          "imageId": "1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio",
+          "image": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w800",
           "gallery": [
             {
-              "id": "18OCHv087z64Ba945E8J3GNzapiQyixy1",
-              "full": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=18OCHv087z64Ba945E8J3GNzapiQyixy1&sz=w800"
+              "id": "1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio",
+              "full": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1fbP0OfErqYfwaG-GkugrrCraEOnI9Jio&sz=w800"
             }
           ]
         },
@@ -7386,14 +7381,14 @@
           "origin": "Lab Grown",
           "designType": "Necklace",
           "size": "16.5 INCH",
-          "imageId": "1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O",
-          "image": "https://drive.google.com/thumbnail?id=1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O&sz=w800",
+          "imageId": "1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb",
+          "image": "https://drive.google.com/thumbnail?id=1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb&sz=w800",
           "gallery": [
             {
-              "id": "1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O",
-              "full": "https://drive.google.com/thumbnail?id=1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1r10YSBTwQF228aHQwD_Oi-SuVM6pW9-O&sz=w800"
+              "id": "1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb",
+              "full": "https://drive.google.com/thumbnail?id=1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1gq6z4lNe913GVC8KbdOZ2D0ATfXYMMDb&sz=w800"
             }
           ]
         }
@@ -7806,14 +7801,14 @@
           "origin": "Lab Grown",
           "designType": "Necklace",
           "size": "16.5 INCH",
-          "imageId": "1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH",
-          "image": "https://drive.google.com/thumbnail?id=1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH&sz=w800",
+          "imageId": "1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED",
+          "image": "https://drive.google.com/thumbnail?id=1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED&sz=w800",
           "gallery": [
             {
-              "id": "1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH",
-              "full": "https://drive.google.com/thumbnail?id=1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1T39lC2KLtIoLUTZxMe6PPc31y8UJrsYH&sz=w800"
+              "id": "1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED",
+              "full": "https://drive.google.com/thumbnail?id=1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1h6zWwrYIuAAZ90uxUlNWnCYmUj_iquED&sz=w800"
             }
           ]
         }
@@ -8010,8 +8005,8 @@
       "priceFrom": 2500,
       "priceTo": 2500,
       "caratFrom": 12.2,
-      "image": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w800",
       "variants": [
         {
           "designId": "4NK",
@@ -8030,19 +8025,14 @@
           "origin": "Lab Grown",
           "designType": "Necklace",
           "size": "16.5 INCH",
-          "imageId": "1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE",
-          "image": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w800",
+          "imageId": "1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd",
+          "image": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w800",
           "gallery": [
             {
-              "id": "1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE",
-              "full": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1jlr1kWh2zmpe1R1wgBZN0sG95CN_bBCE&sz=w800"
-            },
-            {
-              "id": "1wAV2n_x6_8b5gJtDztO8KaSr7fnfZa0H",
-              "full": "https://drive.google.com/thumbnail?id=1wAV2n_x6_8b5gJtDztO8KaSr7fnfZa0H&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1wAV2n_x6_8b5gJtDztO8KaSr7fnfZa0H&sz=w800"
+              "id": "1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd",
+              "full": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1iDjF4vAZHy3lhxHU0i28Q3Swz92sZotd&sz=w800"
             }
           ]
         },
@@ -8267,8 +8257,8 @@
       "priceFrom": 1500,
       "priceTo": 1500,
       "caratFrom": 5.2,
-      "image": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w800",
       "variants": [
         {
           "designId": "1NK",
@@ -8287,14 +8277,14 @@
           "origin": "Lab Grown",
           "designType": "Necklace",
           "size": "16.5 INCH",
-          "imageId": "1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB",
-          "image": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w800",
+          "imageId": "1lK2HqUHM072652bhFEqyHHW7hjesWgua",
+          "image": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w800",
           "gallery": [
             {
-              "id": "1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB",
-              "full": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1shqVkVNB4cKH60Yh4_o2FEjrKlzrSYrB&sz=w800"
+              "id": "1lK2HqUHM072652bhFEqyHHW7hjesWgua",
+              "full": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1lK2HqUHM072652bhFEqyHHW7hjesWgua&sz=w800"
             }
           ]
         },
@@ -8406,8 +8396,8 @@
       "priceFrom": 2400,
       "priceTo": 2400,
       "caratFrom": 7.2,
-      "image": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w800",
       "variants": [
         {
           "designId": "29PD",
@@ -8426,14 +8416,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA",
-          "image": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w800",
+          "imageId": "1JKivBrYEoy1UNVHmq0bAApuRAACqawI-",
+          "image": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w800",
           "gallery": [
             {
-              "id": "1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA",
-              "full": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w800"
+              "id": "1JKivBrYEoy1UNVHmq0bAApuRAACqawI-",
+              "full": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w800"
             }
           ]
         },
@@ -8454,14 +8444,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq",
-          "image": "https://drive.google.com/thumbnail?id=1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq&sz=w800",
+          "imageId": "1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA",
+          "image": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w800",
           "gallery": [
             {
-              "id": "1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq",
-              "full": "https://drive.google.com/thumbnail?id=1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1NbX85vB-vGxM3xSSV-GUxseZttPcLbGq&sz=w800"
+              "id": "1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA",
+              "full": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1JFVuTJGQPEhxGLMvgOradow5kg-r1JIA&sz=w800"
             }
           ]
         }
@@ -9123,14 +9113,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O",
-          "image": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w800",
+          "imageId": "1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx",
+          "image": "https://drive.google.com/thumbnail?id=1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx&sz=w800",
           "gallery": [
             {
-              "id": "1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O",
-              "full": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w800"
+              "id": "1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx",
+              "full": "https://drive.google.com/thumbnail?id=1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1JH1UJDRiC1djKHwlq4jHeQ0wMeGVbZEx&sz=w800"
             }
           ]
         }
@@ -9243,8 +9233,8 @@
       "priceFrom": 1799.62,
       "priceTo": 1799.62,
       "caratFrom": 2.07,
-      "image": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w800",
       "variants": [
         {
           "designId": "31PD",
@@ -9263,14 +9253,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6",
-          "image": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w800",
+          "imageId": "1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O",
+          "image": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w800",
           "gallery": [
             {
-              "id": "17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6",
-              "full": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w800"
+              "id": "1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O",
+              "full": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Js2bxLXazxz0FC0O5SIBFYcTfHzH-b2O&sz=w800"
             }
           ]
         },
@@ -9291,14 +9281,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN",
-          "image": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w800",
+          "imageId": "17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6",
+          "image": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w800",
           "gallery": [
             {
-              "id": "1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN",
-              "full": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w800"
+              "id": "17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6",
+              "full": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=17QthPZJq8fYhrAvISO6-tmUMhCKAMQO6&sz=w800"
             }
           ]
         }
@@ -9327,8 +9317,8 @@
       "priceFrom": 1600,
       "priceTo": 1600,
       "caratFrom": 6.63,
-      "image": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w800",
       "variants": [
         {
           "designId": "32PD",
@@ -9347,14 +9337,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant",
           "size": "",
-          "imageId": "1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i",
-          "image": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w800",
+          "imageId": "1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN",
+          "image": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w800",
           "gallery": [
             {
-              "id": "1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i",
-              "full": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1lRSejgNHqEK7TdB2hYINslxNHUDWJq0i&sz=w800"
+              "id": "1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN",
+              "full": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ESdJUsZ8tT7qHZTSqAPHtgp9LA9L8KaN&sz=w800"
             }
           ]
         },
@@ -10131,14 +10121,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant Chain",
           "size": "16.5 INCH",
-          "imageId": "1fdz8xH2shN3acutLro8fq-hntkaks4hu",
-          "image": "https://drive.google.com/thumbnail?id=1fdz8xH2shN3acutLro8fq-hntkaks4hu&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1fdz8xH2shN3acutLro8fq-hntkaks4hu&sz=w800",
+          "imageId": "1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO",
+          "image": "https://drive.google.com/thumbnail?id=1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO&sz=w800",
           "gallery": [
             {
-              "id": "1fdz8xH2shN3acutLro8fq-hntkaks4hu",
-              "full": "https://drive.google.com/thumbnail?id=1fdz8xH2shN3acutLro8fq-hntkaks4hu&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1fdz8xH2shN3acutLro8fq-hntkaks4hu&sz=w800"
+              "id": "1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO",
+              "full": "https://drive.google.com/thumbnail?id=1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1GNvPXKs5cCXB5SLaKcRHdvfj9cS_5xtO&sz=w800"
             }
           ]
         }
@@ -10467,14 +10457,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant Chain",
           "size": "16.5 INCH",
-          "imageId": "1JKivBrYEoy1UNVHmq0bAApuRAACqawI-",
-          "image": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w800",
+          "imageId": "1ODds3KpjpSP8u80n39Xyie-w7iXaluS7",
+          "image": "https://drive.google.com/thumbnail?id=1ODds3KpjpSP8u80n39Xyie-w7iXaluS7&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1ODds3KpjpSP8u80n39Xyie-w7iXaluS7&sz=w800",
           "gallery": [
             {
-              "id": "1JKivBrYEoy1UNVHmq0bAApuRAACqawI-",
-              "full": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1JKivBrYEoy1UNVHmq0bAApuRAACqawI-&sz=w800"
+              "id": "1ODds3KpjpSP8u80n39Xyie-w7iXaluS7",
+              "full": "https://drive.google.com/thumbnail?id=1ODds3KpjpSP8u80n39Xyie-w7iXaluS7&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ODds3KpjpSP8u80n39Xyie-w7iXaluS7&sz=w800"
             }
           ]
         }
@@ -10551,14 +10541,14 @@
           "origin": "Lab Grown",
           "designType": "Pendant Chain",
           "size": "16.5 INCH",
-          "imageId": "1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu",
-          "image": "https://drive.google.com/thumbnail?id=1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu&sz=w800",
+          "imageId": "1z6lftObUX4BDbaSABE5O1v31rMrzYDm1",
+          "image": "https://drive.google.com/thumbnail?id=1z6lftObUX4BDbaSABE5O1v31rMrzYDm1&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1z6lftObUX4BDbaSABE5O1v31rMrzYDm1&sz=w800",
           "gallery": [
             {
-              "id": "1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu",
-              "full": "https://drive.google.com/thumbnail?id=1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Y0IiWVKyhu9eO5yRIy-ef0Y27vG_63mu&sz=w800"
+              "id": "1z6lftObUX4BDbaSABE5O1v31rMrzYDm1",
+              "full": "https://drive.google.com/thumbnail?id=1z6lftObUX4BDbaSABE5O1v31rMrzYDm1&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1z6lftObUX4BDbaSABE5O1v31rMrzYDm1&sz=w800"
             }
           ]
         }
@@ -11007,8 +10997,8 @@
       "priceFrom": 2200,
       "priceTo": 2200,
       "caratFrom": 14.08,
-      "image": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w800",
       "variants": [
         {
           "designId": "7RG",
@@ -11027,14 +11017,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm",
-          "image": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w800",
+          "imageId": "1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh",
+          "image": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w800",
           "gallery": [
             {
-              "id": "1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm",
-              "full": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1OSFER4vwj1vMBAlTKOm9u1T-6T6Vw3Zm&sz=w800"
+              "id": "1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh",
+              "full": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Dg34humde3hbkpRS9tNZ6VgqYqIfe_sh&sz=w800"
             }
           ]
         },
@@ -11565,8 +11555,8 @@
       "priceFrom": 1800,
       "priceTo": 1800,
       "caratFrom": 6.69,
-      "image": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w800",
       "variants": [
         {
           "designId": "35RG",
@@ -11585,14 +11575,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE",
-          "image": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w800",
+          "imageId": "1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C",
+          "image": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w800",
           "gallery": [
             {
-              "id": "1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE",
-              "full": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1aPL6VzyBxTQG0LIejHDLHxAY_FkFUGAE&sz=w800"
+              "id": "1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C",
+              "full": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1-vbtRzdM5-q7HxIENGquNjN9h1alUD7C&sz=w800"
             }
           ]
         }
@@ -11620,8 +11610,8 @@
       "priceFrom": 1700,
       "priceTo": 1700,
       "caratFrom": 4.86,
-      "image": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800",
       "variants": [
         {
           "designId": "29RG",
@@ -11640,14 +11630,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4",
-          "image": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w800",
+          "imageId": "1mifz676YFh4R6NwUymNqRcFl6TUCHMCG",
+          "image": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800",
           "gallery": [
             {
-              "id": "1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4",
-              "full": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1yIAzuAFhut8yVrAg9cDW1i5W-HEA3sK4&sz=w800"
+              "id": "1mifz676YFh4R6NwUymNqRcFl6TUCHMCG",
+              "full": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800"
             }
           ]
         }
@@ -11785,8 +11775,8 @@
       "priceFrom": 1600,
       "priceTo": 1600,
       "caratFrom": 5.47,
-      "image": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w800",
       "variants": [
         {
           "designId": "28RG",
@@ -11805,14 +11795,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1mifz676YFh4R6NwUymNqRcFl6TUCHMCG",
-          "image": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800",
+          "imageId": "16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc",
+          "image": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w800",
           "gallery": [
             {
-              "id": "1mifz676YFh4R6NwUymNqRcFl6TUCHMCG",
-              "full": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1mifz676YFh4R6NwUymNqRcFl6TUCHMCG&sz=w800"
+              "id": "16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc",
+              "full": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=16Mulzb4fJQsvYINbs2H4MRE11bYpgiPc&sz=w800"
             }
           ]
         }
@@ -12231,8 +12221,8 @@
       "priceFrom": 1200,
       "priceTo": 1200,
       "caratFrom": 4,
-      "image": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w800",
       "variants": [
         {
           "designId": "47RG",
@@ -12251,14 +12241,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_",
-          "image": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w800",
+          "imageId": "1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a",
+          "image": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w800",
           "gallery": [
             {
-              "id": "1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_",
-              "full": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1lmQ6EaIj58gerKInQh7whFjpNE5uTc2_&sz=w800"
+              "id": "1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a",
+              "full": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w800"
             }
           ]
         }
@@ -12287,8 +12277,8 @@
       "priceFrom": 1200,
       "priceTo": 1200,
       "caratFrom": 4.99,
-      "image": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w800",
       "variants": [
         {
           "designId": "49RG",
@@ -12307,14 +12297,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ",
-          "image": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w800",
+          "imageId": "1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5",
+          "image": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w800",
           "gallery": [
             {
-              "id": "1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ",
-              "full": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w800"
+              "id": "1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5",
+              "full": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Ht01LbAvH2oArdMtMMhTREk4s9tsRIZ5&sz=w800"
             }
           ]
         },
@@ -12335,14 +12325,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG",
-          "image": "https://drive.google.com/thumbnail?id=1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG&sz=w800",
+          "imageId": "1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ",
+          "image": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w800",
           "gallery": [
             {
-              "id": "1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG",
-              "full": "https://drive.google.com/thumbnail?id=1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1veF7BfSqoMa2zAGkLTPC4MqvF0ZtZ6PG&sz=w800"
+              "id": "1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ",
+              "full": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1zXW9y0x8CLaPs1bixxfz-_DDJs7pljRJ&sz=w800"
             }
           ]
         }
@@ -12371,8 +12361,8 @@
       "priceFrom": 1100,
       "priceTo": 1100,
       "caratFrom": 4.68,
-      "image": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w800",
       "variants": [
         {
           "designId": "25RG",
@@ -12391,14 +12381,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC",
-          "image": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w800",
+          "imageId": "1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL",
+          "image": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w800",
           "gallery": [
             {
-              "id": "1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC",
-              "full": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w800"
+              "id": "1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL",
+              "full": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1t56NXfdZr4dcb6Q-sJe5AGeyaP7jSacL&sz=w800"
             }
           ]
         },
@@ -12419,14 +12409,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd",
-          "image": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w800",
+          "imageId": "1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC",
+          "image": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w800",
           "gallery": [
             {
-              "id": "1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd",
-              "full": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w800"
+              "id": "1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC",
+              "full": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Gg0QJHXbQBoNw9hWsz3A6ZU-bBYwUKOC&sz=w800"
             }
           ]
         }
@@ -12846,8 +12836,8 @@
       "priceFrom": 1000,
       "priceTo": 1000,
       "caratFrom": 2.26,
-      "image": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w800",
       "variants": [
         {
           "designId": "26RG",
@@ -12866,14 +12856,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK",
-          "image": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w800",
+          "imageId": "1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd",
+          "image": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w800",
           "gallery": [
             {
-              "id": "1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK",
-              "full": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w800"
+              "id": "1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd",
+              "full": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Gln1kNNYmFOCYn_6UIvcfwQfFnYrgubd&sz=w800"
             }
           ]
         },
@@ -12894,14 +12884,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe",
-          "image": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w800",
+          "imageId": "1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK",
+          "image": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w800",
           "gallery": [
             {
-              "id": "1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe",
-              "full": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w800"
+              "id": "1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK",
+              "full": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1dvM5_sedpmQT8WLpzfAIiJ2jHQr7DDXK&sz=w800"
             }
           ]
         }
@@ -12930,8 +12920,8 @@
       "priceFrom": 1000,
       "priceTo": 1000,
       "caratFrom": 5.37,
-      "image": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w800",
       "variants": [
         {
           "designId": "33RG",
@@ -12950,14 +12940,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj",
-          "image": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w800",
+          "imageId": "1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C",
+          "image": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w800",
           "gallery": [
             {
-              "id": "15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj",
-              "full": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=15gtZI7S-gDzZyV8oj2v-QYl9kELKdkVj&sz=w800"
+              "id": "1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C",
+              "full": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1SaIF1Swb3yrrstXVNTY2Hq11bGf0jz1C&sz=w800"
             }
           ]
         },
@@ -13014,8 +13004,8 @@
       "priceFrom": 1000,
       "priceTo": 1000,
       "caratFrom": 4.89,
-      "image": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w800",
       "variants": [
         {
           "designId": "46RG",
@@ -13034,14 +13024,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_",
-          "image": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w800",
+          "imageId": "1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN",
+          "image": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w800",
           "gallery": [
             {
-              "id": "14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_",
-              "full": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w800"
+              "id": "1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN",
+              "full": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1AqRkFppJMUGo2NVC6bB4DR_fZX2JKTHN&sz=w800"
             }
           ]
         },
@@ -13062,14 +13052,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a",
-          "image": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w800",
+          "imageId": "14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_",
+          "image": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w800",
           "gallery": [
             {
-              "id": "1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a",
-              "full": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1hNxtkCp1z0YkY6cC-XG-25TqtwVvSu4a&sz=w800"
+              "id": "14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_",
+              "full": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=14sMzfLECQmNNJs3BbIEcaW4RfkerCmE_&sz=w800"
             }
           ]
         }
@@ -13098,8 +13088,8 @@
       "priceFrom": 1000,
       "priceTo": 1000,
       "caratFrom": 5.11,
-      "image": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w800",
       "variants": [
         {
           "designId": "40RG",
@@ -13118,14 +13108,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7",
-          "image": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w800",
+          "imageId": "1eLvW_awdOejND17qbjMc_lfayI8kagoY",
+          "image": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w800",
           "gallery": [
             {
-              "id": "1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7",
-              "full": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1sHU9Og0i9WrBaXvYWhcT881MSHC0OvI7&sz=w800"
+              "id": "1eLvW_awdOejND17qbjMc_lfayI8kagoY",
+              "full": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w800"
             }
           ]
         },
@@ -13285,14 +13275,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1eLvW_awdOejND17qbjMc_lfayI8kagoY",
-          "image": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w800",
+          "imageId": "13p1QXk4oa2tcSwV78zunusnp10yT9R2-",
+          "image": "https://drive.google.com/thumbnail?id=13p1QXk4oa2tcSwV78zunusnp10yT9R2-&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=13p1QXk4oa2tcSwV78zunusnp10yT9R2-&sz=w800",
           "gallery": [
             {
-              "id": "1eLvW_awdOejND17qbjMc_lfayI8kagoY",
-              "full": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1eLvW_awdOejND17qbjMc_lfayI8kagoY&sz=w800"
+              "id": "13p1QXk4oa2tcSwV78zunusnp10yT9R2-",
+              "full": "https://drive.google.com/thumbnail?id=13p1QXk4oa2tcSwV78zunusnp10yT9R2-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=13p1QXk4oa2tcSwV78zunusnp10yT9R2-&sz=w800"
             }
           ]
         }
@@ -13321,8 +13311,8 @@
       "priceFrom": 900,
       "priceTo": 900,
       "caratFrom": 2.88,
-      "image": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w800",
       "variants": [
         {
           "designId": "27RG",
@@ -13341,14 +13331,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G",
-          "image": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w800",
+          "imageId": "1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe",
+          "image": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w800",
           "gallery": [
             {
-              "id": "1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G",
-              "full": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1S0rrim6Ptmh8TykRxydIdfwjxZ2Iv11G&sz=w800"
+              "id": "1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe",
+              "full": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1JGw6BjqBPk6DVvbzZXSt8PRVpAOrS0pe&sz=w800"
             }
           ]
         },
@@ -13592,14 +13582,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix",
-          "image": "https://drive.google.com/thumbnail?id=1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix&sz=w800",
+          "imageId": "1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B",
+          "image": "https://drive.google.com/thumbnail?id=1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B&sz=w800",
           "gallery": [
             {
-              "id": "1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix",
-              "full": "https://drive.google.com/thumbnail?id=1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1jalRMz0rb16tWGiR1h7uUvK_iEj5mPix&sz=w800"
+              "id": "1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B",
+              "full": "https://drive.google.com/thumbnail?id=1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1GEyIpnPFyNjw_LIleTED_HDk-8sVry_B&sz=w800"
             }
           ]
         }
@@ -14300,8 +14290,8 @@
       "priceFrom": 600,
       "priceTo": 600,
       "caratFrom": 2.78,
-      "image": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w800",
       "variants": [
         {
           "designId": "43RG",
@@ -14320,14 +14310,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK",
-          "image": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w800",
+          "imageId": "131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z",
+          "image": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w800",
           "gallery": [
             {
-              "id": "1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK",
-              "full": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w800"
+              "id": "131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z",
+              "full": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=131B-aSrlGzrCqCLZIwDH7AvUBW8aP85z&sz=w800"
             }
           ]
         },
@@ -14348,14 +14338,14 @@
           "origin": "Lab Grown",
           "designType": "Ring",
           "size": "US 7",
-          "imageId": "18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y",
-          "image": "https://drive.google.com/thumbnail?id=18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y&sz=w800",
+          "imageId": "1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK",
+          "image": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w800",
           "gallery": [
             {
-              "id": "18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y",
-              "full": "https://drive.google.com/thumbnail?id=18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=18kKTfYoDPZAAj1mU799zMBr_ZWoOgk0y&sz=w800"
+              "id": "1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK",
+              "full": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1sbG15EE31hHqHkBoKVvG93b2aOeKbaHK&sz=w800"
             }
           ]
         }
@@ -15644,8 +15634,8 @@
       "priceFrom": 900,
       "priceTo": 900,
       "caratFrom": 2.1,
-      "image": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w800",
+      "image": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w800",
       "variants": [
         {
           "designId": "6ER",
@@ -15664,14 +15654,14 @@
           "origin": "Lab Grown",
           "designType": "Studs",
           "size": "",
-          "imageId": "1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM",
-          "image": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w800",
+          "imageId": "15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a",
+          "image": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w800",
           "gallery": [
             {
-              "id": "1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM",
-              "full": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1AMY5yvyBYBmqC3B6ir0LcRJrOxkJaNHM&sz=w800"
+              "id": "15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a",
+              "full": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=15fZWE5JaJE8dWPT9LA83nuXhQonsNb1a&sz=w800"
             }
           ]
         },
