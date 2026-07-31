@@ -61,12 +61,32 @@ It reports them rather than silently patching them, so the source can be fixed.
 
 ## Deploying
 
-Built for Vercel — import the repository and deploy; no environment variables
-are required. Product images are optimised and cached by Next.js at the edge,
-so visitors never wait on Drive for a 1.3 MB PNG.
+Vercel, connected to this repository. No environment variables and no build
+overrides — the stock `next build` is correct, because `data/products.json` is
+committed. That is deliberate: a deploy never depends on Google Drive being
+reachable, so a Drive outage can delay fresh data but can never break a build.
+
+Freshness is the sync workflow's job, not the build's:
+
+```
+sheet edited  ─►  05:00 UTC Action runs  ─►  commits data/  ─►  Vercel redeploys
+```
+
+Two settings decide whether that loop actually closes:
+
+- **Vercel → Settings → Git → Production Branch** must match the branch the
+  Action pushes to. Vercel picks this up from the repository's default branch
+  when the project is first imported, so if the default was something else at
+  that moment, this needs setting by hand.
+- Vercel only builds on a *push*. Connecting the repository does not deploy
+  anything on its own — until the next commit lands, the project will read
+  "No Production Deployment".
+
+Product images are optimised and cached by Next.js at the edge, so visitors
+never wait on Drive for a 1.3 MB PNG.
 
 ## Notes for developers
 
 See [`CLAUDE.md`](./CLAUDE.md) for the column mapping (the sheet's headers are
-mislabelled and must not be trusted), the SKU grouping rules, and why the
-palette is ivory rather than charcoal.
+mislabelled and must not be trusted), the SKU grouping rules, and the brand
+palette and typography.
