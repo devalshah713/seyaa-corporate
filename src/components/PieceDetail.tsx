@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import {
   METAL_SWATCHES,
   PLAIN_ENGLISH,
@@ -9,6 +10,7 @@ import {
   formatPrice,
   type Design,
 } from '@/lib/catalogue'
+import { useEnquiry } from '@/lib/enquiry'
 
 /**
  * Most shapes read naturally as "oval-cut", but the catalogue also uses "Mix"
@@ -26,10 +28,13 @@ function cutPhrase(shape: string) {
 export default function PieceDetail({ design }: { design: Design }) {
   const [variantIndex, setVariantIndex] = useState(0)
   const [imageIndex, setImageIndex] = useState(0)
+  const { toggle, has, count, ready } = useEnquiry()
 
   const variant = design.variants[variantIndex] ?? design.variants[0]
   const gallery = variant.gallery?.length ? variant.gallery : []
   const active = gallery[imageIndex] ?? gallery[0]
+
+  const inList = has(variant.sku)
 
   const selectVariant = (index: number) => {
     setVariantIndex(index)
@@ -183,16 +188,44 @@ export default function PieceDetail({ design }: { design: Design }) {
         <div className="mt-10 border border-ink-line p-6">
           <p className="font-display text-xl">Interested in this piece?</p>
           <p className="mt-2.5 text-sm leading-relaxed text-bone-dim">
-            This catalogue is a showcase — pieces are not sold online. Quote SKU{' '}
-            <span className="text-gold-soft">{variant.sku}</span> when enquiring about
-            availability, volume pricing or lead times.
+            This catalogue is a showcase — pieces are not sold online. Add SKU{' '}
+            <span className="text-gold-soft">{variant.sku}</span> to your list, keep
+            browsing, then send everything you have chosen in one message.
           </p>
+
           <button
-            onClick={() => navigator.clipboard?.writeText(variant.sku)}
-            className="mt-5 border border-gold/50 px-6 py-3 text-[0.6875rem] uppercase tracking-label text-gold-soft transition-colors hover:bg-gold hover:text-onGold"
+            onClick={() =>
+              toggle({
+                sku: variant.sku,
+                slug: design.slug,
+                title: variant.title,
+                category: design.category,
+                metalColour: variant.metalColour,
+                metal: variant.metal,
+                price: variant.price,
+                carat: variant.carat,
+                size: variant.size,
+                thumbnail: variant.thumbnail,
+              })
+            }
+            aria-pressed={inList}
+            className={`mt-5 w-full py-4 text-[0.6875rem] uppercase tracking-label transition-colors sm:w-auto sm:px-8 ${
+              inList
+                ? 'border border-gold/50 text-gold-soft hover:bg-gold/10'
+                : 'bg-gold text-onGold hover:bg-gold-soft'
+            }`}
           >
-            Copy SKU
+            {inList ? 'Added — remove from list' : 'Add to enquiry'}
           </button>
+
+          {ready && count > 0 && (
+            <p className="mt-4 text-sm text-bone-dim">
+              <Link href="/enquiry" className="text-gold-soft underline underline-offset-4">
+                {count} {count === 1 ? 'piece' : 'pieces'} on your list
+              </Link>{' '}
+              — review and send.
+            </p>
+          )}
         </div>
       </div>
     </div>

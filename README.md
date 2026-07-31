@@ -58,6 +58,32 @@ It reports them rather than silently patching them, so the source can be fixed.
 | `/collection` | All designs, filterable by category, metal, shape and price; searchable by name or SKU |
 | `/piece/[slug]` | One design: gallery, metal-colour toggle, full specification |
 | `/guide` | What E–F, VS–SI, carat and "lab grown" actually mean |
+| `/enquiry` | The buyer's selected SKUs, ready to send in one message |
+
+## Enquiries
+
+A buyer adds SKUs to an enquiry list as they browse, then sends the whole list
+to sales in one message — by WhatsApp or email, with every SKU, carat weight,
+size and price already written out.
+
+The list is stored in the browser, so it survives a refresh and needs no login.
+A SKU is what gets added rather than a design, because metal colour is part of
+the SKU and White and Yellow are separate things to quote for.
+
+**One thing to set.** Put your WhatsApp number in
+[`src/lib/contact.ts`](./src/lib/contact.ts), as digits only — no `+`, spaces or
+dashes:
+
+```ts
+export const CONTACT = {
+  whatsapp: '15551234567',            // US example; India would be 9198...
+  email: 'seyaalabjewel@gmail.com',
+  businessName: 'Seyaa Jewels',
+}
+```
+
+Until a valid number is set the WhatsApp button hides itself and email becomes
+the primary action, so the page is never broken — just narrower.
 
 ## Deploying
 

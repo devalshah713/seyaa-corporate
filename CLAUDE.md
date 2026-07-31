@@ -131,6 +131,19 @@ Use `text-brand` only where the type is genuinely large; `text-gold-soft`
 `--image-well` is set to pure white so a packshot dissolves into its tile and
 the hairline alone defines the edge.
 
+## Enquiries
+
+`src/lib/enquiry.ts` holds the buyer's selection in `localStorage` and builds
+the plain-text message sent to sales. Items are keyed by **SKU, not design** —
+metal colour is part of the SKU, so White and Yellow are separately quotable.
+
+Sales contact details live in exactly one place, `src/lib/contact.ts`. An empty
+or malformed `whatsapp` hides that button rather than linking somewhere broken.
+
+Anything that depends on stored state must wait for the hook's `ready` flag
+before rendering, or the server's empty list and the client's restored one
+disagree on first paint.
+
 ## House style
 
 - Prices are shown publicly, in whole dollars.

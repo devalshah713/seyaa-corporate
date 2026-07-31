@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Category } from '@/lib/catalogue'
+import { useEnquiry } from '@/lib/enquiry'
 
 const LINKS = [
   { href: '/collection', label: 'Collection' },
@@ -17,6 +18,7 @@ const LINKS = [
  */
 export default function SiteHeader({ categories }: { categories: Category[] }) {
   const [open, setOpen] = useState(false)
+  const { count, ready } = useEnquiry()
 
   // Stop the page behind the panel from scrolling while it is open.
   useEffect(() => {
@@ -88,6 +90,22 @@ export default function SiteHeader({ categories }: { categories: Category[] }) {
         </nav>
 
         <div className="flex items-center gap-2">
+          {/* Only rendered once storage has been read, so the server and first
+              client paint agree. */}
+          {ready && count > 0 && (
+            <Link
+              href="/enquiry"
+              onClick={close}
+              aria-label={`Enquiry list, ${count} ${count === 1 ? 'piece' : 'pieces'}`}
+              className="flex items-center gap-2 bg-gold px-4 py-3 text-[0.6875rem] uppercase tracking-label text-onGold transition-colors hover:bg-gold-soft"
+            >
+              <span className="hidden sm:inline">Enquiry</span>
+              <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-onGold/25 px-1.5 text-[0.6875rem] leading-none">
+                {count}
+              </span>
+            </Link>
+          )}
+
           <Link
             href="/collection"
             onClick={close}
@@ -152,10 +170,21 @@ export default function SiteHeader({ categories }: { categories: Category[] }) {
               </Link>
             ))}
 
+            {ready && count > 0 && (
+              <Link
+                href="/enquiry"
+                onClick={close}
+                className="mt-8 flex items-center justify-between border border-gold/50 px-5 py-4 text-[0.6875rem] uppercase tracking-label text-gold-soft"
+              >
+                <span>Your enquiry list</span>
+                <span>{count}</span>
+              </Link>
+            )}
+
             <Link
               href="/collection"
               onClick={close}
-              className="mt-8 block bg-gold py-4 text-center text-[0.6875rem] uppercase tracking-label text-onGold"
+              className="mt-4 block bg-gold py-4 text-center text-[0.6875rem] uppercase tracking-label text-onGold"
             >
               Browse everything
             </Link>
