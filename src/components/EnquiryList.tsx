@@ -3,7 +3,8 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { CONTACT, hasWhatsApp } from '@/lib/contact'
+import { hasWhatsApp, mailtoHref, whatsappHref } from '@/lib/contact'
+import WhatsAppIcon from './WhatsAppIcon'
 import { buildEnquiryMessage, enquiryTotal, useEnquiry } from '@/lib/enquiry'
 import { formatPrice } from '@/lib/catalogue'
 
@@ -16,11 +17,7 @@ export default function EnquiryList() {
   const message = buildEnquiryMessage(items, { name, note })
   const total = enquiryTotal(items)
 
-  const whatsappHref = `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(message)}`
-  const emailHref =
-    `mailto:${CONTACT.email}` +
-    `?subject=${encodeURIComponent(`Enquiry — ${items.length} ${items.length === 1 ? 'piece' : 'pieces'}`)}` +
-    `&body=${encodeURIComponent(message)}`
+  const subject = `Enquiry — ${items.length} ${items.length === 1 ? 'piece' : 'pieces'}`
 
   const copy = async () => {
     try {
@@ -150,16 +147,17 @@ export default function EnquiryList() {
           <div className="mt-6 space-y-3">
             {hasWhatsApp() && (
               <a
-                href={whatsappHref}
+                href={whatsappHref(message)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block bg-gold py-4 text-center text-[0.6875rem] uppercase tracking-label text-onGold transition-colors hover:bg-gold-soft"
+                className="flex items-center justify-center gap-2.5 bg-[#25D366] py-4 text-[0.6875rem] uppercase tracking-label text-white transition-opacity hover:opacity-90"
               >
+                <WhatsAppIcon className="h-[1.125rem] w-[1.125rem]" />
                 Send on WhatsApp
               </a>
             )}
             <a
-              href={emailHref}
+              href={mailtoHref(subject, message)}
               className={`block py-4 text-center text-[0.6875rem] uppercase tracking-label transition-colors ${
                 hasWhatsApp()
                   ? 'border border-gold/50 text-gold-soft hover:bg-gold hover:text-onGold'

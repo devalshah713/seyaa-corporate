@@ -137,8 +137,16 @@ the hairline alone defines the edge.
 the plain-text message sent to sales. Items are keyed by **SKU, not design** —
 metal colour is part of the SKU, so White and Yellow are separately quotable.
 
-Sales contact details live in exactly one place, `src/lib/contact.ts`. An empty
-or malformed `whatsapp` hides that button rather than linking somewhere broken.
+Sales contact details live in exactly one place, `src/lib/contact.ts`, and can
+be overridden from the environment (`NEXT_PUBLIC_WHATSAPP_NUMBER`,
+`NEXT_PUBLIC_SALES_EMAIL`) so the number can change without a commit. Input is
+stripped to digits, so any human formatting works; anything not 8–15 digits is
+rejected and every WhatsApp button hides itself rather than linking somewhere
+broken.
+
+`whatsappHref()` builds the `wa.me` deep link that opens the chat with the
+message already typed. It is used in three places: one piece on a product page,
+the whole selection on `/enquiry`, and a general question in the footer.
 
 Anything that depends on stored state must wait for the hook's `ready` flag
 before rendering, or the server's empty list and the client's restored one

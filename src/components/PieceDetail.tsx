@@ -10,7 +10,9 @@ import {
   formatPrice,
   type Design,
 } from '@/lib/catalogue'
-import { useEnquiry } from '@/lib/enquiry'
+import { buildEnquiryMessage, useEnquiry } from '@/lib/enquiry'
+import { hasWhatsApp, whatsappHref } from '@/lib/contact'
+import WhatsAppIcon from './WhatsAppIcon'
 
 /**
  * Most shapes read naturally as "oval-cut", but the catalogue also uses "Mix"
@@ -217,6 +219,35 @@ export default function PieceDetail({ design }: { design: Design }) {
           >
             {inList ? 'Added — remove from list' : 'Add to enquiry'}
           </button>
+
+          {/* Straight to sales about this one piece, for a buyer who does not
+              want to build a list first. */}
+          {hasWhatsApp() && (
+            <a
+              href={whatsappHref(
+                buildEnquiryMessage([
+                  {
+                    sku: variant.sku,
+                    slug: design.slug,
+                    title: variant.title,
+                    category: design.category,
+                    metalColour: variant.metalColour,
+                    metal: variant.metal,
+                    price: variant.price,
+                    carat: variant.carat,
+                    size: variant.size,
+                    thumbnail: variant.thumbnail,
+                  },
+                ]),
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 flex w-full items-center justify-center gap-2.5 bg-[#25D366] py-4 text-[0.6875rem] uppercase tracking-label text-white transition-opacity hover:opacity-90 sm:w-auto sm:px-8"
+            >
+              <WhatsAppIcon className="h-[1.125rem] w-[1.125rem]" />
+              Enquire on WhatsApp
+            </a>
+          )}
 
           {ready && count > 0 && (
             <p className="mt-4 text-sm text-bone-dim">

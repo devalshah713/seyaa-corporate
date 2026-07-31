@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { Allura, Montserrat } from 'next/font/google'
 import './globals.css'
 import SiteHeader from '@/components/SiteHeader'
+import WhatsAppIcon from '@/components/WhatsAppIcon'
+import { CONTACT, hasWhatsApp, whatsappHref } from '@/lib/contact'
 import { catalogue } from '@/lib/catalogue'
 
 /**
@@ -109,6 +111,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 This is a showcase catalogue. Pieces are not sold online — contact us
                 with a SKU for availability and corporate pricing.
               </p>
+              {hasWhatsApp() && (
+                <a
+                  href={whatsappHref(`Hello ${CONTACT.businessName}, I have a question about your collection.`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2.5 border border-white/40 px-5 py-3 text-[0.6875rem] uppercase tracking-label text-white transition-colors hover:bg-white hover:text-brand"
+                >
+                  <WhatsAppIcon className="h-4 w-4" />
+                  Chat on WhatsApp
+                </a>
+              )}
             </div>
           </div>
 
