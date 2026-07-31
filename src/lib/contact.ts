@@ -18,14 +18,13 @@ function normaliseNumber(input: string | undefined): string {
 
 /**
  * Fallback used when no environment variable is set. Full international
- * number including country code — a US line reads '15551234567', an Indian
- * one '919876543210'.
+ * number including country code — +1 917 801 6060.
  */
-const WHATSAPP_FALLBACK = ''
+const WHATSAPP_FALLBACK = '19178016060'
 
 export const CONTACT = {
   whatsapp: normaliseNumber(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || WHATSAPP_FALLBACK),
-  email: process.env.NEXT_PUBLIC_SALES_EMAIL || 'seyaalabjewel@gmail.com',
+  email: process.env.NEXT_PUBLIC_SALES_EMAIL || 'devalshah713@gmail.com',
   businessName: 'Seyaa Jewels',
 } as const
 

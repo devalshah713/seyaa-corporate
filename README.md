@@ -70,8 +70,8 @@ The list is stored in the browser, so it survives a refresh and needs no login.
 A SKU is what gets added rather than a design, because metal colour is part of
 the SKU and White and Yellow are separate things to quote for.
 
-**One thing to set: the WhatsApp number.** Either works, and the environment
-wins:
+Enquiries go to **+1 917 801 6060** on WhatsApp and **devalshah713@gmail.com**
+by email. To change either, both routes work and the environment wins:
 
 - **Vercel → Settings → Environment Variables →** `NEXT_PUBLIC_WHATSAPP_NUMBER`,
   then redeploy. No code change, and the number can move to a different handset
@@ -83,8 +83,8 @@ not matter — `+1 (555) 987-6543` and `15559876543` both work, since anything
 that is not a digit is stripped. A value that is not 8–15 digits is treated as
 a typo and ignored, because a wrong number is worse than no button.
 
-Until a valid number is set, every WhatsApp button hides itself and email
-becomes the primary action — the site is never broken, just narrower.
+If the number is ever cleared or mistyped, every WhatsApp button hides itself
+and email becomes the primary action — the site is never broken, just narrower.
 `NEXT_PUBLIC_SALES_EMAIL` overrides the address the same way.
 
 WhatsApp buttons appear in three places: on a product page (that one piece), on
