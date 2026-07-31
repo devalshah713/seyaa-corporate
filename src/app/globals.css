@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 /**
- * Ivory — the default.
- *
- * Every product photograph in the catalogue is shot on pure white. On a dark
- * ground each one becomes a glaring white tile; on warm ivory the packshot
- * dissolves into the page and the jewellery reads as the only object on screen.
- */
-/**
  * Seyaa Jewels brand palette.
  *
  *   #DD611C  brand orange   — the logo colour, taken from the brand kit
@@ -22,16 +15,17 @@
  * for buttons and links, where body-size contrast has to hold up.
  */
 :root {
-  --surface: 251 248 244;
-  --surface-raised: 255 255 255;
-  --line: 232 223 212;
-  --text: 28 33 32; /* brand near-black */
-  --text-muted: 110 101 88; /* 5.4:1 on ivory */
+  --surface: 255 255 255; /* #FFFFFF — brand white */
+  --surface-raised: 250 249 247; /* a whisper of warmth so panels read */
+  --line: 230 227 222;
+  --text: 28 33 32; /* #1C2120 — brand near-black */
+  --text-muted: 106 104 100; /* 5.6:1 on white */
   --brand: 221 97 28; /* #DD611C — display + logo only */
   --accent: 181 77 23; /* #B54D17 — white on this is 4.8:1 */
-  --accent-text: 181 77 23; /* 4.9:1 on ivory */
+  --accent-text: 181 77 23; /* 5.0:1 on white */
   --accent-deep: 143 61 16;
   --on-accent: 255 255 255;
+  --image-well: 255 255 255; /* packshots are on pure white — match it exactly */
 }
 
 /* Charcoal — set data-theme="charcoal" on <html> to switch the whole site. */
@@ -46,6 +40,7 @@
   --accent-text: 235 141 82; /* lifted for contrast on dark */
   --accent-deep: 181 77 23;
   --on-accent: 255 255 255;
+  --image-well: 28 33 32;
 }
 
 @layer base {
@@ -78,10 +73,11 @@
     @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-12;
   }
 
-  /* Image wells. On ivory a hairline keeps the white packshot from bleeding
-     into the page; on charcoal the panel itself provides the edge. */
+  /* Image wells sit at exactly the packshot's own white, so the photograph
+     dissolves into the tile and the hairline is what defines its edge. */
   .well {
-    @apply relative overflow-hidden bg-ink-soft ring-1 ring-inset ring-ink-line;
+    @apply relative overflow-hidden ring-1 ring-inset ring-ink-line;
+    background: rgb(var(--image-well));
   }
 
   /* Thin brand-orange rule used as a section divider. */

@@ -65,7 +65,7 @@ export default async function PiecePage({ params }: Params) {
 
       {related.length > 0 && (
         <section className="mt-24 border-t border-ink-line pt-14">
-          <h2 className="font-serif text-3xl">More in {design.category}</h2>
+          <h2 className="font-display text-3xl">More in {design.category}</h2>
           <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4">
             {related.map((d) => (
               <ProductCard key={d.slug} design={d} />

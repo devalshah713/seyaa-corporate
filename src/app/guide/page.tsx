@@ -56,7 +56,7 @@ export default function GuidePage() {
     <div className="shell py-14 lg:py-20">
       <div className="max-w-2xl">
         <p className="eyebrow">The guide</p>
-        <h1 className="rule-gold mt-4 font-serif text-4xl leading-[1.1] sm:text-6xl">
+        <h1 className="rule-gold mt-4 font-display text-4xl leading-[1.1] tracking-tight sm:text-6xl">
           Understanding
           <br />
           your diamond
@@ -75,7 +75,7 @@ export default function GuidePage() {
           >
             <div>
               <p className="eyebrow">{section.eyebrow}</p>
-              <h2 className="mt-3 font-serif text-2xl leading-snug lg:text-3xl">{section.title}</h2>
+              <h2 className="mt-3 font-display text-2xl leading-snug lg:text-3xl">{section.title}</h2>
             </div>
             <div className="max-w-2xl space-y-4">
               {section.body.map((paragraph) => (
@@ -89,7 +89,7 @@ export default function GuidePage() {
       </div>
 
       <div className="mt-16 border border-ink-line px-6 py-14 text-center sm:px-12">
-        <h2 className="font-serif text-3xl">Ready to look?</h2>
+        <h2 className="font-display text-3xl">Ready to look?</h2>
         <p className="mx-auto mt-4 max-w-lg text-[0.9375rem] leading-relaxed text-bone-dim">
           {catalogue.stats.designs} designs across {catalogue.stats.categories} categories,
           each with its full specification listed.

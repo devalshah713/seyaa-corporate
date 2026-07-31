@@ -83,39 +83,53 @@ Next.js (App Router, SSG) + Tailwind. Every product page is prerendered.
   the maintained spreadsheet libraries on npm carry unpatched advisories, and
   this code runs unattended in CI. It is validated against openpyxl.
 - `src/lib/catalogue.ts` — typed access plus the plain-English glossary
-- Theme: `:root` in `globals.css` is the ivory palette; setting
-  `data-theme="charcoal"` on `<html>` flips the whole site. Ivory is the
+- Theme: `:root` in `globals.css` is the white brand palette; setting
+  `data-theme="charcoal"` on `<html>` flips the whole site. White is the
   default **because every packshot is shot on pure white** — on a dark ground
   they render as glaring white tiles.
 
 ## Brand
 
-From the Seyaa Jewels brand kit: a rearing horse holding a diamond, a script
-wordmark, and one colour — **`#DD611C`** orange — with white and `#1C2120`
-near-black.
+The brand kit (`SeyaaJewels-Brand Kit.pdf`) specifies, in full:
 
-The logo ships as white artwork on a solid orange field, so `public/brand/*`
-was derived from it by recovering the alpha (the artwork is pure white
-composited over the orange, so per-pixel alpha is exact) and recolouring:
+- **Palette:** `#FFFFFF` and `#DD611C` — only those two. `#1C2120` near-black
+  is the kit's own ground and is used here for body text.
+- **Typefaces:** **Montserrat** for headings and body, **Allura** for the
+  wordmark. Both load through `next/font/google`, which subsets and self-hosts
+  them at build time — no font-CDN request at runtime, no layout shift.
+- **Logo:** a rearing horse holding a diamond, above the wordmark.
+- **Tagline:** "LAB GROWN DIAMOND JEWELLERY", letter-spaced uppercase.
+
+The page surface is `#FFFFFF` because that is the brand white *and* the ground
+every packshot is shot on — the two requirements agree.
+
+The supplied logo is white artwork on a solid orange field with no alpha.
+Because the artwork is pure white composited over a known background, the
+original alpha is exactly recoverable per pixel — that is how `mark.webp` was
+derived rather than traced. The wordmark needs no asset at all: it is set live
+in Allura, the brand's own typeface.
 
 | Asset | Use |
 | --- | --- |
-| `mark.webp` / `wordmark.webp` | orange on transparent — the only lockup files |
-| `brightness(0) invert(1)` on the above | white lockup for the orange footer |
+| `mark.webp` | the horse, orange on transparent — the only logo file |
+| `brightness(0) invert(1)` on it | white mark for the orange footer |
 | `og.jpg` | 1200×630 social card, the brand lockup |
 | `src/app/icon.png`, `apple-icon.png` | white mark on orange, per the brand kit |
 
-**Two orange tokens, and the distinction matters.** `#DD611C` on ivory is
-3.42:1 — fine at display size, but it fails WCAG AA for body text, and white
-on it is only 3.62:1. So:
+**Two orange tokens, and the distinction matters.** `#DD611C` on white is
+3.4:1 — fine at display size, but it fails WCAG AA for body text, and white
+on it is only 3.6:1. So:
 
 - `--brand` (`#DD611C`) — the true brand orange. Logo, the `.rule-gold`
   divider, the hero accent, large numerals. Never body-size text.
 - `--accent` (`#B54D17`) — a deeper cut of the same hue for buttons and links.
-  White on it is 4.8:1; as text on ivory it is 4.9:1. Both clear AA.
+  White on it is 4.8:1; as text on white it is 5.0:1. Both clear AA.
 
 Use `text-brand` only where the type is genuinely large; `text-gold-soft`
 (which maps to `--accent`) everywhere else.
+
+`--image-well` is set to pure white so a packshot dissolves into its tile and
+the hairline alone defines the edge.
 
 ## House style
 

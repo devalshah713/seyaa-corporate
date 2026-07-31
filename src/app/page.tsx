@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="animate-rise">
             <p className="eyebrow">Lab Grown · 14K Gold · E–F · VS–SI</p>
 
-            <h1 className="mt-6 font-serif text-[2.75rem] leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="mt-6 font-display text-[2.75rem] leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               Brilliance,
               <br />
               <span className="text-brand">without compromise.</span>
@@ -61,7 +61,7 @@ export default function HomePage() {
                 { value: stats.categories, label: 'Categories' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <dt className="font-serif text-3xl text-brand sm:text-4xl">{stat.value}</dt>
+                  <dt className="font-display text-3xl text-brand sm:text-4xl">{stat.value}</dt>
                   <dd className="eyebrow mt-2">{stat.label}</dd>
                 </div>
               ))}
@@ -82,7 +82,7 @@ export default function HomePage() {
               </div>
               <div className="absolute -bottom-px left-0 max-w-[19rem] border-t border-gold/30 bg-ink/90 p-5 backdrop-blur-sm">
                 <p className="eyebrow">{opener.category}</p>
-                <p className="mt-2 font-serif text-xl leading-snug">{opener.title}</p>
+                <p className="mt-2 font-display text-xl leading-snug">{opener.title}</p>
                 <p className="mt-1.5 text-sm text-gold-soft">{formatPrice(opener.priceFrom)}</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function HomePage() {
       <section className="shell py-20 lg:py-28">
         <div className="max-w-2xl">
           <p className="eyebrow">Browse by category</p>
-          <h2 className="rule-gold mt-4 font-serif text-4xl leading-tight sm:text-5xl">
+          <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
             Six collections, one standard
           </h2>
         </div>
@@ -118,7 +118,7 @@ export default function HomePage() {
                 )}
               </div>
               <div className="mt-5 flex items-baseline justify-between gap-4 border-b border-ink-line pb-4 transition-colors group-hover:border-gold/40">
-                <h3 className="font-serif text-2xl transition-colors group-hover:text-gold-soft">
+                <h3 className="font-display text-2xl transition-colors group-hover:text-gold-soft">
                   {category.name}
                 </h3>
                 <span className="text-sm text-bone-dim">{category.count}</span>
@@ -146,8 +146,8 @@ export default function HomePage() {
             },
           ].map((item, i) => (
             <div key={item.title}>
-              <p className="font-serif text-5xl text-brand/30">0{i + 1}</p>
-              <h3 className="mt-5 font-serif text-2xl">{item.title}</h3>
+              <p className="font-display text-5xl text-brand/30">0{i + 1}</p>
+              <h3 className="mt-5 font-display text-2xl">{item.title}</h3>
               <p className="mt-3 text-[0.9375rem] leading-relaxed text-bone-dim">{item.body}</p>
             </div>
           ))}
@@ -159,7 +159,7 @@ export default function HomePage() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-xl">
             <p className="eyebrow">Statement pieces</p>
-            <h2 className="rule-gold mt-4 font-serif text-4xl leading-tight sm:text-5xl">
+            <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
               The heaviest carat weights
             </h2>
           </div>
@@ -182,7 +182,7 @@ export default function HomePage() {
       <section className="shell pb-24">
         <div className="border border-ink-line px-6 py-16 text-center sm:px-12 lg:py-20">
           <p className="eyebrow">Corporate enquiries</p>
-          <h2 className="mx-auto mt-5 max-w-2xl font-serif text-3xl leading-tight sm:text-4xl">
+          <h2 className="mx-auto mt-5 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">
             Found something for your programme?
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-[0.9375rem] leading-relaxed text-bone-dim">

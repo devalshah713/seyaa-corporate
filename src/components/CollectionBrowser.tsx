@@ -89,7 +89,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     <div className="shell py-12 lg:py-16">
       <div className="max-w-2xl">
         <p className="eyebrow">The collection</p>
-        <h1 className="rule-gold mt-4 font-serif text-4xl leading-tight sm:text-5xl">
+        <h1 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
           {category === 'all'
             ? 'Every piece'
             : categories.find((c) => c.slug === category)?.name ?? 'Every piece'}
@@ -210,7 +210,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
             </div>
           ) : (
             <div className="border border-ink-line px-6 py-24 text-center">
-              <p className="font-serif text-2xl">Nothing matches those filters</p>
+              <p className="font-display text-2xl">Nothing matches those filters</p>
               <p className="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-bone-dim">
                 Try widening the price range or clearing a filter to see more of the
                 collection.

@@ -33,10 +33,11 @@ export default {
         brand: themed('--brand'),
       },
       fontFamily: {
-        // System stacks only — nothing to download, so the site renders
-        // instantly and the build never depends on a font CDN.
-        serif: ['Didot', '"Bodoni MT"', '"Playfair Display"', 'Georgia', '"Times New Roman"', 'serif'],
-        sans: ['"Helvetica Neue"', 'Inter', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Arial', 'sans-serif'],
+        // The brand kit's two typefaces. Montserrat carries headings and body
+        // alike; Allura is the wordmark only.
+        sans: ['var(--font-montserrat)', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Arial', 'sans-serif'],
+        display: ['var(--font-montserrat)', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Arial', 'sans-serif'],
+        script: ['var(--font-allura)', 'cursive'],
       },
       letterSpacing: {
         label: '0.22em',

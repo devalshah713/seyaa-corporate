@@ -108,9 +108,9 @@ export default function PieceDetail({ design }: { design: Design }) {
       {/* ----------------------------------------------------------- detail */}
       <div>
         <p className="eyebrow">{design.category}</p>
-        <h1 className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">{variant.title}</h1>
+        <h1 className="mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">{variant.title}</h1>
 
-        <p className="mt-6 font-serif text-3xl text-gold-soft">{formatPrice(variant.price)}</p>
+        <p className="mt-6 font-display text-3xl text-gold-soft">{formatPrice(variant.price)}</p>
 
         <p className="mt-5 max-w-md text-[0.9375rem] leading-relaxed text-bone-dim">
           {formatCarat(variant.carat)} of {cutPhrase(variant.shape)}
@@ -181,7 +181,7 @@ export default function PieceDetail({ design }: { design: Design }) {
 
         {/* enquiry */}
         <div className="mt-10 border border-ink-line p-6">
-          <p className="font-serif text-xl">Interested in this piece?</p>
+          <p className="font-display text-xl">Interested in this piece?</p>
           <p className="mt-2.5 text-sm leading-relaxed text-bone-dim">
             This catalogue is a showcase — pieces are not sold online. Quote SKU{' '}
             <span className="text-gold-soft">{variant.sku}</span> when enquiring about

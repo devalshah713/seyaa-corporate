@@ -1,8 +1,27 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Allura, Montserrat } from 'next/font/google'
 import './globals.css'
 import { catalogue } from '@/lib/catalogue'
+
+/**
+ * The two typefaces the brand kit names. next/font downloads and subsets them
+ * at build time and serves them from this domain, so there is no request to a
+ * font CDN at runtime and no layout shift.
+ */
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+})
+
+const allura = Allura({
+  subsets: ['latin'],
+  weight: '400',
+  display: 'swap',
+  variable: '--font-allura',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -30,7 +49,7 @@ const NAV = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${montserrat.variable} ${allura.variable}`}>
       <body className="flex min-h-screen flex-col">
         <header className="sticky top-0 z-40 border-b border-ink-line bg-ink/85 backdrop-blur-md">
           <div className="shell flex h-16 items-center justify-between gap-6 sm:h-20">
@@ -47,17 +66,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 priority
                 className="h-9 w-auto sm:h-11"
               />
+              {/* The wordmark is set live in Allura rather than shipped as a
+                  raster: it is the brand's own typeface, so it matches exactly,
+                  stays crisp at any size and takes the theme colour. */}
               <span className="flex flex-col leading-none">
-                <Image
-                  src="/brand/wordmark.webp"
-                  alt="Seyaa Jewels"
-                  width={480}
-                  height={97}
-                  priority
-                  className="h-5 w-auto sm:h-6"
-                />
-                <span className="eyebrow mt-1.5 hidden text-[0.5625rem] sm:block">
-                  Lab Grown Diamonds
+                <span className="font-script text-[1.75rem] leading-none text-brand sm:text-[2.125rem]">
+                  Seyaa Jewels
+                </span>
+                <span className="eyebrow mt-1 hidden text-[0.5rem] sm:block">
+                  Lab Grown Diamond Jewellery
                 </span>
               </span>
             </Link>
@@ -101,13 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 height={240}
                 className="h-16 w-auto [filter:brightness(0)_invert(1)]"
               />
-              <Image
-                src="/brand/wordmark.webp"
-                alt="Seyaa Jewels"
-                width={480}
-                height={97}
-                className="mt-4 h-7 w-auto [filter:brightness(0)_invert(1)]"
-              />
+              <p className="mt-3 font-script text-[2.5rem] leading-none text-white">Seyaa Jewels</p>
               <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/80">
                 14K gold jewellery set with lab-grown diamonds, made for corporate
                 partners and their clients.

@@ -34,7 +34,7 @@ export default function ProductCard({ design, priority = false }: { design: Desi
       </div>
 
       <div className="flex flex-1 flex-col pt-4">
-        <h3 className="font-serif text-lg leading-snug text-bone transition-colors group-hover:text-gold-soft">
+        <h3 className="font-display text-lg leading-snug text-bone transition-colors group-hover:text-gold-soft">
           {design.title}
         </h3>
 
@@ -44,7 +44,7 @@ export default function ProductCard({ design, priority = false }: { design: Desi
         </p>
 
         <div className="mt-auto flex items-end justify-between gap-3 pt-3">
-          <span className="font-serif text-lg text-gold-soft">{priceRange(design)}</span>
+          <span className="font-display text-lg text-gold-soft">{priceRange(design)}</span>
           <MetalDots colours={design.metalColours} />
         </div>
       </div>
