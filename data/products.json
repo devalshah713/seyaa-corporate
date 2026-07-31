@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-31T07:35:02.202Z",
+  "generatedAt": "2026-07-31T07:51:31.658Z",
   "source": {
     "sheetId": "1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U",
     "title": "JEWELERY PORTAL"
   },
   "stats": {
-    "designs": 199,
-    "skus": 375,
+    "designs": 196,
+    "skus": 369,
     "categories": 6,
     "priceFrom": 368.78,
     "priceTo": 13850
@@ -37,7 +37,7 @@
     {
       "name": "Bracelets",
       "slug": "bracelets",
-      "count": 51
+      "count": 48
     },
     {
       "name": "Stud Earrings",
@@ -66,90 +66,6 @@
     }
   ],
   "designs": [
-    {
-      "id": "49BR",
-      "slug": "3-line-oval-halo-bracelet-49br",
-      "title": "3 Line Oval Halo Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Mix",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 39.63,
-      "minCarat": 39.63,
-      "diamondCount": 702,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 8400,
-      "priceTo": 8400,
-      "caratFrom": 39.63,
-      "image": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w800",
-      "variants": [
-        {
-          "designId": "49BR",
-          "sku": "49BRW",
-          "title": "3 Line Oval Halo Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 8400,
-          "carat": 39.63,
-          "minCarat": 39.63,
-          "diamondCount": 702,
-          "metalWeight": 27.368,
-          "shape": "Mix",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K",
-          "image": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w800",
-          "gallery": [
-            {
-              "id": "1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K",
-              "full": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1ngqtqetY2QfF2XM1cuFQTHjrIzJelY3K&sz=w800"
-            }
-          ]
-        },
-        {
-          "designId": "49BR",
-          "sku": "49BRY",
-          "title": "3 Line Oval Halo Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 8400,
-          "carat": 39.63,
-          "minCarat": 39.63,
-          "diamondCount": 702,
-          "metalWeight": 27.368,
-          "shape": "Mix",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC",
-          "image": "https://drive.google.com/thumbnail?id=1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC&sz=w800",
-          "gallery": [
-            {
-              "id": "1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC",
-              "full": "https://drive.google.com/thumbnail?id=1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1jQZu8ehmb9obh2ACWWu-Da8SjDdp_tuC&sz=w800"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "36BR",
       "slug": "1ct-each-round-tennis-bracelet-36br",
@@ -1489,90 +1405,6 @@
               "id": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
               "full": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "47BR",
-      "slug": "bvlgari-snake-flexible-bracelet-47br",
-      "title": "Bvlgari Snake Flexible Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 3.55,
-      "minCarat": 3.55,
-      "diamondCount": 59,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 4000,
-      "priceTo": 4000,
-      "caratFrom": 3.55,
-      "image": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w800",
-      "variants": [
-        {
-          "designId": "47BR",
-          "sku": "47BRW",
-          "title": "Bvlgari Snake Flexible Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 4000,
-          "carat": 3.55,
-          "minCarat": 3.55,
-          "diamondCount": 59,
-          "metalWeight": 17.136,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk",
-          "image": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w800",
-          "gallery": [
-            {
-              "id": "1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk",
-              "full": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1EoBCYKN_gsra9nlFGcqCdKZwQzLEeTSk&sz=w800"
-            }
-          ]
-        },
-        {
-          "designId": "47BR",
-          "sku": "47BRY",
-          "title": "Bvlgari Snake Flexible Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 4000,
-          "carat": 3.55,
-          "minCarat": 3.55,
-          "diamondCount": 59,
-          "metalWeight": 17.136,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L",
-          "image": "https://drive.google.com/thumbnail?id=1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L&sz=w800",
-          "gallery": [
-            {
-              "id": "1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L",
-              "full": "https://drive.google.com/thumbnail?id=1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1oD-GAUl2fhpqNxZinO2FIQffpTQgvO1L&sz=w800"
             }
           ]
         }
@@ -3308,90 +3140,6 @@
               "id": "1KitwA7JHvixFPsMviuBx94RdzkFBl7u2",
               "full": "https://drive.google.com/thumbnail?id=1KitwA7JHvixFPsMviuBx94RdzkFBl7u2&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1KitwA7JHvixFPsMviuBx94RdzkFBl7u2&sz=w800"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "46BR",
-      "slug": "cartier-bracelet-46br",
-      "title": "Cartier Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 2.81,
-      "minCarat": 2.81,
-      "diamondCount": 275,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 2200,
-      "priceTo": 2200,
-      "caratFrom": 2.81,
-      "image": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w800",
-      "variants": [
-        {
-          "designId": "46BR",
-          "sku": "46BRW",
-          "title": "Cartier Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 2200,
-          "carat": 2.81,
-          "minCarat": 2.81,
-          "diamondCount": 275,
-          "metalWeight": 15.696,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA",
-          "image": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w800",
-          "gallery": [
-            {
-              "id": "1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA",
-              "full": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1yVnBR4sj5sZ039uZnxgV1HHCrmTBtIrA&sz=w800"
-            }
-          ]
-        },
-        {
-          "designId": "46BR",
-          "sku": "46BRY",
-          "title": "Cartier Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 2200,
-          "carat": 2.81,
-          "minCarat": 2.81,
-          "diamondCount": 275,
-          "metalWeight": 15.696,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN",
-          "image": "https://drive.google.com/thumbnail?id=1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN&sz=w800",
-          "gallery": [
-            {
-              "id": "1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN",
-              "full": "https://drive.google.com/thumbnail?id=1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1G7loVoJ79vsre8Ekm0Nn3Be_7O8pB_eN&sz=w800"
             }
           ]
         }
