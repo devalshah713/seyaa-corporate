@@ -26,29 +26,36 @@ npm run sync -- --file some.xlsx   # parse a local copy instead
 `.github/workflows/sync-catalogue.yml` runs this every morning at 05:00 UTC and
 commits any change, which redeploys the site.
 
-## The sheet's headers are wrong — do not trust them
+## Columns are found by header, never by position
 
-The header row is mislabelled and shifted. `scripts/sync-sheet.mjs` maps columns
-**by position**, and that mapping is the authority:
+The sheet was restructured on 1 Aug 2026: the old mislabelled headers were
+corrected, and `IMAGE 2` and `VIDEO 1` were inserted, shifting every later
+column one place right. The positional map read prices out of the metal-weight
+column and published 369 SKUs with no price and no photo.
 
-| Col | Header says | Actually holds |
-| --- | --- | --- |
-| A | Title | Title |
-| B | description | **Metal colour** (`14K WHITE` / `14K YELLOW` / `14K ROSE`) |
-| C | SKU | SKU |
-| D | Metal | *always empty* |
-| E | jewelry image1 | **The metal** — literally `14K GOLD` on every row |
-| F | gallery | **The image link(s)** |
-| G–J | — | Total carat, min carat, shape, stone count |
-| K | Each diamond size (mm) | *always empty* |
-| L–N | — | Colour, clarity, metal weight |
-| O | Design type | Category (`Bracelet`, `Hoops`, …) |
-| P | Metal length | **Size** (`7 INCH`, `US 7`, `16.5 INCH`, `NA`) |
-| Q | Type | *always empty* |
-| R–S | — | Price (USD), origin |
+`scripts/sync-sheet.mjs` now locates each column by matching its header, so
+inserts and reordering are harmless. `description` is the one header still not
+to be trusted — it holds the metal colour.
 
-Six tabs — `Bracelets`, `Hoops Earrings`, `Studs`, `Rings`, `Necklaces`,
-`Pendants` — each with the same layout. The tab is what determines the category.
+| Header | Holds |
+| --- | --- |
+| Title | Title |
+| description | **Metal colour** (`14K WHITE` / `14K YELLOW` / `14K ROSE`) |
+| SKU | SKU |
+| Metal | `14K GOLD` |
+| IMAGE 1 / IMAGE 2 | Image link(s); either may hold more than one |
+| VIDEO 1 | Video link — present but empty everywhere so far |
+| Total Diamonds weight … origin | Carat, min carat, shape, count, colour, clarity, metal weight, design type, size, price, origin |
+
+Tabs are matched by pattern too (`Hoops Earrings` became `Earrings` once and
+took a whole category off the site). A tab matching nothing, or a missing
+required column, is reported by name rather than silently skipped.
+
+**Two guards keep a bad parse off the site.** A tab whose required columns are
+missing is skipped with a named error; and if fewer than 80% of SKUs end up
+with both a price and a photo, the sync refuses to publish at all and the build
+falls back to the committed catalogue. Reporting alone was not enough — the
+738-error run was detected and deployed anyway.
 
 ## Products are grouped by SKU, never by title
 
