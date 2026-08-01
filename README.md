@@ -63,8 +63,26 @@ on a live product page, which nothing else will catch.
 | `/` | Editorial home — category tiles, statement pieces |
 | `/collection` | All designs, filterable by category, metal, shape and price; searchable by name or SKU |
 | `/piece/[slug]` | One design: gallery, metal-colour toggle, full specification |
+| `/piece/[SKU]` | The same page, by SKU — a link that never goes stale |
 | `/guide` | What E–F, VS–SI, carat and "lab grown" actually mean |
 | `/enquiry` | The buyer's selected SKUs, ready to send in one message |
+
+## Sharing a link to a piece
+
+A product URL is built from the piece's title, so **editing a title in the sheet
+changes its address**. Retitling `19BR` from "18 CTS" to "21 CTS" moved it from
+`/piece/18-cts-pear-prong-tennis-bracelet-19br` to `/piece/21-cts-…-19br`.
+
+Old links are not dead — they redirect to the piece's current address, because
+the design id at the end of the slug is the stable half. But to send a link that
+can never go stale, use the SKU:
+
+```
+https://seyaa-showcase.vercel.app/piece/19BRW
+```
+
+That redirects to whatever the piece is called today. It is the right thing to
+paste into an email or a WhatsApp message.
 
 ## Enquiries
 

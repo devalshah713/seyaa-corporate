@@ -66,6 +66,14 @@ One design = one product page, with a metal-colour toggle across its variants.
 "Marquise Hoops Earrings" — so grouping by title silently merges different
 products. Always group on the SKU prefix.
 
+**Titles are not stable either, and the slug is built from one.** `19BR` was
+retitled "18 CTS" → "21 CTS" in the sheet and every link a seller had already
+sent started 404ing. An unknown `/piece/*` slug is therefore resolved by its
+last segment — the design id — and redirected to the current address
+(`findByIdentifier`); a SKU resolves the same way, which makes `/piece/19BRW` a
+permanent address worth sharing. The redirect is 307, not 308: a title can
+change back, and a permanent redirect would be cached in the browser past that.
+
 ## Data health
 
 `npm run sync` also writes `data/data-health.json` and prints a summary. It

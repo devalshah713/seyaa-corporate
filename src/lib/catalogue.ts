@@ -76,6 +76,28 @@ export function getDesign(slug: string): Design | undefined {
   return designs.find((d) => d.slug === slug)
 }
 
+/**
+ * Resolve a slug that is no longer current back to its design.
+ *
+ * A slug is built from the title, and titles are edited in the sheet: `19BR`
+ * was retitled from "18 CTS" to "21 CTS", which silently broke every link a
+ * seller had already sent. The design id is the stable half of the slug and it
+ * is the last segment, so a stale link still carries enough to find its way
+ * home.
+ *
+ * SKUs resolve too (`19BRW` → design `19BR`), which makes `/piece/19BR` a
+ * permanent address for a piece — worth sharing in place of a title-derived
+ * one, because it cannot go stale.
+ */
+export function findByIdentifier(slug: string): Design | undefined {
+  const tail = slug.split('-').pop()?.toLowerCase()
+  if (!tail) return undefined
+  return (
+    designs.find((d) => d.id.toLowerCase() === tail) ??
+    designs.find((d) => d.variants.some((v) => v.sku.toLowerCase() === tail))
+  )
+}
+
 export function getCategory(slug: string): Category | undefined {
   return categories.find((c) => c.slug === slug)
 }

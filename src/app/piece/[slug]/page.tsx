@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import PieceDetail from '@/components/PieceDetail'
 import ProductCard from '@/components/ProductCard'
-import { designs, formatCarat, getDesign, priceRange } from '@/lib/catalogue'
+import { designs, findByIdentifier, formatCarat, getDesign, priceRange } from '@/lib/catalogue'
 
 type Params = { params: Promise<{ slug: string }> }
 
@@ -31,7 +31,15 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function PiecePage({ params }: Params) {
   const { slug } = await params
   const design = getDesign(slug)
-  if (!design) notFound()
+  if (!design) {
+    // A link built before the piece was retitled. Send it to the current
+    // address rather than a 404 — the customer asked for a real product.
+    // Deliberately temporary (307): titles are edited in a spreadsheet and can
+    // change back, and a 308 would be cached in the browser past that.
+    const moved = findByIdentifier(slug)
+    if (moved) redirect(`/piece/${moved.slug}`)
+    notFound()
+  }
 
   // Nearest in price within the same category reads as a genuine alternative.
   const related = designs
