@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T07:48:09.045Z",
+  "generatedAt": "2026-08-01T09:40:53.403Z",
   "source": {
     "sheetId": "1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U",
     "title": "JEWELERY PORTAL"
   },
   "stats": {
     "designs": 196,
-    "skus": 369,
+    "skus": 368,
     "categories": 6,
     "priceFrom": 368.78,
     "priceTo": 13850
@@ -203,6 +203,11 @@
               "id": "1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5",
               "full": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800"
+            },
+            {
+              "id": "1H1BefOmeGaXt009yGjk62XMdeQY8u0hI",
+              "full": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w800"
             }
           ],
           "video": null
@@ -232,6 +237,11 @@
               "id": "1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk",
               "full": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w800"
+            },
+            {
+              "id": "14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG",
+              "full": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w800"
             }
           ],
           "video": null
@@ -240,8 +250,8 @@
     },
     {
       "id": "1BR",
-      "slug": "32-cts-oval-bezel-tennis-bracelet-1br",
-      "title": "32 CTS Oval Bezel Tennis Bracelet",
+      "slug": "26-cts-oval-bezel-tennis-bracelet-1br",
+      "title": "26 CTS Oval Bezel Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -251,29 +261,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 33.5,
-      "minCarat": 32,
-      "diamondCount": 32,
+      "carat": 27,
+      "minCarat": 26,
+      "diamondCount": 26,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 5850,
       "priceTo": 5850,
-      "caratFrom": 33.5,
+      "caratFrom": 27,
       "image": "https://drive.google.com/thumbnail?id=1PMCKXhsehy9aclGREuyWr0Sd3cGeZTiy&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1PMCKXhsehy9aclGREuyWr0Sd3cGeZTiy&sz=w800",
       "variants": [
         {
           "designId": "1BR",
           "sku": "1BRW",
-          "title": "32 CTS Oval Bezel Tennis Bracelet",
+          "title": "26 CTS Oval Bezel Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 5850,
-          "carat": 33.5,
-          "minCarat": 32,
-          "diamondCount": 32,
+          "carat": 27,
+          "minCarat": 26,
+          "diamondCount": 26,
           "metalWeight": 16,
           "shape": "Oval",
           "colour": "E-F",
@@ -296,13 +306,13 @@
         {
           "designId": "1BR",
           "sku": "1BRY",
-          "title": "32 CTS Oval Bezel Tennis Bracelet",
+          "title": "26 CTS Oval Bezel Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 5850,
-          "carat": 33.5,
-          "minCarat": 32,
-          "diamondCount": 32,
+          "carat": 27,
+          "minCarat": 26,
+          "diamondCount": 26,
           "metalWeight": 16,
           "shape": "Oval",
           "colour": "E-F",
@@ -375,6 +385,11 @@
               "id": "1DEgsJL2qUXF0zhY1tT7VTJBE_8cc5Q8F",
               "full": "https://drive.google.com/thumbnail?id=1DEgsJL2qUXF0zhY1tT7VTJBE_8cc5Q8F&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1DEgsJL2qUXF0zhY1tT7VTJBE_8cc5Q8F&sz=w800"
+            },
+            {
+              "id": "1xOATLn1ITyoGsIA-Ks8NsvoQpN5Q_VP4",
+              "full": "https://drive.google.com/thumbnail?id=1xOATLn1ITyoGsIA-Ks8NsvoQpN5Q_VP4&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1xOATLn1ITyoGsIA-Ks8NsvoQpN5Q_VP4&sz=w800"
             }
           ],
           "video": null
@@ -404,6 +419,11 @@
               "id": "1ySrXEOiTKnW-6PWncl0ZTb7Q1ZPm7AQv",
               "full": "https://drive.google.com/thumbnail?id=1ySrXEOiTKnW-6PWncl0ZTb7Q1ZPm7AQv&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1ySrXEOiTKnW-6PWncl0ZTb7Q1ZPm7AQv&sz=w800"
+            },
+            {
+              "id": "1dFyfuW_M7p1fjfnnFIm9w_iTis85_fsY",
+              "full": "https://drive.google.com/thumbnail?id=1dFyfuW_M7p1fjfnnFIm9w_iTis85_fsY&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1dFyfuW_M7p1fjfnnFIm9w_iTis85_fsY&sz=w800"
             }
           ],
           "video": null
@@ -461,6 +481,11 @@
               "id": "1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG",
               "full": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800"
+            },
+            {
+              "id": "1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA",
+              "full": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w800"
             }
           ],
           "video": null
@@ -490,6 +515,11 @@
               "id": "1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf",
               "full": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w800"
+            },
+            {
+              "id": "1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk",
+              "full": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w800"
             }
           ],
           "video": null
@@ -633,6 +663,11 @@
               "id": "1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw",
               "full": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800"
+            },
+            {
+              "id": "1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2",
+              "full": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w800"
             }
           ],
           "video": null
@@ -662,6 +697,11 @@
               "id": "1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q",
               "full": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w800"
+            },
+            {
+              "id": "1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga",
+              "full": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w800"
             }
           ],
           "video": null
@@ -842,8 +882,8 @@
     },
     {
       "id": "41BR",
-      "slug": "25-cts-marquise-prong-tennis-bracelet-41br",
-      "title": "25 CTS Marquise Prong Tennis Bracelet",
+      "slug": "33-cts-marquise-prong-tennis-bracelet-41br",
+      "title": "33 CTS Marquise Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -853,29 +893,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 25.5,
-      "minCarat": 30,
-      "diamondCount": 30,
+      "carat": 34,
+      "minCarat": 33,
+      "diamondCount": 32,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 4900,
       "priceTo": 4900,
-      "caratFrom": 25.5,
+      "caratFrom": 34,
       "image": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1k__KmY_NniDpZOLFNjjDLtz_BNx9unnY&sz=w800",
       "variants": [
         {
           "designId": "41BR",
           "sku": "41BRW",
-          "title": "25 CTS Marquise Prong Tennis Bracelet",
+          "title": "33 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 4900,
-          "carat": 25.5,
-          "minCarat": 30,
-          "diamondCount": 30,
+          "carat": 34,
+          "minCarat": 33,
+          "diamondCount": 32,
           "metalWeight": 14.5,
           "shape": "Marquise",
           "colour": "E-F",
@@ -898,13 +938,13 @@
         {
           "designId": "41BR",
           "sku": "41BRY",
-          "title": "25 CTS Marquise Prong Tennis Bracelet",
+          "title": "33 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 4900,
-          "carat": 25.5,
-          "minCarat": 30,
-          "diamondCount": 30,
+          "carat": 34,
+          "minCarat": 33,
+          "diamondCount": 32,
           "metalWeight": 14.5,
           "shape": "Marquise",
           "colour": "E-F",
@@ -1025,7 +1065,7 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 25.7,
+      "carat": 26,
       "minCarat": 25.7,
       "diamondCount": 25,
       "metalColours": [
@@ -1034,7 +1074,7 @@
       ],
       "priceFrom": 4700,
       "priceTo": 4700,
-      "caratFrom": 25.7,
+      "caratFrom": 26,
       "image": "https://drive.google.com/thumbnail?id=1x5mRDLEDH6_Ikyb2MtPBhdc4H2grKjHj&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1x5mRDLEDH6_Ikyb2MtPBhdc4H2grKjHj&sz=w800",
       "variants": [
@@ -1045,7 +1085,7 @@
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 4700,
-          "carat": 25.7,
+          "carat": 26,
           "minCarat": 25.7,
           "diamondCount": 25,
           "metalWeight": 11.2,
@@ -1074,7 +1114,7 @@
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 4700,
-          "carat": 25.7,
+          "carat": 26,
           "minCarat": 25.7,
           "diamondCount": 25,
           "metalWeight": 11.2,
@@ -1149,6 +1189,11 @@
               "id": "1-9Few5QmxPFOjoKY7nkY80WvME6tchBa",
               "full": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800"
+            },
+            {
+              "id": "1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9",
+              "full": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w800"
             }
           ],
           "video": null
@@ -1178,6 +1223,11 @@
               "id": "1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt",
               "full": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w800"
+            },
+            {
+              "id": "1KIS_017aCOyy1yiKrFDgNotE2PjnrDql",
+              "full": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w800"
             }
           ],
           "video": null
@@ -1235,6 +1285,11 @@
               "id": "1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-",
               "full": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800"
+            },
+            {
+              "id": "1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz",
+              "full": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w800"
             }
           ],
           "video": null
@@ -1264,6 +1319,11 @@
               "id": "1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-",
               "full": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w800"
+            },
+            {
+              "id": "1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq",
+              "full": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w800"
             }
           ],
           "video": null
@@ -1321,6 +1381,11 @@
               "id": "1lirz6DPd-L7mG2BfGhayId8x9J542ot2",
               "full": "https://drive.google.com/thumbnail?id=1lirz6DPd-L7mG2BfGhayId8x9J542ot2&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1lirz6DPd-L7mG2BfGhayId8x9J542ot2&sz=w800"
+            },
+            {
+              "id": "1uiQh3p3WQLXzcePRrxgklobkT5lSeam_",
+              "full": "https://drive.google.com/thumbnail?id=1uiQh3p3WQLXzcePRrxgklobkT5lSeam_&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1uiQh3p3WQLXzcePRrxgklobkT5lSeam_&sz=w800"
             }
           ],
           "video": null
@@ -1350,6 +1415,11 @@
               "id": "1bsWTj_oqkc6sIAwi1ccFXH8F5O5yYUlX",
               "full": "https://drive.google.com/thumbnail?id=1bsWTj_oqkc6sIAwi1ccFXH8F5O5yYUlX&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1bsWTj_oqkc6sIAwi1ccFXH8F5O5yYUlX&sz=w800"
+            },
+            {
+              "id": "1Q0KeFABdaU8yWHh0r_WMfiTifdJA3SV-",
+              "full": "https://drive.google.com/thumbnail?id=1Q0KeFABdaU8yWHh0r_WMfiTifdJA3SV-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Q0KeFABdaU8yWHh0r_WMfiTifdJA3SV-&sz=w800"
             }
           ],
           "video": null
@@ -1370,8 +1440,8 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 28.5,
-      "minCarat": 27.5,
-      "diamondCount": 37,
+      "minCarat": 27,
+      "diamondCount": 36,
       "metalColours": [
         "White",
         "Yellow"
@@ -1390,8 +1460,8 @@
           "metal": "14K Gold",
           "price": 4300,
           "carat": 28.5,
-          "minCarat": 27.5,
-          "diamondCount": 37,
+          "minCarat": 27,
+          "diamondCount": 36,
           "metalWeight": 12,
           "shape": "Pear",
           "colour": "E-F",
@@ -1407,6 +1477,11 @@
               "id": "1KyxofO0zhOmnQR22YBafsT9wFsZUfChM",
               "full": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800"
+            },
+            {
+              "id": "17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt",
+              "full": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w800"
             }
           ],
           "video": null
@@ -1419,8 +1494,8 @@
           "metal": "14K Gold",
           "price": 4300,
           "carat": 28.5,
-          "minCarat": 27.5,
-          "diamondCount": 37,
+          "minCarat": 27,
+          "diamondCount": 36,
           "metalWeight": 12,
           "shape": "Pear",
           "colour": "E-F",
@@ -1436,6 +1511,11 @@
               "id": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
               "full": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800"
+            },
+            {
+              "id": "1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw",
+              "full": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w800"
             }
           ],
           "video": null
@@ -1457,7 +1537,7 @@
       "size": "7 INCH",
       "carat": 16.5,
       "minCarat": 15,
-      "diamondCount": 31,
+      "diamondCount": 30,
       "metalColours": [
         "White",
         "Yellow"
@@ -1477,7 +1557,7 @@
           "price": 3900,
           "carat": 16.5,
           "minCarat": 15,
-          "diamondCount": 31,
+          "diamondCount": 30,
           "metalWeight": 13.812,
           "shape": "Oval",
           "colour": "E-F",
@@ -1506,7 +1586,7 @@
           "price": 3900,
           "carat": 16.5,
           "minCarat": 15,
-          "diamondCount": 31,
+          "diamondCount": 30,
           "metalWeight": 13.812,
           "shape": "Oval",
           "colour": "E-F",
@@ -1530,8 +1610,8 @@
     },
     {
       "id": "38BR",
-      "slug": "20-cts-marquise-bezel-tennis-bracelet-38br",
-      "title": "20 CTS Marquise Bezel Tennis Bracelet",
+      "slug": "21-cts-marquise-bezel-tennis-bracelet-38br",
+      "title": "21 CTS Marquise Bezel Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -1541,8 +1621,8 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 21.5,
-      "minCarat": 20.25,
+      "carat": 22,
+      "minCarat": 21,
       "diamondCount": 27,
       "metalColours": [
         "White",
@@ -1550,19 +1630,19 @@
       ],
       "priceFrom": 3700,
       "priceTo": 3700,
-      "caratFrom": 21.5,
+      "caratFrom": 22,
       "image": "https://drive.google.com/thumbnail?id=1QOHSwcXWLX7QBR8x_4XoB4p7h9MuVWUz&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1QOHSwcXWLX7QBR8x_4XoB4p7h9MuVWUz&sz=w800",
       "variants": [
         {
           "designId": "38BR",
           "sku": "38BRW",
-          "title": "20 CTS Marquise Bezel Tennis Bracelet",
+          "title": "21 CTS Marquise Bezel Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 3700,
-          "carat": 21.5,
-          "minCarat": 20.25,
+          "carat": 22,
+          "minCarat": 21,
           "diamondCount": 27,
           "metalWeight": 14.5,
           "shape": "Marquise",
@@ -1586,12 +1666,12 @@
         {
           "designId": "38BR",
           "sku": "38BRY",
-          "title": "20 CTS Marquise Bezel Tennis Bracelet",
+          "title": "21 CTS Marquise Bezel Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 3700,
-          "carat": 21.5,
-          "minCarat": 20.25,
+          "carat": 22,
+          "minCarat": 21,
           "diamondCount": 27,
           "metalWeight": 14.5,
           "shape": "Marquise",
@@ -1608,92 +1688,6 @@
               "id": "1tAEtn1Mp8pBk9VOr4H1WrDwrpY4AOe7L",
               "full": "https://drive.google.com/thumbnail?id=1tAEtn1Mp8pBk9VOr4H1WrDwrpY4AOe7L&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1tAEtn1Mp8pBk9VOr4H1WrDwrpY4AOe7L&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "42BR",
-      "slug": "16-cts-marquise-prong-tennis-bracelet-42br",
-      "title": "16 CTS Marquise Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Marquise",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 16.5,
-      "minCarat": 25,
-      "diamondCount": 34,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 3650,
-      "priceTo": 3650,
-      "caratFrom": 16.5,
-      "image": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800",
-      "variants": [
-        {
-          "designId": "42BR",
-          "sku": "42BRW",
-          "title": "16 CTS Marquise Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 3650,
-          "carat": 16.5,
-          "minCarat": 25,
-          "diamondCount": 34,
-          "metalWeight": 13.5,
-          "shape": "Marquise",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4",
-          "image": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800",
-          "gallery": [
-            {
-              "id": "1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4",
-              "full": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "42BR",
-          "sku": "42BRY",
-          "title": "16 CTS Marquise Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 3650,
-          "carat": 16.5,
-          "minCarat": 25,
-          "diamondCount": 34,
-          "metalWeight": 13.5,
-          "shape": "Marquise",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX",
-          "image": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w800",
-          "gallery": [
-            {
-              "id": "1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX",
-              "full": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w800"
             }
           ],
           "video": null
@@ -1787,6 +1781,92 @@
       ]
     },
     {
+      "id": "42BR",
+      "slug": "27-cts-marquise-prong-tennis-bracelet-42br",
+      "title": "27 CTS Marquise Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Marquise",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 28,
+      "minCarat": 27,
+      "diamondCount": 35,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 3650,
+      "priceTo": 3650,
+      "caratFrom": 28,
+      "image": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800",
+      "variants": [
+        {
+          "designId": "42BR",
+          "sku": "42BRW",
+          "title": "27 CTS Marquise Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 3650,
+          "carat": 28,
+          "minCarat": 27,
+          "diamondCount": 35,
+          "metalWeight": 13.5,
+          "shape": "Marquise",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4",
+          "image": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800",
+          "gallery": [
+            {
+              "id": "1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4",
+              "full": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1_MW5iRN8kQdUa9Wl-bOZ_SNoFhqcSIi4&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "42BR",
+          "sku": "42BRY",
+          "title": "27 CTS Marquise Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 3650,
+          "carat": 28,
+          "minCarat": 27,
+          "diamondCount": 35,
+          "metalWeight": 13.5,
+          "shape": "Marquise",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX",
+          "image": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w800",
+          "gallery": [
+            {
+              "id": "1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX",
+              "full": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1JM052tWu8fMLSDFaJYoWeJK9nUZ96vOX&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
       "id": "15BR",
       "slug": "21-cts-emerald-prong-tennis-bracelet-15br",
       "title": "21 CTS Emerald Prong Tennis Bracelet",
@@ -1837,6 +1917,11 @@
               "id": "1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES",
               "full": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800"
+            },
+            {
+              "id": "1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23",
+              "full": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w800"
             }
           ],
           "video": null
@@ -1866,6 +1951,11 @@
               "id": "1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC",
               "full": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w800"
+            },
+            {
+              "id": "1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT",
+              "full": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w800"
             }
           ],
           "video": null
@@ -1923,6 +2013,11 @@
               "id": "1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg",
               "full": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800"
+            },
+            {
+              "id": "18VopT1xajSK2otWykzyNb88GqrQQxjgq",
+              "full": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w800"
             }
           ],
           "video": null
@@ -1952,6 +2047,11 @@
               "id": "1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp",
               "full": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w800"
+            },
+            {
+              "id": "1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk",
+              "full": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w800"
             }
           ],
           "video": null
@@ -1960,8 +2060,8 @@
     },
     {
       "id": "50BR",
-      "slug": "10-cts-pink-white-princess-tennis-bracelet-50br",
-      "title": "10 CTS Pink-White Princess Tennis Bracelet",
+      "slug": "10ct-pink-white-princess-tennis-bracelet-50br",
+      "title": "10CT PINK & WHITE PRINCESS TENNIS BRACELET",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -1975,8 +2075,7 @@
       "minCarat": 10.78,
       "diamondCount": 53,
       "metalColours": [
-        "White",
-        "Yellow"
+        "White"
       ],
       "priceFrom": 3300,
       "priceTo": 3300,
@@ -1987,7 +2086,7 @@
         {
           "designId": "50BR",
           "sku": "50BRW",
-          "title": "10 CTS Pink-White Princess Tennis Bracelet",
+          "title": "10CT PINK & WHITE PRINCESS TENNIS BRACELET",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 3300,
@@ -2012,42 +2111,13 @@
             }
           ],
           "video": null
-        },
-        {
-          "designId": "50BR",
-          "sku": "50BRY",
-          "title": "10 CTS Pink-White Princess Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 3300,
-          "carat": 10.78,
-          "minCarat": 10.78,
-          "diamondCount": 53,
-          "metalWeight": 9.364,
-          "shape": "Mix",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV",
-          "image": "https://drive.google.com/thumbnail?id=1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV&sz=w800",
-          "gallery": [
-            {
-              "id": "1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV",
-              "full": "https://drive.google.com/thumbnail?id=1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Wgqoi0QydlH5qPm4N8WTlXagKxWytjSV&sz=w800"
-            }
-          ],
-          "video": null
         }
       ]
     },
     {
       "id": "19BR",
-      "slug": "18-cts-pear-prong-tennis-bracelet-19br",
-      "title": "18 CTS Pear Prong Tennis Bracelet",
+      "slug": "21-cts-pear-prong-tennis-bracelet-19br",
+      "title": "21 CTS Pear Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -2057,29 +2127,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 19.5,
-      "minCarat": 18,
-      "diamondCount": 36,
+      "carat": 22.5,
+      "minCarat": 21,
+      "diamondCount": 42,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 3300,
       "priceTo": 3300,
-      "caratFrom": 19.5,
+      "caratFrom": 22.5,
       "image": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800",
       "variants": [
         {
           "designId": "19BR",
           "sku": "19BRW",
-          "title": "18 CTS Pear Prong Tennis Bracelet",
+          "title": "21 CTS Pear Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 3300,
-          "carat": 19.5,
-          "minCarat": 18,
-          "diamondCount": 36,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
           "metalWeight": 11.834,
           "shape": "Pear",
           "colour": "E-F",
@@ -2095,6 +2165,11 @@
               "id": "1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh",
               "full": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800"
+            },
+            {
+              "id": "1PexWGzAuryr6EXm_hhAbLW44hiRATeDh",
+              "full": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w800"
             }
           ],
           "video": null
@@ -2102,13 +2177,13 @@
         {
           "designId": "19BR",
           "sku": "19BRY",
-          "title": "18 CTS Pear Prong Tennis Bracelet",
+          "title": "21 CTS Pear Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 3300,
-          "carat": 19.5,
-          "minCarat": 18,
-          "diamondCount": 36,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
           "metalWeight": 11.458,
           "shape": "Pear",
           "colour": "E-F",
@@ -2124,6 +2199,11 @@
               "id": "12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL",
               "full": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w800"
+            },
+            {
+              "id": "1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H",
+              "full": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w800"
             }
           ],
           "video": null
@@ -2132,8 +2212,8 @@
     },
     {
       "id": "51BR",
-      "slug": "yellow-pear-colour-diamond-bracelet-51br",
-      "title": "Yellow Pear Colour Diamond Bracelet",
+      "slug": "8-cts-yellow-pear-colour-diamond-bracelet-51br",
+      "title": "8 CTS Yellow Pear Colour Diamond Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -2158,7 +2238,7 @@
         {
           "designId": "51BR",
           "sku": "51BRW",
-          "title": "Yellow Pear Colour Diamond Bracelet",
+          "title": "8 CTS Yellow Pear Colour Diamond Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 3100,
@@ -2273,92 +2353,6 @@
       ]
     },
     {
-      "id": "4BR",
-      "slug": "10-cts-oval-bezel-tennis-bracelet-4br",
-      "title": "10 CTS Oval Bezel Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Oval",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 11.5,
-      "minCarat": 10,
-      "diamondCount": 35,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 3000,
-      "priceTo": 3000,
-      "caratFrom": 11.5,
-      "image": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800",
-      "variants": [
-        {
-          "designId": "4BR",
-          "sku": "4BRW",
-          "title": "10 CTS Oval Bezel Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 3000,
-          "carat": 11.5,
-          "minCarat": 10,
-          "diamondCount": 35,
-          "metalWeight": 11.896,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ",
-          "image": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800",
-          "gallery": [
-            {
-              "id": "1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ",
-              "full": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "4BR",
-          "sku": "4BRY",
-          "title": "10 CTS Oval Bezel Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 3000,
-          "carat": 11.5,
-          "minCarat": 10,
-          "diamondCount": 35,
-          "metalWeight": 11.896,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1HUNChau5PYRVyng-ArM6l_L66mDVMAl-",
-          "image": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w800",
-          "gallery": [
-            {
-              "id": "1HUNChau5PYRVyng-ArM6l_L66mDVMAl-",
-              "full": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
       "id": "12BR",
       "slug": "12-cts-emerald-bezel-tennis-bracelet-12br",
       "title": "12 CTS Emerald Bezel Tennis Bracelet",
@@ -2445,6 +2439,178 @@
       ]
     },
     {
+      "id": "4BR",
+      "slug": "12-cts-oval-bezel-tennis-bracelet-4br",
+      "title": "12 CTS Oval Bezel Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Oval",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 11.5,
+      "minCarat": 12,
+      "diamondCount": 39,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 3000,
+      "priceTo": 3000,
+      "caratFrom": 11.5,
+      "image": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800",
+      "variants": [
+        {
+          "designId": "4BR",
+          "sku": "4BRW",
+          "title": "12 CTS Oval Bezel Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 3000,
+          "carat": 11.5,
+          "minCarat": 12,
+          "diamondCount": 39,
+          "metalWeight": 11.896,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ",
+          "image": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800",
+          "gallery": [
+            {
+              "id": "1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ",
+              "full": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1sZ-n7q71uDOdKiJ8PQiEAIWlAtCa1-VZ&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "4BR",
+          "sku": "4BRY",
+          "title": "12 CTS Oval Bezel Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 3000,
+          "carat": 11.5,
+          "minCarat": 12,
+          "diamondCount": 39,
+          "metalWeight": 11.896,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1HUNChau5PYRVyng-ArM6l_L66mDVMAl-",
+          "image": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w800",
+          "gallery": [
+            {
+              "id": "1HUNChau5PYRVyng-ArM6l_L66mDVMAl-",
+              "full": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1HUNChau5PYRVyng-ArM6l_L66mDVMAl-&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "48BR",
+      "slug": "12-cts-tube-round-bracelet-48br",
+      "title": "12 CTS Tube Round Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Round",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 13,
+      "minCarat": 12,
+      "diamondCount": 975,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 2900,
+      "priceTo": 2900,
+      "caratFrom": 13,
+      "image": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800",
+      "variants": [
+        {
+          "designId": "48BR",
+          "sku": "48BRW",
+          "title": "12 CTS Tube Round Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 2900,
+          "carat": 13,
+          "minCarat": 12,
+          "diamondCount": 975,
+          "metalWeight": 12.88,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8",
+          "image": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800",
+          "gallery": [
+            {
+              "id": "1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8",
+              "full": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "48BR",
+          "sku": "48BRY",
+          "title": "12 CTS Tube Round Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 2900,
+          "carat": 13,
+          "minCarat": 12,
+          "diamondCount": 975,
+          "metalWeight": 12.88,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t",
+          "image": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w800",
+          "gallery": [
+            {
+              "id": "1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t",
+              "full": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
       "id": "29BR",
       "slug": "15-cts-round-tennis-bracelet-29br",
       "title": "15 CTS Round Tennis Bracelet",
@@ -2495,6 +2661,11 @@
               "id": "1vFukPL0TVPrbXcy9MG-8YfMw3fwU2d2i",
               "full": "https://drive.google.com/thumbnail?id=1vFukPL0TVPrbXcy9MG-8YfMw3fwU2d2i&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1vFukPL0TVPrbXcy9MG-8YfMw3fwU2d2i&sz=w800"
+            },
+            {
+              "id": "1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17",
+              "full": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w800"
             }
           ],
           "video": null
@@ -2524,92 +2695,11 @@
               "id": "1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ",
               "full": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "48BR",
-      "slug": "tube-round-bracelet-48br",
-      "title": "Tube Round Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 10.4,
-      "minCarat": 10.4,
-      "diamondCount": 975,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 2900,
-      "priceTo": 2900,
-      "caratFrom": 10.4,
-      "image": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800",
-      "variants": [
-        {
-          "designId": "48BR",
-          "sku": "48BRW",
-          "title": "Tube Round Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 2900,
-          "carat": 10.4,
-          "minCarat": 10.4,
-          "diamondCount": 975,
-          "metalWeight": 12.88,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8",
-          "image": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800",
-          "gallery": [
+            },
             {
-              "id": "1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8",
-              "full": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1FFsuq4Sif2z1mVqukFOeDMpd8KDV_SZ8&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "48BR",
-          "sku": "48BRY",
-          "title": "Tube Round Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 2900,
-          "carat": 10.4,
-          "minCarat": 10.4,
-          "diamondCount": 975,
-          "metalWeight": 12.88,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t",
-          "image": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w800",
-          "gallery": [
-            {
-              "id": "1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t",
-              "full": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1V4lmnJiNqVv7Ljz0oZEvlqRpy2VPdb1t&sz=w800"
+              "id": "14ayuYe6edlHyN69FL3Ud_BjetLrf140-",
+              "full": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w800"
             }
           ],
           "video": null
@@ -2618,8 +2708,8 @@
     },
     {
       "id": "20BR",
-      "slug": "13-cts-pear-prong-tennis-bracelet-20br",
-      "title": "13 CTS Pear Prong Tennis Bracelet",
+      "slug": "14-cts-pear-prong-tennis-bracelet-20br",
+      "title": "14 CTS Pear Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -2629,29 +2719,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 14,
-      "minCarat": 13.2,
-      "diamondCount": 44,
+      "carat": 15,
+      "minCarat": 14,
+      "diamondCount": 46,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 2800,
       "priceTo": 2800,
-      "caratFrom": 14,
+      "caratFrom": 15,
       "image": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800",
       "variants": [
         {
           "designId": "20BR",
           "sku": "20BRW",
-          "title": "13 CTS Pear Prong Tennis Bracelet",
+          "title": "14 CTS Pear Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 2800,
-          "carat": 14,
-          "minCarat": 13.2,
-          "diamondCount": 44,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 46,
           "metalWeight": 11.82,
           "shape": "Pear",
           "colour": "E-F",
@@ -2667,6 +2757,11 @@
               "id": "1aLf-xxas-Uh1FdJxWL841869eMl_G1a0",
               "full": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800"
+            },
+            {
+              "id": "1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi",
+              "full": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w800"
             }
           ],
           "video": null
@@ -2674,13 +2769,13 @@
         {
           "designId": "20BR",
           "sku": "20BRY",
-          "title": "13 CTS Pear Prong Tennis Bracelet",
+          "title": "14 CTS Pear Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 2800,
-          "carat": 14,
-          "minCarat": 13.2,
-          "diamondCount": 44,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 46,
           "metalWeight": 11.82,
           "shape": "Pear",
           "colour": "E-F",
@@ -2696,6 +2791,11 @@
               "id": "1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG",
               "full": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w800"
+            },
+            {
+              "id": "1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh",
+              "full": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w800"
             }
           ],
           "video": null
@@ -2753,6 +2853,11 @@
               "id": "11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5",
               "full": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800"
+            },
+            {
+              "id": "1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu",
+              "full": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w800"
             }
           ],
           "video": null
@@ -2782,6 +2887,11 @@
               "id": "1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw",
               "full": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w800"
+            },
+            {
+              "id": "1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49",
+              "full": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w800"
             }
           ],
           "video": null
@@ -2839,6 +2949,11 @@
               "id": "1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue",
               "full": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800"
+            },
+            {
+              "id": "1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD",
+              "full": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w800"
             }
           ],
           "video": null
@@ -2868,6 +2983,11 @@
               "id": "1YCr2xTpM2cKPzFgby0eFubGUswPVcONu",
               "full": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w800"
+            },
+            {
+              "id": "1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ",
+              "full": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w800"
             }
           ],
           "video": null
@@ -2876,8 +2996,8 @@
     },
     {
       "id": "43BR",
-      "slug": "11-cts-marquise-prong-tennis-bracelet-43br",
-      "title": "11 CTS Marquise Prong Tennis Bracelet",
+      "slug": "20-cts-marquise-prong-tennis-bracelet-43br",
+      "title": "20 CTS Marquise Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -2887,29 +3007,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 11.5,
-      "minCarat": 18,
-      "diamondCount": 37,
+      "carat": 21,
+      "minCarat": 20,
+      "diamondCount": 39,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 2650,
       "priceTo": 2650,
-      "caratFrom": 11.5,
+      "caratFrom": 21,
       "image": "https://drive.google.com/thumbnail?id=1qtB2rAPRPyuASldeoyBZ6ivMsfGquv0O&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1qtB2rAPRPyuASldeoyBZ6ivMsfGquv0O&sz=w800",
       "variants": [
         {
           "designId": "43BR",
           "sku": "43BRW",
-          "title": "11 CTS Marquise Prong Tennis Bracelet",
+          "title": "20 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 2650,
-          "carat": 11.5,
-          "minCarat": 18,
-          "diamondCount": 37,
+          "carat": 21,
+          "minCarat": 20,
+          "diamondCount": 39,
           "metalWeight": 10.884,
           "shape": "Marquise",
           "colour": "E-F",
@@ -2932,13 +3052,13 @@
         {
           "designId": "43BR",
           "sku": "43BRY",
-          "title": "11 CTS Marquise Prong Tennis Bracelet",
+          "title": "20 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 2650,
-          "carat": 11.5,
-          "minCarat": 18,
-          "diamondCount": 37,
+          "carat": 21,
+          "minCarat": 20,
+          "diamondCount": 39,
           "metalWeight": 10.884,
           "shape": "Marquise",
           "colour": "E-F",
@@ -3097,6 +3217,11 @@
               "id": "13QyHY1tO-YKtoxoyN8_9Y6R7b7zJVV6B",
               "full": "https://drive.google.com/thumbnail?id=13QyHY1tO-YKtoxoyN8_9Y6R7b7zJVV6B&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=13QyHY1tO-YKtoxoyN8_9Y6R7b7zJVV6B&sz=w800"
+            },
+            {
+              "id": "18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ",
+              "full": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w800"
             }
           ],
           "video": null
@@ -3126,6 +3251,11 @@
               "id": "1o4ycTK_ZCnnKBagl0yRWEghOVZ23HsS_",
               "full": "https://drive.google.com/thumbnail?id=1o4ycTK_ZCnnKBagl0yRWEghOVZ23HsS_&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1o4ycTK_ZCnnKBagl0yRWEghOVZ23HsS_&sz=w800"
+            },
+            {
+              "id": "1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX",
+              "full": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w800"
             }
           ],
           "video": null
@@ -3134,8 +3264,8 @@
     },
     {
       "id": "44BR",
-      "slug": "8-cts-marquise-prong-tennis-bracelet-44br",
-      "title": "8 CTS Marquise Prong Tennis Bracelet",
+      "slug": "13-cts-marquise-prong-tennis-bracelet-44br",
+      "title": "13 CTS Marquise Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -3145,29 +3275,29 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 8.5,
-      "minCarat": 8,
-      "diamondCount": 42,
+      "carat": 14,
+      "minCarat": 13,
+      "diamondCount": 43,
       "metalColours": [
         "White",
         "Yellow"
       ],
       "priceFrom": 2200,
       "priceTo": 2200,
-      "caratFrom": 8.5,
+      "caratFrom": 14,
       "image": "https://drive.google.com/thumbnail?id=1_izf-l8ce_Qogs89mr4KwDNc8wtdbNsf&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1_izf-l8ce_Qogs89mr4KwDNc8wtdbNsf&sz=w800",
       "variants": [
         {
           "designId": "44BR",
           "sku": "44BRW",
-          "title": "8 CTS Marquise Prong Tennis Bracelet",
+          "title": "13 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
           "price": 2200,
-          "carat": 8.5,
-          "minCarat": 8,
-          "diamondCount": 42,
+          "carat": 14,
+          "minCarat": 13,
+          "diamondCount": 43,
           "metalWeight": 10.4,
           "shape": "Marquise",
           "colour": "E-F",
@@ -3190,13 +3320,13 @@
         {
           "designId": "44BR",
           "sku": "44BRY",
-          "title": "8 CTS Marquise Prong Tennis Bracelet",
+          "title": "13 CTS Marquise Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
           "price": 2200,
-          "carat": 8.5,
-          "minCarat": 8,
-          "diamondCount": 42,
+          "carat": 14,
+          "minCarat": 13,
+          "diamondCount": 43,
           "metalWeight": 10.4,
           "shape": "Marquise",
           "colour": "E-F",
@@ -3232,7 +3362,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 10.1,
-      "minCarat": 10.01,
+      "minCarat": 10,
       "diamondCount": 38,
       "metalColours": [
         "White",
@@ -3252,7 +3382,7 @@
           "metal": "14K Gold",
           "price": 1850,
           "carat": 10.1,
-          "minCarat": 10.01,
+          "minCarat": 10,
           "diamondCount": 38,
           "metalWeight": 7.714,
           "shape": "Mix",
@@ -3281,7 +3411,7 @@
           "metal": "14K Gold",
           "price": 1850,
           "carat": 10.1,
-          "minCarat": 10.01,
+          "minCarat": 10,
           "diamondCount": 38,
           "metalWeight": 7.714,
           "shape": "Mix",
@@ -3355,6 +3485,11 @@
               "id": "1BdneDSpR6py-XpstMvOxNtjGdvo1dF74",
               "full": "https://drive.google.com/thumbnail?id=1BdneDSpR6py-XpstMvOxNtjGdvo1dF74&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1BdneDSpR6py-XpstMvOxNtjGdvo1dF74&sz=w800"
+            },
+            {
+              "id": "1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV",
+              "full": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w800"
             }
           ],
           "video": null
@@ -3384,6 +3519,11 @@
               "id": "1SRmvlWwyy9z31MTTTjF-XxfRbMpg8WIh",
               "full": "https://drive.google.com/thumbnail?id=1SRmvlWwyy9z31MTTTjF-XxfRbMpg8WIh&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1SRmvlWwyy9z31MTTTjF-XxfRbMpg8WIh&sz=w800"
+            },
+            {
+              "id": "10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI",
+              "full": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w800"
             }
           ],
           "video": null
@@ -3404,7 +3544,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 7.1,
-      "minCarat": 7.01,
+      "minCarat": 7,
       "diamondCount": 36,
       "metalColours": [
         "White",
@@ -3424,7 +3564,7 @@
           "metal": "14K Gold",
           "price": 1500,
           "carat": 7.1,
-          "minCarat": 7.01,
+          "minCarat": 7,
           "diamondCount": 36,
           "metalWeight": 8.148,
           "shape": "Mix",
@@ -3453,7 +3593,7 @@
           "metal": "14K Gold",
           "price": 1500,
           "carat": 7.1,
-          "minCarat": 7.01,
+          "minCarat": 7,
           "diamondCount": 36,
           "metalWeight": 8.148,
           "shape": "Mix",
@@ -3527,6 +3667,11 @@
               "id": "1Sdr1Z9s_I23UFaayVcunmqoTUkrLYXNl",
               "full": "https://drive.google.com/thumbnail?id=1Sdr1Z9s_I23UFaayVcunmqoTUkrLYXNl&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1Sdr1Z9s_I23UFaayVcunmqoTUkrLYXNl&sz=w800"
+            },
+            {
+              "id": "1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa",
+              "full": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w800"
             }
           ],
           "video": null
@@ -3556,6 +3701,11 @@
               "id": "1c0Vr6FU69Y0WvDKGMYJKHAWuYMDNzSSx",
               "full": "https://drive.google.com/thumbnail?id=1c0Vr6FU69Y0WvDKGMYJKHAWuYMDNzSSx&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1c0Vr6FU69Y0WvDKGMYJKHAWuYMDNzSSx&sz=w800"
+            },
+            {
+              "id": "1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg",
+              "full": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w800"
             }
           ],
           "video": null
@@ -3576,7 +3726,7 @@
       "origin": "Lab Grown",
       "size": "7 INCH",
       "carat": 5.2,
-      "minCarat": 5.01,
+      "minCarat": 5,
       "diamondCount": 36,
       "metalColours": [
         "White",
@@ -3596,7 +3746,7 @@
           "metal": "14K Gold",
           "price": 1250,
           "carat": 5.2,
-          "minCarat": 5.01,
+          "minCarat": 5,
           "diamondCount": 36,
           "metalWeight": 6.752,
           "shape": "Mix",
@@ -3625,7 +3775,7 @@
           "metal": "14K Gold",
           "price": 1250,
           "carat": 5.2,
-          "minCarat": 5.01,
+          "minCarat": 5,
           "diamondCount": 36,
           "metalWeight": 6.752,
           "shape": "Mix",
@@ -3699,6 +3849,11 @@
               "id": "1qLlnjsbpwlYEpChAfucqihyVs-exzL3V",
               "full": "https://drive.google.com/thumbnail?id=1qLlnjsbpwlYEpChAfucqihyVs-exzL3V&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1qLlnjsbpwlYEpChAfucqihyVs-exzL3V&sz=w800"
+            },
+            {
+              "id": "11EEq2LVD8hUwIbFTQ3ms-msbZLegZbMv",
+              "full": "https://drive.google.com/thumbnail?id=11EEq2LVD8hUwIbFTQ3ms-msbZLegZbMv&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=11EEq2LVD8hUwIbFTQ3ms-msbZLegZbMv&sz=w800"
             }
           ],
           "video": null
@@ -3728,6 +3883,11 @@
               "id": "1zM8eu9Qip25c8HH8fYYzOpfxJuxKthNV",
               "full": "https://drive.google.com/thumbnail?id=1zM8eu9Qip25c8HH8fYYzOpfxJuxKthNV&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1zM8eu9Qip25c8HH8fYYzOpfxJuxKthNV&sz=w800"
+            },
+            {
+              "id": "1CKpCI8uKPtboACsbcKGt1YUymoAvmkF3",
+              "full": "https://drive.google.com/thumbnail?id=1CKpCI8uKPtboACsbcKGt1YUymoAvmkF3&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1CKpCI8uKPtboACsbcKGt1YUymoAvmkF3&sz=w800"
             }
           ],
           "video": null
@@ -3785,6 +3945,11 @@
               "id": "1HvTpEdP7UQXQUeYJGIUCbzoQcg2zcD2q",
               "full": "https://drive.google.com/thumbnail?id=1HvTpEdP7UQXQUeYJGIUCbzoQcg2zcD2q&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1HvTpEdP7UQXQUeYJGIUCbzoQcg2zcD2q&sz=w800"
+            },
+            {
+              "id": "1yCBSBMXS3i114F-UpaL0FJQmwEZ9RxVL",
+              "full": "https://drive.google.com/thumbnail?id=1yCBSBMXS3i114F-UpaL0FJQmwEZ9RxVL&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1yCBSBMXS3i114F-UpaL0FJQmwEZ9RxVL&sz=w800"
             }
           ],
           "video": null
@@ -3814,6 +3979,11 @@
               "id": "1IeZV9oMdRVZgMPkGZwE76DjpCB1ca-04",
               "full": "https://drive.google.com/thumbnail?id=1IeZV9oMdRVZgMPkGZwE76DjpCB1ca-04&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1IeZV9oMdRVZgMPkGZwE76DjpCB1ca-04&sz=w800"
+            },
+            {
+              "id": "1Z1ECtGkG6eaopGJC9lBmdjc9D9wlRaBr",
+              "full": "https://drive.google.com/thumbnail?id=1Z1ECtGkG6eaopGJC9lBmdjc9D9wlRaBr&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Z1ECtGkG6eaopGJC9lBmdjc9D9wlRaBr&sz=w800"
             }
           ],
           "video": null
@@ -3871,6 +4041,11 @@
               "id": "1-61lBd_d_QfZb3LaGA9A2vc2lOUP-NgC",
               "full": "https://drive.google.com/thumbnail?id=1-61lBd_d_QfZb3LaGA9A2vc2lOUP-NgC&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1-61lBd_d_QfZb3LaGA9A2vc2lOUP-NgC&sz=w800"
+            },
+            {
+              "id": "15vCFdVM2T6ewkt0VhtjVjcn2bQUZRXTl",
+              "full": "https://drive.google.com/thumbnail?id=15vCFdVM2T6ewkt0VhtjVjcn2bQUZRXTl&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=15vCFdVM2T6ewkt0VhtjVjcn2bQUZRXTl&sz=w800"
             }
           ],
           "video": null
@@ -3900,92 +4075,11 @@
               "id": "1AEdBlS0oc01f6QRRwtJc-1shidQuA6k_",
               "full": "https://drive.google.com/thumbnail?id=1AEdBlS0oc01f6QRRwtJc-1shidQuA6k_&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1AEdBlS0oc01f6QRRwtJc-1shidQuA6k_&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "32BR",
-      "slug": "3-cts-all-mix-fancy-bracelet-32br",
-      "title": "3 CTS All Mix Fancy Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Mix",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 3.2,
-      "minCarat": 3.01,
-      "diamondCount": 34,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 900,
-      "priceTo": 900,
-      "caratFrom": 3.2,
-      "image": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w800",
-      "variants": [
-        {
-          "designId": "32BR",
-          "sku": "32BRW",
-          "title": "3 CTS All Mix Fancy Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 900,
-          "carat": 3.2,
-          "minCarat": 3.01,
-          "diamondCount": 34,
-          "metalWeight": 5.726,
-          "shape": "Mix",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_",
-          "image": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w800",
-          "gallery": [
+            },
             {
-              "id": "1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_",
-              "full": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1FT9_xuNS6VxNPwqFbGuhYrJb_XlMi2M_&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "32BR",
-          "sku": "32BRY",
-          "title": "3 CTS All Mix Fancy Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 900,
-          "carat": 3.2,
-          "minCarat": 3.01,
-          "diamondCount": 34,
-          "metalWeight": 5.726,
-          "shape": "Mix",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0",
-          "image": "https://drive.google.com/thumbnail?id=1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0&sz=w800",
-          "gallery": [
-            {
-              "id": "1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0",
-              "full": "https://drive.google.com/thumbnail?id=1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Io-f9qvRNdHNIrg3JGYhpBoMHD0eLM_0&sz=w800"
+              "id": "1_59WJWTN8D8IiLcs0faMb5KX3KsxvHDE",
+              "full": "https://drive.google.com/thumbnail?id=1_59WJWTN8D8IiLcs0faMb5KX3KsxvHDE&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1_59WJWTN8D8IiLcs0faMb5KX3KsxvHDE&sz=w800"
             }
           ],
           "video": null
@@ -4043,6 +4137,11 @@
               "id": "1dDMWXqHjnq1xtG4AX9biaCxmG7O54Qsh",
               "full": "https://drive.google.com/thumbnail?id=1dDMWXqHjnq1xtG4AX9biaCxmG7O54Qsh&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1dDMWXqHjnq1xtG4AX9biaCxmG7O54Qsh&sz=w800"
+            },
+            {
+              "id": "1VKnql-LXWus4rubszFsERgYvbMF8CTUr",
+              "full": "https://drive.google.com/thumbnail?id=1VKnql-LXWus4rubszFsERgYvbMF8CTUr&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1VKnql-LXWus4rubszFsERgYvbMF8CTUr&sz=w800"
             }
           ],
           "video": null
@@ -4072,6 +4171,11 @@
               "id": "10YlW2jxPLSudtsW7ovMK4yzFqF_JWJx3",
               "full": "https://drive.google.com/thumbnail?id=10YlW2jxPLSudtsW7ovMK4yzFqF_JWJx3&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=10YlW2jxPLSudtsW7ovMK4yzFqF_JWJx3&sz=w800"
+            },
+            {
+              "id": "1AYK7ENWFRUciTQrwSrQrLfIcKPGDP2P6",
+              "full": "https://drive.google.com/thumbnail?id=1AYK7ENWFRUciTQrwSrQrLfIcKPGDP2P6&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1AYK7ENWFRUciTQrwSrQrLfIcKPGDP2P6&sz=w800"
             }
           ],
           "video": null
@@ -4129,6 +4233,11 @@
               "id": "1QD_xrgT3Thr-boG69lYE05w9TrbIi0oV",
               "full": "https://drive.google.com/thumbnail?id=1QD_xrgT3Thr-boG69lYE05w9TrbIi0oV&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1QD_xrgT3Thr-boG69lYE05w9TrbIi0oV&sz=w800"
+            },
+            {
+              "id": "1NUnVvUdy9huAtiWdEh54TxPP7hRPOKhP",
+              "full": "https://drive.google.com/thumbnail?id=1NUnVvUdy9huAtiWdEh54TxPP7hRPOKhP&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1NUnVvUdy9huAtiWdEh54TxPP7hRPOKhP&sz=w800"
             }
           ],
           "video": null
@@ -4158,8 +4267,87 @@
               "id": "1DMoyCZTuYjWYB46E7h9hZZnso0c65MNv",
               "full": "https://drive.google.com/thumbnail?id=1DMoyCZTuYjWYB46E7h9hZZnso0c65MNv&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1DMoyCZTuYjWYB46E7h9hZZnso0c65MNv&sz=w800"
+            },
+            {
+              "id": "1vV2d-M43SnWdzHtJnQzXKxB07U4R-WLh",
+              "full": "https://drive.google.com/thumbnail?id=1vV2d-M43SnWdzHtJnQzXKxB07U4R-WLh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1vV2d-M43SnWdzHtJnQzXKxB07U4R-WLh&sz=w800"
             }
           ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "55BR",
+      "slug": "15-cts-all-mix-fancy-bracelet-55br",
+      "title": "15 CTS All Mix Fancy Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Mix",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 15.5,
+      "minCarat": 15,
+      "diamondCount": 34,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": null,
+      "priceTo": null,
+      "caratFrom": 15.5,
+      "image": null,
+      "thumbnail": null,
+      "variants": [
+        {
+          "designId": "55BR",
+          "sku": "55BRW",
+          "title": "15 CTS All Mix Fancy Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": null,
+          "carat": 15.5,
+          "minCarat": 15,
+          "diamondCount": 34,
+          "metalWeight": null,
+          "shape": "Mix",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "",
+          "image": null,
+          "thumbnail": null,
+          "gallery": [],
+          "video": null
+        },
+        {
+          "designId": "55BR",
+          "sku": "55BRY",
+          "title": "15 CTS All Mix Fancy Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": null,
+          "carat": 15.5,
+          "minCarat": 15,
+          "diamondCount": 34,
+          "metalWeight": null,
+          "shape": "Mix",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "",
+          "image": null,
+          "thumbnail": null,
+          "gallery": [],
           "video": null
         }
       ]

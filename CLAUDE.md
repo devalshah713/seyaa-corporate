@@ -44,7 +44,7 @@ to be trusted — it holds the metal colour.
 | SKU | SKU |
 | Metal | `14K GOLD` |
 | IMAGE 1 / IMAGE 2 | Image link(s); either may hold more than one |
-| VIDEO 1 | Video link — present but empty everywhere so far |
+| VIDEO 1 | Video link — present but empty everywhere so far, and no UI yet |
 | Total Diamonds weight … origin | Carat, min carat, shape, count, colour, clarity, metal weight, design type, size, price, origin |
 
 Tabs are matched by pattern too (`Hoops Earrings` became `Earrings` once and
@@ -72,9 +72,14 @@ products. Always group on the SKU prefix.
 reports problems in the *source sheet* for the team to fix — it never silently
 "corrects" them. Known open issues at last sync:
 
-- 10 photos are shared by unrelated designs (a photo is on the wrong product).
+- `55BRW` and `55BRY` have neither a price nor a photo, so both are on the site
+  reading "On request" with no image. Two rows, not a parse failure — the guard
+  below only trips when the *proportion* collapses.
 - Three hoop designs give different titles to their White and Yellow rows,
   suggesting two carat weights share one SKU number.
+
+The photo-reuse errors are cleared: no photo is now shared by two unrelated
+designs, and no second photo repeats a first.
 
 Normalisation that *is* applied automatically: byte-identical duplicate rows are
 dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing
@@ -90,6 +95,14 @@ Next.js (App Router, SSG) + Tailwind. Every product page is prerendered.
   the maintained spreadsheet libraries on npm carry unpatched advisories, and
   this code runs unattended in CI. It is validated against openpyxl.
 - `src/lib/catalogue.ts` — typed access plus the plain-English glossary
+- `src/components/PieceGallery.tsx` — the swipeable product gallery. Movement is
+  native CSS scroll-snap (`.swipe-track`), never a JS gesture handler: that buys
+  the platform's own momentum and, critically, lets a drag that starts out
+  vertical scroll the page instead of being swallowed by the carousel. The
+  active index is *derived from* `scrollLeft` rather than stored alongside it,
+  so the thumbnails and counter cannot disagree with what is on screen. Remount
+  it (`key={variant.sku}`) when the metal colour changes so the scroll position
+  does not carry over to a different set of photographs.
 - Theme: `:root` in `globals.css` is the white brand palette; setting
   `data-theme="charcoal"` on `<html>` flips the whole site. White is the
   default **because every packshot is shot on pure white** — on a dark ground

@@ -4,7 +4,7 @@ A showcase catalogue of 14K gold lab-grown diamond jewellery for corporate
 partners. Photos, full specifications and prices — no cart, no checkout.
 Buyers note a SKU and enquire.
 
-**199 designs · 375 SKUs · 6 categories**
+**196 designs · 368 SKUs · 6 categories**
 
 ---
 
@@ -33,7 +33,7 @@ npm install
 
 npm run sync     # pull the latest sheet into data/products.json
 npm run dev      # local preview at http://localhost:3000
-npm run build    # production build (prerenders all 199 product pages)
+npm run build    # production build (prerenders every product page)
 ```
 
 The sync also writes `data/data-health.json` — a list of problems found in the
@@ -45,10 +45,16 @@ It reports them rather than silently patching them, so the source can be fixed.
 1. Add a row to the correct tab in the sheet — one row per metal colour.
 2. SKU must be `<number><type><colour>`, e.g. `52BRW` (White) and `52BRY`
    (Yellow). The number ties the colours together into one product page.
-3. Upload the photo to the shared Drive folder and paste its link into the
-   **gallery** column. More than one link in that cell becomes an image gallery.
+3. Upload the photo to the shared Drive folder and paste its link into
+   **IMAGE 1**. A second angle goes in **IMAGE 2** — the product page then
+   becomes a gallery the customer can swipe through, with thumbnails, arrows
+   and a counter. (More than one link in a single cell works too.)
 4. The site updates itself the next morning, or run the *Sync catalogue*
    workflow from the Actions tab to publish immediately.
+
+Every photo must be shared as *anyone with the link can view*, the same as the
+sheet. A photo that is not shared is not a broken build — it is a broken image
+on a live product page, which nothing else will catch.
 
 ## Pages
 

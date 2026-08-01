@@ -80,6 +80,21 @@
     background: rgb(var(--image-well));
   }
 
+  /* A horizontally swipeable strip of full-width slides. Native scroll-snap
+     is deliberate: the platform's own momentum and rubber-banding are most of
+     what makes a swipe feel right, and a drag that begins vertically still
+     scrolls the page rather than being captured here. The scrollbar is hidden
+     because the photographs, the arrows and the counter already say there is
+     more to see. */
+  .swipe-track {
+    @apply flex snap-x snap-mandatory scroll-smooth overflow-x-auto overflow-y-hidden overscroll-x-contain;
+    scrollbar-width: none;
+  }
+
+  .swipe-track::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Thin brand-orange rule used as a section divider. */
   .rule-gold::after {
     content: '';

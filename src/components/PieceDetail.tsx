@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import {
   METAL_SWATCHES,
@@ -12,6 +11,7 @@ import {
 } from '@/lib/catalogue'
 import { buildEnquiryMessage, useEnquiry } from '@/lib/enquiry'
 import { hasWhatsApp, whatsappHref } from '@/lib/contact'
+import PieceGallery from './PieceGallery'
 import WhatsAppIcon from './WhatsAppIcon'
 
 /**
@@ -29,19 +29,10 @@ function cutPhrase(shape: string) {
 
 export default function PieceDetail({ design }: { design: Design }) {
   const [variantIndex, setVariantIndex] = useState(0)
-  const [imageIndex, setImageIndex] = useState(0)
   const { toggle, has, count, ready } = useEnquiry()
 
   const variant = design.variants[variantIndex] ?? design.variants[0]
-  const gallery = variant.gallery?.length ? variant.gallery : []
-  const active = gallery[imageIndex] ?? gallery[0]
-
   const inList = has(variant.sku)
-
-  const selectVariant = (index: number) => {
-    setVariantIndex(index)
-    setImageIndex(0)
-  }
 
   const specs: { label: string; value: string; hint?: string }[] = [
     { label: 'SKU', value: variant.sku },
@@ -74,43 +65,15 @@ export default function PieceDetail({ design }: { design: Design }) {
   return (
     <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
       {/* --------------------------------------------------------- imagery */}
-      <div>
-        <div className="well aspect-square">
-          {active ? (
-            <Image
-              key={active.id}
-              src={active.full}
-              alt={`${design.title} in ${variant.metalColour} gold`}
-              fill
-              priority
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="animate-rise object-contain p-6 sm:p-10"
-            />
-          ) : (
-            <div className="flex h-full items-center justify-center text-sm text-bone-dim">
-              Photography coming soon
-            </div>
-          )}
-        </div>
-
-        {gallery.length > 1 && (
-          <div className="mt-4 flex gap-3">
-            {gallery.map((image, i) => (
-              <button
-                key={image.id}
-                onClick={() => setImageIndex(i)}
-                aria-label={`View image ${i + 1}`}
-                aria-pressed={i === imageIndex}
-                className={`relative aspect-square w-20 overflow-hidden bg-ink-soft transition-colors ${
-                  i === imageIndex ? 'ring-1 ring-gold' : 'ring-1 ring-ink-line hover:ring-gold/40'
-                }`}
-              >
-                <Image src={image.thumb} alt="" fill sizes="80px" className="object-contain p-1.5" />
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
+      {/* Keyed on the SKU so switching metal colour rewinds the gallery to the
+          first shot — of the new colour — instead of holding a scroll offset
+          that belonged to the old one. */}
+      <PieceGallery
+        key={variant.sku}
+        images={variant.gallery ?? []}
+        title={design.title}
+        metalColour={variant.metalColour}
+      />
 
       {/* ----------------------------------------------------------- detail */}
       <div>
@@ -136,7 +99,7 @@ export default function PieceDetail({ design }: { design: Design }) {
               {design.variants.map((v, i) => (
                 <button
                   key={v.sku}
-                  onClick={() => selectVariant(i)}
+                  onClick={() => setVariantIndex(i)}
                   aria-pressed={i === variantIndex}
                   title={`${v.metalColour} gold — ${v.sku}`}
                   className={`flex items-center gap-2.5 border px-4 py-2.5 text-sm transition-colors ${
