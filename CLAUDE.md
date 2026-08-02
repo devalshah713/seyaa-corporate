@@ -80,14 +80,15 @@ change back, and a permanent redirect would be cached in the browser past that.
 reports problems in the *source sheet* for the team to fix — it never silently
 "corrects" them. Known open issues at last sync:
 
-- `55BRW` and `55BRY` have neither a price nor a photo, so both are on the site
-  reading "On request" with no image. Two rows, not a parse failure — the guard
-  below only trips when the *proportion* collapses.
+- `55BRW` and `55BRY` have a photo now but still no price, so both read
+  "On request". Two rows, not a parse failure — the guard below only trips when
+  the *proportion* collapses.
+- One photo (`1BYvT29…`) sits in `IMAGE 1` for five SKUs across three unrelated
+  designs — 21BRY, 22BRW, 22BRY, 23BRW, 23BRY, the 2/3/4 CTS Round Tennis
+  Bracelets. Their `IMAGE 2` values are all distinct, so it is the first photo
+  that was copy-pasted, and `IMAGE 1` is what the collection grid shows.
 - Three hoop designs give different titles to their White and Yellow rows,
   suggesting two carat weights share one SKU number.
-
-The photo-reuse errors are cleared: no photo is now shared by two unrelated
-designs, and no second photo repeats a first.
 
 Normalisation that *is* applied automatically: byte-identical duplicate rows are
 dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing

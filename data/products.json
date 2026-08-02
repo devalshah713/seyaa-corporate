@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:32:19.296Z",
+  "generatedAt": "2026-08-02T12:37:15.829Z",
   "source": {
     "sheetId": "1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U",
     "title": "JEWELERY PORTAL"
@@ -156,102 +156,6 @@
               "id": "1Jn6tbkbIXnkcUHbagrrA7rZUYgz0isQ5",
               "full": "https://drive.google.com/thumbnail?id=1Jn6tbkbIXnkcUHbagrrA7rZUYgz0isQ5&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1Jn6tbkbIXnkcUHbagrrA7rZUYgz0isQ5&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "13BR",
-      "slug": "33-cts-emerald-prong-tennis-bracelet-13br",
-      "title": "33 CTS Emerald Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Emerald",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 34.5,
-      "minCarat": 33,
-      "diamondCount": 33,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 5900,
-      "priceTo": 5900,
-      "caratFrom": 34.5,
-      "image": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800",
-      "variants": [
-        {
-          "designId": "13BR",
-          "sku": "13BRW",
-          "title": "33 CTS Emerald Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 5900,
-          "carat": 34.5,
-          "minCarat": 33,
-          "diamondCount": 33,
-          "metalWeight": 15.51,
-          "shape": "Emerald",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5",
-          "image": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800",
-          "gallery": [
-            {
-              "id": "1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5",
-              "full": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800"
-            },
-            {
-              "id": "1H1BefOmeGaXt009yGjk62XMdeQY8u0hI",
-              "full": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "13BR",
-          "sku": "13BRY",
-          "title": "33 CTS Emerald Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 5900,
-          "carat": 34.5,
-          "minCarat": 33,
-          "diamondCount": 33,
-          "metalWeight": 13.009,
-          "shape": "Emerald",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk",
-          "image": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w800",
-          "gallery": [
-            {
-              "id": "1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk",
-              "full": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w800"
-            },
-            {
-              "id": "14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG",
-              "full": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w800"
             }
           ],
           "video": null
@@ -451,102 +355,6 @@
       ]
     },
     {
-      "id": "5BR",
-      "slug": "32-cts-oval-prong-tennis-bracelet-5br",
-      "title": "32 CTS Oval Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Oval",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 32,
-      "minCarat": 31,
-      "diamondCount": 31,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 5600,
-      "priceTo": 5600,
-      "caratFrom": 32,
-      "image": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800",
-      "variants": [
-        {
-          "designId": "5BR",
-          "sku": "5BRW",
-          "title": "32 CTS Oval Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 5600,
-          "carat": 32,
-          "minCarat": 31,
-          "diamondCount": 31,
-          "metalWeight": 12.81,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG",
-          "image": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800",
-          "gallery": [
-            {
-              "id": "1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG",
-              "full": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800"
-            },
-            {
-              "id": "1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA",
-              "full": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "5BR",
-          "sku": "5BRY",
-          "title": "32 CTS Oval Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 5600,
-          "carat": 32,
-          "minCarat": 31,
-          "diamondCount": 31,
-          "metalWeight": 12.695,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf",
-          "image": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w800",
-          "gallery": [
-            {
-              "id": "1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf",
-              "full": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w800"
-            },
-            {
-              "id": "1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk",
-              "full": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
       "id": "9BR",
       "slug": "31-cts-emerald-bezel-tennis-bracelet-9br",
       "title": "31 CTS Emerald Bezel Tennis Bracelet",
@@ -636,102 +444,6 @@
               "id": "1_-2v4upwzE_6lfGQyw3aKO50h13bK89Q",
               "full": "https://drive.google.com/thumbnail?id=1_-2v4upwzE_6lfGQyw3aKO50h13bK89Q&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1_-2v4upwzE_6lfGQyw3aKO50h13bK89Q&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "17BR",
-      "slug": "34-cts-pear-prong-tennis-bracelet-17br",
-      "title": "34 CTS Pear Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Pear",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 35.5,
-      "minCarat": 34,
-      "diamondCount": 34,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 5200,
-      "priceTo": 5200,
-      "caratFrom": 35.5,
-      "image": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800",
-      "variants": [
-        {
-          "designId": "17BR",
-          "sku": "17BRW",
-          "title": "34 CTS Pear Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 5200,
-          "carat": 35.5,
-          "minCarat": 34,
-          "diamondCount": 34,
-          "metalWeight": 12.14,
-          "shape": "Pear",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw",
-          "image": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800",
-          "gallery": [
-            {
-              "id": "1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw",
-              "full": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800"
-            },
-            {
-              "id": "1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2",
-              "full": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "17BR",
-          "sku": "17BRY",
-          "title": "34 CTS Pear Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 5200,
-          "carat": 35.5,
-          "minCarat": 34,
-          "diamondCount": 34,
-          "metalWeight": 12.14,
-          "shape": "Pear",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q",
-          "image": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w800",
-          "gallery": [
-            {
-              "id": "1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q",
-              "full": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w800"
-            },
-            {
-              "id": "1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga",
-              "full": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w800"
             }
           ],
           "video": null
@@ -1209,198 +921,6 @@
       ]
     },
     {
-      "id": "14BR",
-      "slug": "28-cts-emerald-prong-tennis-bracelet-14br",
-      "title": "28 CTS Emerald Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Emerald",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 29.5,
-      "minCarat": 28.5,
-      "diamondCount": 38,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 4700,
-      "priceTo": 4700,
-      "caratFrom": 29.5,
-      "image": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800",
-      "variants": [
-        {
-          "designId": "14BR",
-          "sku": "14BRW",
-          "title": "28 CTS Emerald Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 4700,
-          "carat": 29.5,
-          "minCarat": 28.5,
-          "diamondCount": 38,
-          "metalWeight": 12.8,
-          "shape": "Emerald",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1-9Few5QmxPFOjoKY7nkY80WvME6tchBa",
-          "image": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800",
-          "gallery": [
-            {
-              "id": "1-9Few5QmxPFOjoKY7nkY80WvME6tchBa",
-              "full": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800"
-            },
-            {
-              "id": "1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9",
-              "full": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "14BR",
-          "sku": "14BRY",
-          "title": "28 CTS Emerald Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 4700,
-          "carat": 29.5,
-          "minCarat": 28.5,
-          "diamondCount": 38,
-          "metalWeight": 12.8,
-          "shape": "Emerald",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt",
-          "image": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w800",
-          "gallery": [
-            {
-              "id": "1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt",
-              "full": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w800"
-            },
-            {
-              "id": "1KIS_017aCOyy1yiKrFDgNotE2PjnrDql",
-              "full": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "6BR",
-      "slug": "26-cts-oval-prong-tennis-bracelet-6br",
-      "title": "26 CTS Oval Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Oval",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 27,
-      "minCarat": 26,
-      "diamondCount": 35,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 4550,
-      "priceTo": 4550,
-      "caratFrom": 27,
-      "image": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800",
-      "variants": [
-        {
-          "designId": "6BR",
-          "sku": "6BRW",
-          "title": "26 CTS Oval Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 4550,
-          "carat": 27,
-          "minCarat": 26,
-          "diamondCount": 35,
-          "metalWeight": 11.342,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-",
-          "image": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800",
-          "gallery": [
-            {
-              "id": "1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-",
-              "full": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800"
-            },
-            {
-              "id": "1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz",
-              "full": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "6BR",
-          "sku": "6BRY",
-          "title": "26 CTS Oval Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 4550,
-          "carat": 27,
-          "minCarat": 26,
-          "diamondCount": 35,
-          "metalWeight": 11.342,
-          "shape": "Oval",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-",
-          "image": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w800",
-          "gallery": [
-            {
-              "id": "1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-",
-              "full": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w800"
-            },
-            {
-              "id": "1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq",
-              "full": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
       "id": "31BR",
       "slug": "13-cts-color-diamond-all-mix-fancy-bracelet-31br",
       "title": "13 CTS Color Diamond All Mix Fancy Bracelet",
@@ -1497,9 +1017,105 @@
       ]
     },
     {
-      "id": "18BR",
-      "slug": "27-cts-pear-prong-tennis-bracelet-18br",
-      "title": "27 CTS Pear Prong Tennis Bracelet",
+      "id": "13BR",
+      "slug": "33-cts-emerald-prong-tennis-bracelet-13br",
+      "title": "33 CTS Emerald Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Emerald",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 34.5,
+      "minCarat": 33,
+      "diamondCount": 33,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 3986.91,
+      "priceTo": 4239.51,
+      "caratFrom": 34.5,
+      "image": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800",
+      "variants": [
+        {
+          "designId": "13BR",
+          "sku": "13BRW",
+          "title": "33 CTS Emerald Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 4239.51,
+          "carat": 34.5,
+          "minCarat": 33,
+          "diamondCount": 33,
+          "metalWeight": 15.51,
+          "shape": "Emerald",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5",
+          "image": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800",
+          "gallery": [
+            {
+              "id": "1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5",
+              "full": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1p8uvfxqTZXG_2t7tjsOJQTMriVbBJzo5&sz=w800"
+            },
+            {
+              "id": "1H1BefOmeGaXt009yGjk62XMdeQY8u0hI",
+              "full": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1H1BefOmeGaXt009yGjk62XMdeQY8u0hI&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "13BR",
+          "sku": "13BRY",
+          "title": "33 CTS Emerald Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 3986.91,
+          "carat": 34.5,
+          "minCarat": 33,
+          "diamondCount": 33,
+          "metalWeight": 13.009,
+          "shape": "Emerald",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk",
+          "image": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w800",
+          "gallery": [
+            {
+              "id": "1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk",
+              "full": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1QUDUJyB6oEAOAHxj9KkL3P32F4-gVodk&sz=w800"
+            },
+            {
+              "id": "14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG",
+              "full": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=14lcTjfQ2GkxYGwWH5azazJVNtwGed-SG&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "17BR",
+      "slug": "34-cts-pear-prong-tennis-bracelet-17br",
+      "title": "34 CTS Pear Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -1509,83 +1125,83 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 28.5,
-      "minCarat": 27,
-      "diamondCount": 36,
+      "carat": 35.5,
+      "minCarat": 34,
+      "diamondCount": 34,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 4300,
-      "priceTo": 4300,
-      "caratFrom": 28.5,
-      "image": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800",
+      "priceFrom": 3980.14,
+      "priceTo": 3980.14,
+      "caratFrom": 35.5,
+      "image": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800",
       "variants": [
         {
-          "designId": "18BR",
-          "sku": "18BRW",
-          "title": "27 CTS Pear Prong Tennis Bracelet",
+          "designId": "17BR",
+          "sku": "17BRW",
+          "title": "34 CTS Pear Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 4300,
-          "carat": 28.5,
-          "minCarat": 27,
-          "diamondCount": 36,
-          "metalWeight": 12,
+          "price": 3980.14,
+          "carat": 35.5,
+          "minCarat": 34,
+          "diamondCount": 34,
+          "metalWeight": 12.14,
           "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1KyxofO0zhOmnQR22YBafsT9wFsZUfChM",
-          "image": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800",
+          "imageId": "1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw",
+          "image": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800",
           "gallery": [
             {
-              "id": "1KyxofO0zhOmnQR22YBafsT9wFsZUfChM",
-              "full": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800"
+              "id": "1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw",
+              "full": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1y0bqSCquxkLfLFaJNvn9JscYkd7DOXcw&sz=w800"
             },
             {
-              "id": "17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt",
-              "full": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w800"
+              "id": "1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2",
+              "full": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1AJatOgE2rWvOOdt7lD5LQKpg5kn1xRr2&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "18BR",
-          "sku": "18BRY",
-          "title": "27 CTS Pear Prong Tennis Bracelet",
+          "designId": "17BR",
+          "sku": "17BRY",
+          "title": "34 CTS Pear Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 4300,
-          "carat": 28.5,
-          "minCarat": 27,
-          "diamondCount": 36,
-          "metalWeight": 12,
+          "price": 3980.14,
+          "carat": 35.5,
+          "minCarat": 34,
+          "diamondCount": 34,
+          "metalWeight": 12.14,
           "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
-          "image": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800",
+          "imageId": "1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q",
+          "image": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w800",
           "gallery": [
             {
-              "id": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
-              "full": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800"
+              "id": "1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q",
+              "full": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1PmHXhZy1-AL0Kbbr3mm7ehsxxL54-l5Q&sz=w800"
             },
             {
-              "id": "1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw",
-              "full": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w800"
+              "id": "1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga",
+              "full": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1RG41oi-BTBxv1QAD3gYnXUl5X5Nr7Mga&sz=w800"
             }
           ],
           "video": null
@@ -1682,6 +1298,102 @@
               "id": "1Vmxle3Hutxl7gozq3jqNw0GVXa13-AeU",
               "full": "https://drive.google.com/thumbnail?id=1Vmxle3Hutxl7gozq3jqNw0GVXa13-AeU&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1Vmxle3Hutxl7gozq3jqNw0GVXa13-AeU&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "5BR",
+      "slug": "32-cts-oval-prong-tennis-bracelet-5br",
+      "title": "32 CTS Oval Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Oval",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 32,
+      "minCarat": 31,
+      "diamondCount": 31,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 3793.2,
+      "priceTo": 3804.81,
+      "caratFrom": 32,
+      "image": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800",
+      "variants": [
+        {
+          "designId": "5BR",
+          "sku": "5BRW",
+          "title": "32 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 3804.81,
+          "carat": 32,
+          "minCarat": 31,
+          "diamondCount": 31,
+          "metalWeight": 12.81,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG",
+          "image": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800",
+          "gallery": [
+            {
+              "id": "1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG",
+              "full": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ItkprPgTLwElcdWGoaIB9wNt0NlnanAG&sz=w800"
+            },
+            {
+              "id": "1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA",
+              "full": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1maFyfXMJFSduPypUAD02ZuNAgkxy-0sA&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "5BR",
+          "sku": "5BRY",
+          "title": "32 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 3793.2,
+          "carat": 32,
+          "minCarat": 31,
+          "diamondCount": 31,
+          "metalWeight": 12.695,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf",
+          "image": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w800",
+          "gallery": [
+            {
+              "id": "1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf",
+              "full": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1K3w2NkwDpnSr5xjq89n5HQ4UtizcxtQf&sz=w800"
+            },
+            {
+              "id": "1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk",
+              "full": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1MO3Paqo39r_eOdzcmHWbCPKv-lfPaonk&sz=w800"
             }
           ],
           "video": null
@@ -1977,9 +1689,9 @@
       ]
     },
     {
-      "id": "15BR",
-      "slug": "21-cts-emerald-prong-tennis-bracelet-15br",
-      "title": "21 CTS Emerald Prong Tennis Bracelet",
+      "id": "14BR",
+      "slug": "28-cts-emerald-prong-tennis-bracelet-14br",
+      "title": "28 CTS Emerald Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -1989,83 +1701,83 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 22.5,
-      "minCarat": 21,
-      "diamondCount": 42,
+      "carat": 29.5,
+      "minCarat": 28.5,
+      "diamondCount": 38,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 3600,
-      "priceTo": 3600,
-      "caratFrom": 22.5,
-      "image": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800",
+      "priceFrom": 3601.3,
+      "priceTo": 3601.3,
+      "caratFrom": 29.5,
+      "image": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800",
       "variants": [
         {
-          "designId": "15BR",
-          "sku": "15BRW",
-          "title": "21 CTS Emerald Prong Tennis Bracelet",
+          "designId": "14BR",
+          "sku": "14BRW",
+          "title": "28 CTS Emerald Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 3600,
-          "carat": 22.5,
-          "minCarat": 21,
-          "diamondCount": 42,
-          "metalWeight": 11.644,
+          "price": 3601.3,
+          "carat": 29.5,
+          "minCarat": 28.5,
+          "diamondCount": 38,
+          "metalWeight": 12.8,
           "shape": "Emerald",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES",
-          "image": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800",
+          "imageId": "1-9Few5QmxPFOjoKY7nkY80WvME6tchBa",
+          "image": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800",
           "gallery": [
             {
-              "id": "1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES",
-              "full": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800"
+              "id": "1-9Few5QmxPFOjoKY7nkY80WvME6tchBa",
+              "full": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1-9Few5QmxPFOjoKY7nkY80WvME6tchBa&sz=w800"
             },
             {
-              "id": "1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23",
-              "full": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w800"
+              "id": "1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9",
+              "full": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1VGzunUPeAtOTppEuytXcdW-fcCLfgDw9&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "15BR",
-          "sku": "15BRY",
-          "title": "21 CTS Emerald Prong Tennis Bracelet",
+          "designId": "14BR",
+          "sku": "14BRY",
+          "title": "28 CTS Emerald Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 3600,
-          "carat": 22.5,
-          "minCarat": 21,
-          "diamondCount": 42,
-          "metalWeight": 11.53,
+          "price": 3601.3,
+          "carat": 29.5,
+          "minCarat": 28.5,
+          "diamondCount": 38,
+          "metalWeight": 12.8,
           "shape": "Emerald",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC",
-          "image": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w800",
+          "imageId": "1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt",
+          "image": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w800",
           "gallery": [
             {
-              "id": "1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC",
-              "full": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w800"
+              "id": "1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt",
+              "full": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1NBBuPX5WUXSFQchGnFHJM1AmsaHpIdHt&sz=w800"
             },
             {
-              "id": "1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT",
-              "full": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w800"
+              "id": "1KIS_017aCOyy1yiKrFDgNotE2PjnrDql",
+              "full": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1KIS_017aCOyy1yiKrFDgNotE2PjnrDql&sz=w800"
             }
           ],
           "video": null
@@ -2073,95 +1785,95 @@
       ]
     },
     {
-      "id": "7BR",
-      "slug": "18-cts-oval-prong-tennis-bracelet-7br",
-      "title": "18 CTS Oval Prong Tennis Bracelet",
+      "id": "18BR",
+      "slug": "27-cts-pear-prong-tennis-bracelet-18br",
+      "title": "27 CTS Pear Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
-      "shape": "Oval",
+      "shape": "Pear",
       "metal": "14K Gold",
       "colour": "E-F",
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 19,
-      "minCarat": 18,
-      "diamondCount": 37,
+      "carat": 28.5,
+      "minCarat": 27,
+      "diamondCount": 36,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 3400,
-      "priceTo": 3400,
-      "caratFrom": 19,
-      "image": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800",
+      "priceFrom": 3399,
+      "priceTo": 3399,
+      "caratFrom": 28.5,
+      "image": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800",
       "variants": [
         {
-          "designId": "7BR",
-          "sku": "7BRW",
-          "title": "18 CTS Oval Prong Tennis Bracelet",
+          "designId": "18BR",
+          "sku": "18BRW",
+          "title": "27 CTS Pear Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 3400,
-          "carat": 19,
-          "minCarat": 18,
-          "diamondCount": 37,
-          "metalWeight": 11.104,
-          "shape": "Oval",
+          "price": 3399,
+          "carat": 28.5,
+          "minCarat": 27,
+          "diamondCount": 36,
+          "metalWeight": 12,
+          "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg",
-          "image": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800",
+          "imageId": "1KyxofO0zhOmnQR22YBafsT9wFsZUfChM",
+          "image": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800",
           "gallery": [
             {
-              "id": "1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg",
-              "full": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800"
+              "id": "1KyxofO0zhOmnQR22YBafsT9wFsZUfChM",
+              "full": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1KyxofO0zhOmnQR22YBafsT9wFsZUfChM&sz=w800"
             },
             {
-              "id": "18VopT1xajSK2otWykzyNb88GqrQQxjgq",
-              "full": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w800"
+              "id": "17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt",
+              "full": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=17QJMY9fXSR62oNgfAnJvCSgZDZlfaMxt&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "7BR",
-          "sku": "7BRY",
-          "title": "18 CTS Oval Prong Tennis Bracelet",
+          "designId": "18BR",
+          "sku": "18BRY",
+          "title": "27 CTS Pear Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 3400,
-          "carat": 19,
-          "minCarat": 18,
-          "diamondCount": 37,
-          "metalWeight": 11.104,
-          "shape": "Oval",
+          "price": 3399,
+          "carat": 28.5,
+          "minCarat": 27,
+          "diamondCount": 36,
+          "metalWeight": 12,
+          "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp",
-          "image": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w800",
+          "imageId": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
+          "image": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800",
           "gallery": [
             {
-              "id": "1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp",
-              "full": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w800"
+              "id": "1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS",
+              "full": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1b-wdBwXTU_bWjSVy3FOka9AFR4qrH2sS&sz=w800"
             },
             {
-              "id": "1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk",
-              "full": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w800"
+              "id": "1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw",
+              "full": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1kvEk0PMOSezrzjbgh2I6Hveh9ZwtAaQw&sz=w800"
             }
           ],
           "video": null
@@ -2225,95 +1937,95 @@
       ]
     },
     {
-      "id": "19BR",
-      "slug": "21-cts-pear-prong-tennis-bracelet-19br",
-      "title": "21 CTS Pear Prong Tennis Bracelet",
+      "id": "6BR",
+      "slug": "26-cts-oval-prong-tennis-bracelet-6br",
+      "title": "26 CTS Oval Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
-      "shape": "Pear",
+      "shape": "Oval",
       "metal": "14K Gold",
       "colour": "E-F",
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 22.5,
-      "minCarat": 21,
-      "diamondCount": 42,
+      "carat": 27,
+      "minCarat": 26,
+      "diamondCount": 35,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 3300,
-      "priceTo": 3300,
-      "caratFrom": 22.5,
-      "image": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800",
+      "priceFrom": 3251.54,
+      "priceTo": 3251.54,
+      "caratFrom": 27,
+      "image": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800",
       "variants": [
         {
-          "designId": "19BR",
-          "sku": "19BRW",
-          "title": "21 CTS Pear Prong Tennis Bracelet",
+          "designId": "6BR",
+          "sku": "6BRW",
+          "title": "26 CTS Oval Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 3300,
-          "carat": 22.5,
-          "minCarat": 21,
-          "diamondCount": 42,
-          "metalWeight": 11.834,
-          "shape": "Pear",
+          "price": 3251.54,
+          "carat": 27,
+          "minCarat": 26,
+          "diamondCount": 35,
+          "metalWeight": 11.342,
+          "shape": "Oval",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh",
-          "image": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800",
+          "imageId": "1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-",
+          "image": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800",
           "gallery": [
             {
-              "id": "1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh",
-              "full": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800"
+              "id": "1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-",
+              "full": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1-YLcFtxqaxdHTz7nmQrMBJpMiVXe8jb-&sz=w800"
             },
             {
-              "id": "1PexWGzAuryr6EXm_hhAbLW44hiRATeDh",
-              "full": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w800"
+              "id": "1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz",
+              "full": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1gPN0dFXou_XNBz14x5SMNfQYH0pZsPrz&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "19BR",
-          "sku": "19BRY",
-          "title": "21 CTS Pear Prong Tennis Bracelet",
+          "designId": "6BR",
+          "sku": "6BRY",
+          "title": "26 CTS Oval Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 3300,
-          "carat": 22.5,
-          "minCarat": 21,
-          "diamondCount": 42,
-          "metalWeight": 11.458,
-          "shape": "Pear",
+          "price": 3251.54,
+          "carat": 27,
+          "minCarat": 26,
+          "diamondCount": 35,
+          "metalWeight": 11.342,
+          "shape": "Oval",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL",
-          "image": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w800",
+          "imageId": "1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-",
+          "image": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w800",
           "gallery": [
             {
-              "id": "12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL",
-              "full": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w800"
+              "id": "1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-",
+              "full": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1oCCiyHN1N2GigCFiTCJ1oweXdTFYnOe-&sz=w800"
             },
             {
-              "id": "1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H",
-              "full": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w800"
+              "id": "1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq",
+              "full": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1lWNrvzAS5Ag42lzuMUt6Qzr-ys7xhefq&sz=w800"
             }
           ],
           "video": null
@@ -2751,201 +2463,9 @@
       ]
     },
     {
-      "id": "29BR",
-      "slug": "15-cts-round-tennis-bracelet-29br",
-      "title": "15 CTS Round Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 15.1,
-      "minCarat": 15.03,
-      "diamondCount": 38,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 2900,
-      "priceTo": 2900,
-      "caratFrom": 15.1,
-      "image": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800",
-      "variants": [
-        {
-          "designId": "29BR",
-          "sku": "29BRW",
-          "title": "15 CTS Round Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 2900,
-          "carat": 15.1,
-          "minCarat": 15.03,
-          "diamondCount": 38,
-          "metalWeight": 9.204,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D",
-          "image": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800",
-          "gallery": [
-            {
-              "id": "1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D",
-              "full": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800"
-            },
-            {
-              "id": "1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17",
-              "full": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "29BR",
-          "sku": "29BRY",
-          "title": "15 CTS Round Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 2900,
-          "carat": 15.1,
-          "minCarat": 15.03,
-          "diamondCount": 38,
-          "metalWeight": 9.204,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ",
-          "image": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w800",
-          "gallery": [
-            {
-              "id": "1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ",
-              "full": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w800"
-            },
-            {
-              "id": "14ayuYe6edlHyN69FL3Ud_BjetLrf140-",
-              "full": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "20BR",
-      "slug": "14-cts-pear-prong-tennis-bracelet-20br",
-      "title": "14 CTS Pear Prong Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Pear",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 15,
-      "minCarat": 14,
-      "diamondCount": 46,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 2800,
-      "priceTo": 2800,
-      "caratFrom": 15,
-      "image": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800",
-      "variants": [
-        {
-          "designId": "20BR",
-          "sku": "20BRW",
-          "title": "14 CTS Pear Prong Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 2800,
-          "carat": 15,
-          "minCarat": 14,
-          "diamondCount": 46,
-          "metalWeight": 11.82,
-          "shape": "Pear",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1aLf-xxas-Uh1FdJxWL841869eMl_G1a0",
-          "image": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800",
-          "gallery": [
-            {
-              "id": "1aLf-xxas-Uh1FdJxWL841869eMl_G1a0",
-              "full": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800"
-            },
-            {
-              "id": "1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi",
-              "full": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "20BR",
-          "sku": "20BRY",
-          "title": "14 CTS Pear Prong Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 2800,
-          "carat": 15,
-          "minCarat": 14,
-          "diamondCount": 46,
-          "metalWeight": 11.82,
-          "shape": "Pear",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG",
-          "image": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w800",
-          "gallery": [
-            {
-              "id": "1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG",
-              "full": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w800"
-            },
-            {
-              "id": "1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh",
-              "full": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "16BR",
-      "slug": "15-cts-emerald-prong-tennis-bracelet-16br",
-      "title": "15 CTS Emerald Prong Tennis Bracelet",
+      "id": "15BR",
+      "slug": "21-cts-emerald-prong-tennis-bracelet-15br",
+      "title": "21 CTS Emerald Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -2955,83 +2475,83 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 15.5,
-      "minCarat": 15,
-      "diamondCount": 50,
+      "carat": 22.5,
+      "minCarat": 21,
+      "diamondCount": 42,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 2800,
-      "priceTo": 2800,
-      "caratFrom": 15.5,
-      "image": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800",
+      "priceFrom": 2865.53,
+      "priceTo": 2877.04,
+      "caratFrom": 22.5,
+      "image": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800",
       "variants": [
         {
-          "designId": "16BR",
-          "sku": "16BRW",
-          "title": "15 CTS Emerald Prong Tennis Bracelet",
+          "designId": "15BR",
+          "sku": "15BRW",
+          "title": "21 CTS Emerald Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 2800,
-          "carat": 15.5,
-          "minCarat": 15,
-          "diamondCount": 50,
-          "metalWeight": 9.799,
+          "price": 2877.04,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
+          "metalWeight": 11.644,
           "shape": "Emerald",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5",
-          "image": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800",
+          "imageId": "1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES",
+          "image": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800",
           "gallery": [
             {
-              "id": "11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5",
-              "full": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800"
+              "id": "1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES",
+              "full": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1rD4qL5LnRDkogWAuv7QSlJDcjpx3FBES&sz=w800"
             },
             {
-              "id": "1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu",
-              "full": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w800"
+              "id": "1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23",
+              "full": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1KBSQWWphXU7Gh4KkL-VSFSU8205qDX23&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "16BR",
-          "sku": "16BRY",
-          "title": "15 CTS Emerald Prong Tennis Bracelet",
+          "designId": "15BR",
+          "sku": "15BRY",
+          "title": "21 CTS Emerald Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 2800,
-          "carat": 15.5,
-          "minCarat": 15,
-          "diamondCount": 50,
-          "metalWeight": 9.608,
+          "price": 2865.53,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
+          "metalWeight": 11.53,
           "shape": "Emerald",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw",
-          "image": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w800",
+          "imageId": "1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC",
+          "image": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w800",
           "gallery": [
             {
-              "id": "1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw",
-              "full": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w800"
+              "id": "1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC",
+              "full": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1NNk2CWXr05EnEbReKkWfonhZG9ihfyEC&sz=w800"
             },
             {
-              "id": "1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49",
-              "full": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w800"
+              "id": "1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT",
+              "full": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ZFXpMn0usR_XrYHHP8VSsqUzCi-NavlT&sz=w800"
             }
           ],
           "video": null
@@ -3039,95 +2559,95 @@
       ]
     },
     {
-      "id": "8BR",
-      "slug": "14-cts-oval-prong-tennis-bracelet-8br",
-      "title": "14 CTS Oval Prong Tennis Bracelet",
+      "id": "19BR",
+      "slug": "21-cts-pear-prong-tennis-bracelet-19br",
+      "title": "21 CTS Pear Prong Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
-      "shape": "Oval",
+      "shape": "Pear",
       "metal": "14K Gold",
       "colour": "E-F",
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 15,
-      "minCarat": 14,
-      "diamondCount": 47,
+      "carat": 22.5,
+      "minCarat": 21,
+      "diamondCount": 42,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 2700,
-      "priceTo": 2700,
-      "caratFrom": 15,
-      "image": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800",
+      "priceFrom": 2858.26,
+      "priceTo": 2896.23,
+      "caratFrom": 22.5,
+      "image": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800",
       "variants": [
         {
-          "designId": "8BR",
-          "sku": "8BRW",
-          "title": "14 CTS Oval Prong Tennis Bracelet",
+          "designId": "19BR",
+          "sku": "19BRW",
+          "title": "21 CTS Pear Prong Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 2700,
-          "carat": 15,
-          "minCarat": 14,
-          "diamondCount": 47,
-          "metalWeight": 10.09,
-          "shape": "Oval",
+          "price": 2896.23,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
+          "metalWeight": 11.834,
+          "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue",
-          "image": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800",
+          "imageId": "1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh",
+          "image": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800",
           "gallery": [
             {
-              "id": "1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue",
-              "full": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800"
+              "id": "1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh",
+              "full": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1djBzmkhQ2LPXg49FOGCpIh7LRfbjOfZh&sz=w800"
             },
             {
-              "id": "1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD",
-              "full": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w800"
+              "id": "1PexWGzAuryr6EXm_hhAbLW44hiRATeDh",
+              "full": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1PexWGzAuryr6EXm_hhAbLW44hiRATeDh&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "8BR",
-          "sku": "8BRY",
-          "title": "14 CTS Oval Prong Tennis Bracelet",
+          "designId": "19BR",
+          "sku": "19BRY",
+          "title": "21 CTS Pear Prong Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 2700,
-          "carat": 15,
-          "minCarat": 14,
-          "diamondCount": 47,
-          "metalWeight": 10.09,
-          "shape": "Oval",
+          "price": 2858.26,
+          "carat": 22.5,
+          "minCarat": 21,
+          "diamondCount": 42,
+          "metalWeight": 11.458,
+          "shape": "Pear",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1YCr2xTpM2cKPzFgby0eFubGUswPVcONu",
-          "image": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w800",
+          "imageId": "12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL",
+          "image": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w800",
           "gallery": [
             {
-              "id": "1YCr2xTpM2cKPzFgby0eFubGUswPVcONu",
-              "full": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w800"
+              "id": "12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL",
+              "full": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=12LwGotjHbK9jUprrIqcNaYgLXgLAi8pL&sz=w800"
             },
             {
-              "id": "1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ",
-              "full": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w800"
+              "id": "1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H",
+              "full": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1x9jDPEnCnuzkEBFH9u6-4X061sVLPu5H&sz=w800"
             }
           ],
           "video": null
@@ -3214,6 +2734,102 @@
               "id": "1lV24746wYduRC7w4XGF6HwJC7xPKkQQb",
               "full": "https://drive.google.com/thumbnail?id=1lV24746wYduRC7w4XGF6HwJC7xPKkQQb&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1lV24746wYduRC7w4XGF6HwJC7xPKkQQb&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "7BR",
+      "slug": "18-cts-oval-prong-tennis-bracelet-7br",
+      "title": "18 CTS Oval Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Oval",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 19,
+      "minCarat": 18,
+      "diamondCount": 37,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 2579.5,
+      "priceTo": 2579.5,
+      "caratFrom": 19,
+      "image": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800",
+      "variants": [
+        {
+          "designId": "7BR",
+          "sku": "7BRW",
+          "title": "18 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 2579.5,
+          "carat": 19,
+          "minCarat": 18,
+          "diamondCount": 37,
+          "metalWeight": 11.104,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg",
+          "image": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800",
+          "gallery": [
+            {
+              "id": "1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg",
+              "full": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1SsCQ6IdKGPYD3U-OBeIBHlW7Gqfau0Cg&sz=w800"
+            },
+            {
+              "id": "18VopT1xajSK2otWykzyNb88GqrQQxjgq",
+              "full": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=18VopT1xajSK2otWykzyNb88GqrQQxjgq&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "7BR",
+          "sku": "7BRY",
+          "title": "18 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 2579.5,
+          "carat": 19,
+          "minCarat": 18,
+          "diamondCount": 37,
+          "metalWeight": 11.104,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp",
+          "image": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w800",
+          "gallery": [
+            {
+              "id": "1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp",
+              "full": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1a2jo_-0pFq8GYA6Of_Fg8Aqe_-ik27bp&sz=w800"
+            },
+            {
+              "id": "1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk",
+              "full": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1N97DspH9E9AYd67nXYPDLBPKY4t0HPQk&sz=w800"
             }
           ],
           "video": null
@@ -3317,6 +2933,102 @@
       ]
     },
     {
+      "id": "20BR",
+      "slug": "14-cts-pear-prong-tennis-bracelet-20br",
+      "title": "14 CTS Pear Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Pear",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 15,
+      "minCarat": 14,
+      "diamondCount": 46,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 2327.82,
+      "priceTo": 2327.82,
+      "caratFrom": 15,
+      "image": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800",
+      "variants": [
+        {
+          "designId": "20BR",
+          "sku": "20BRW",
+          "title": "14 CTS Pear Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 2327.82,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 46,
+          "metalWeight": 11.82,
+          "shape": "Pear",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1aLf-xxas-Uh1FdJxWL841869eMl_G1a0",
+          "image": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800",
+          "gallery": [
+            {
+              "id": "1aLf-xxas-Uh1FdJxWL841869eMl_G1a0",
+              "full": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1aLf-xxas-Uh1FdJxWL841869eMl_G1a0&sz=w800"
+            },
+            {
+              "id": "1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi",
+              "full": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1jodToJfk3Ke2DSc98JtMYlxvjeUjIKAi&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "20BR",
+          "sku": "20BRY",
+          "title": "14 CTS Pear Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 2327.82,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 46,
+          "metalWeight": 11.82,
+          "shape": "Pear",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG",
+          "image": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w800",
+          "gallery": [
+            {
+              "id": "1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG",
+              "full": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1-fgPuCLtpNQ20iW1_DmNrLnmOrCncVWG&sz=w800"
+            },
+            {
+              "id": "1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh",
+              "full": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1MyS6AP4uvTSwzgdcHYCiK4--4gJvZaqh&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
       "id": "44BR",
       "slug": "13-cts-marquise-prong-tennis-bracelet-44br",
       "title": "13 CTS Marquise Prong Tennis Bracelet",
@@ -3403,6 +3115,198 @@
       ]
     },
     {
+      "id": "16BR",
+      "slug": "15-cts-emerald-prong-tennis-bracelet-16br",
+      "title": "15 CTS Emerald Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Emerald",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 15.5,
+      "minCarat": 15,
+      "diamondCount": 50,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 2185.41,
+      "priceTo": 2204.7,
+      "caratFrom": 15.5,
+      "image": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800",
+      "variants": [
+        {
+          "designId": "16BR",
+          "sku": "16BRW",
+          "title": "15 CTS Emerald Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 2204.7,
+          "carat": 15.5,
+          "minCarat": 15,
+          "diamondCount": 50,
+          "metalWeight": 9.799,
+          "shape": "Emerald",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5",
+          "image": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800",
+          "gallery": [
+            {
+              "id": "11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5",
+              "full": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=11MNSHluc4GB_Pw9gF63XA6Dkt88E1__5&sz=w800"
+            },
+            {
+              "id": "1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu",
+              "full": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1OZ-VzQUdNf-r4ZAFmWosQAy6NhF4xytu&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "16BR",
+          "sku": "16BRY",
+          "title": "15 CTS Emerald Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 2185.41,
+          "carat": 15.5,
+          "minCarat": 15,
+          "diamondCount": 50,
+          "metalWeight": 9.608,
+          "shape": "Emerald",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw",
+          "image": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w800",
+          "gallery": [
+            {
+              "id": "1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw",
+              "full": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Prbs_yaUBDFJJuTTb99Kel5_jCz0m_Fw&sz=w800"
+            },
+            {
+              "id": "1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49",
+              "full": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1aNW-L2VrgN-wzUcFYpxQ0S-crJElUf49&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "8BR",
+      "slug": "14-cts-oval-prong-tennis-bracelet-8br",
+      "title": "14 CTS Oval Prong Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Oval",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 15,
+      "minCarat": 14,
+      "diamondCount": 47,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 2153.09,
+      "priceTo": 2153.09,
+      "caratFrom": 15,
+      "image": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800",
+      "variants": [
+        {
+          "designId": "8BR",
+          "sku": "8BRW",
+          "title": "14 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 2153.09,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 47,
+          "metalWeight": 10.09,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue",
+          "image": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800",
+          "gallery": [
+            {
+              "id": "1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue",
+              "full": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1NBQQFJe4gpLe0SUGwV4OJpfP1tAJ50ue&sz=w800"
+            },
+            {
+              "id": "1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD",
+              "full": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1BAeE4ZrKSVSXkTJdY4d3lxnVHfzifYjD&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "8BR",
+          "sku": "8BRY",
+          "title": "14 CTS Oval Prong Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 2153.09,
+          "carat": 15,
+          "minCarat": 14,
+          "diamondCount": 47,
+          "metalWeight": 10.09,
+          "shape": "Oval",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1YCr2xTpM2cKPzFgby0eFubGUswPVcONu",
+          "image": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w800",
+          "gallery": [
+            {
+              "id": "1YCr2xTpM2cKPzFgby0eFubGUswPVcONu",
+              "full": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1YCr2xTpM2cKPzFgby0eFubGUswPVcONu&sz=w800"
+            },
+            {
+              "id": "1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ",
+              "full": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1xBBm-QeF-aCBFZQLq9FmlTZrIBBxIDoQ&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
       "id": "35BR",
       "slug": "10-cts-all-mix-fancy-bracelet-35br",
       "title": "10 CTS All Mix Fancy Bracelet",
@@ -3438,7 +3342,7 @@
           "carat": 10.1,
           "minCarat": 10,
           "diamondCount": 38,
-          "metalWeight": 7.714,
+          "metalWeight": 8.15,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -3472,7 +3376,7 @@
           "carat": 10.1,
           "minCarat": 10,
           "diamondCount": 38,
-          "metalWeight": 7.714,
+          "metalWeight": 8.15,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -3492,102 +3396,6 @@
               "id": "1jVNonnasrUd5CtKPgH_c0MfoMPqNLDWf",
               "full": "https://drive.google.com/thumbnail?id=1jVNonnasrUd5CtKPgH_c0MfoMPqNLDWf&sz=w1600",
               "thumb": "https://drive.google.com/thumbnail?id=1jVNonnasrUd5CtKPgH_c0MfoMPqNLDWf&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "27BR",
-      "slug": "8-cts-round-tennis-bracelet-27br",
-      "title": "8 CTS Round Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 8.1,
-      "minCarat": 8.01,
-      "diamondCount": 49,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 1600,
-      "priceTo": 1600,
-      "caratFrom": 8.1,
-      "image": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800",
-      "variants": [
-        {
-          "designId": "27BR",
-          "sku": "27BRW",
-          "title": "8 CTS Round Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 1600,
-          "carat": 8.1,
-          "minCarat": 8.01,
-          "diamondCount": 49,
-          "metalWeight": 7.602,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V",
-          "image": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800",
-          "gallery": [
-            {
-              "id": "1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V",
-              "full": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800"
-            },
-            {
-              "id": "1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV",
-              "full": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "27BR",
-          "sku": "27BRY",
-          "title": "8 CTS Round Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 1600,
-          "carat": 8.1,
-          "minCarat": 8.01,
-          "diamondCount": 49,
-          "metalWeight": 7.602,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0",
-          "image": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w800",
-          "gallery": [
-            {
-              "id": "1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0",
-              "full": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w800"
-            },
-            {
-              "id": "10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI",
-              "full": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w800"
             }
           ],
           "video": null
@@ -3630,7 +3438,7 @@
           "carat": 7.1,
           "minCarat": 7,
           "diamondCount": 36,
-          "metalWeight": 8.148,
+          "metalWeight": 8.1,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -3664,7 +3472,7 @@
           "carat": 7.1,
           "minCarat": 7,
           "diamondCount": 36,
-          "metalWeight": 8.148,
+          "metalWeight": 8.1,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -3691,9 +3499,9 @@
       ]
     },
     {
-      "id": "26BR",
-      "slug": "7-cts-round-tennis-bracelet-26br",
-      "title": "7 CTS Round Tennis Bracelet",
+      "id": "29BR",
+      "slug": "15-cts-round-tennis-bracelet-29br",
+      "title": "15 CTS Round Tennis Bracelet",
       "category": "Bracelets",
       "categorySlug": "bracelets",
       "designType": "Bracelet",
@@ -3703,179 +3511,83 @@
       "clarity": "VS-SI",
       "origin": "Lab Grown",
       "size": "7 INCH",
-      "carat": 7.1,
-      "minCarat": 7.01,
-      "diamondCount": 53,
+      "carat": 15.1,
+      "minCarat": 15.03,
+      "diamondCount": 38,
       "metalColours": [
         "White",
         "Yellow"
       ],
-      "priceFrom": 1450,
-      "priceTo": 1450,
-      "caratFrom": 7.1,
-      "image": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800",
+      "priceFrom": 1258,
+      "priceTo": 1258,
+      "caratFrom": 15.1,
+      "image": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800",
       "variants": [
         {
-          "designId": "26BR",
-          "sku": "26BRW",
-          "title": "7 CTS Round Tennis Bracelet",
+          "designId": "29BR",
+          "sku": "29BRW",
+          "title": "15 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 1450,
-          "carat": 7.1,
-          "minCarat": 7.01,
-          "diamondCount": 53,
-          "metalWeight": 5.978,
+          "price": 1258,
+          "carat": 15.1,
+          "minCarat": 15.03,
+          "diamondCount": 38,
+          "metalWeight": 7.573,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9",
-          "image": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800",
+          "imageId": "1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D",
+          "image": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800",
           "gallery": [
             {
-              "id": "1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9",
-              "full": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800"
+              "id": "1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D",
+              "full": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1sDjGuc3uMo33Jc7lEIgTFakck8i38U1D&sz=w800"
             },
             {
-              "id": "1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa",
-              "full": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w800"
+              "id": "1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17",
+              "full": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1XJbd1YbNQKltc4ZFpZJsAgVRnR0gEm17&sz=w800"
             }
           ],
           "video": null
         },
         {
-          "designId": "26BR",
-          "sku": "26BRY",
-          "title": "7 CTS Round Tennis Bracelet",
+          "designId": "29BR",
+          "sku": "29BRY",
+          "title": "15 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 1450,
-          "carat": 7.1,
-          "minCarat": 7.01,
-          "diamondCount": 53,
-          "metalWeight": 5.978,
+          "price": 1258,
+          "carat": 15.1,
+          "minCarat": 15.03,
+          "diamondCount": 38,
+          "metalWeight": 7.573,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
           "origin": "Lab Grown",
           "designType": "Bracelet",
           "size": "7 INCH",
-          "imageId": "1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj",
-          "image": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w800",
+          "imageId": "1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ",
+          "image": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w800",
           "gallery": [
             {
-              "id": "1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj",
-              "full": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w800"
+              "id": "1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ",
+              "full": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1UyIKXfc592eCvmCqab-3r7H6vQyq2tLQ&sz=w800"
             },
             {
-              "id": "1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg",
-              "full": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w800"
-            }
-          ],
-          "video": null
-        }
-      ]
-    },
-    {
-      "id": "28BR",
-      "slug": "10-cts-round-tennis-bracelet-28br",
-      "title": "10 CTS Round Tennis Bracelet",
-      "category": "Bracelets",
-      "categorySlug": "bracelets",
-      "designType": "Bracelet",
-      "shape": "Round",
-      "metal": "14K Gold",
-      "colour": "E-F",
-      "clarity": "VS-SI",
-      "origin": "Lab Grown",
-      "size": "7 INCH",
-      "carat": 10.1,
-      "minCarat": 10.01,
-      "diamondCount": 46,
-      "metalColours": [
-        "White",
-        "Yellow"
-      ],
-      "priceFrom": 1428.57,
-      "priceTo": 2200,
-      "caratFrom": 10.1,
-      "image": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800",
-      "variants": [
-        {
-          "designId": "28BR",
-          "sku": "28BRW",
-          "title": "10 CTS Round Tennis Bracelet",
-          "metalColour": "White",
-          "metal": "14K Gold",
-          "price": 1428.57,
-          "carat": 10.1,
-          "minCarat": 10.01,
-          "diamondCount": 46,
-          "metalWeight": 6.244,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv",
-          "image": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800",
-          "gallery": [
-            {
-              "id": "1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv",
-              "full": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800"
-            },
-            {
-              "id": "18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ",
-              "full": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w800"
-            }
-          ],
-          "video": null
-        },
-        {
-          "designId": "28BR",
-          "sku": "28BRY",
-          "title": "10 CTS Round Tennis Bracelet",
-          "metalColour": "Yellow",
-          "metal": "14K Gold",
-          "price": 2200,
-          "carat": 10.1,
-          "minCarat": 10.01,
-          "diamondCount": 46,
-          "metalWeight": 6.244,
-          "shape": "Round",
-          "colour": "E-F",
-          "clarity": "VS-SI",
-          "origin": "Lab Grown",
-          "designType": "Bracelet",
-          "size": "7 INCH",
-          "imageId": "1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8",
-          "image": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w1600",
-          "thumbnail": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w800",
-          "gallery": [
-            {
-              "id": "1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8",
-              "full": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w800"
-            },
-            {
-              "id": "1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX",
-              "full": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w1600",
-              "thumb": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w800"
+              "id": "14ayuYe6edlHyN69FL3Ud_BjetLrf140-",
+              "full": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=14ayuYe6edlHyN69FL3Ud_BjetLrf140-&sz=w800"
             }
           ],
           "video": null
@@ -3979,6 +3691,294 @@
       ]
     },
     {
+      "id": "28BR",
+      "slug": "10-cts-round-tennis-bracelet-28br",
+      "title": "10 CTS Round Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Round",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 10.1,
+      "minCarat": 10.01,
+      "diamondCount": 46,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 1037,
+      "priceTo": 1037,
+      "caratFrom": 10.1,
+      "image": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800",
+      "variants": [
+        {
+          "designId": "28BR",
+          "sku": "28BRW",
+          "title": "10 CTS Round Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 1037,
+          "carat": 10.1,
+          "minCarat": 10.01,
+          "diamondCount": 46,
+          "metalWeight": 6.2,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv",
+          "image": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800",
+          "gallery": [
+            {
+              "id": "1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv",
+              "full": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1_7Ry4GGwaXdVQt01r5HphdH_ktWcWccv&sz=w800"
+            },
+            {
+              "id": "18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ",
+              "full": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=18fz4r0Z02pYPM7gZV3Do9KxTsu9ccRnQ&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "28BR",
+          "sku": "28BRY",
+          "title": "10 CTS Round Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 1037,
+          "carat": 10.1,
+          "minCarat": 10.01,
+          "diamondCount": 46,
+          "metalWeight": 6.2,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8",
+          "image": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w800",
+          "gallery": [
+            {
+              "id": "1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8",
+              "full": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1-cY9j_I8eDPxDDSPQP4c_c3BqZ7ZM1Z8&sz=w800"
+            },
+            {
+              "id": "1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX",
+              "full": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1CTdavRZx3X_CuPJ89OWHTWbxas63s_gX&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "27BR",
+      "slug": "8-cts-round-tennis-bracelet-27br",
+      "title": "8 CTS Round Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Round",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 8.1,
+      "minCarat": 8.01,
+      "diamondCount": 49,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 1012,
+      "priceTo": 1012,
+      "caratFrom": 8.1,
+      "image": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800",
+      "variants": [
+        {
+          "designId": "27BR",
+          "sku": "27BRW",
+          "title": "8 CTS Round Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 1012,
+          "carat": 8.1,
+          "minCarat": 8.01,
+          "diamondCount": 49,
+          "metalWeight": 7.1,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V",
+          "image": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800",
+          "gallery": [
+            {
+              "id": "1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V",
+              "full": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Gu9bZiMAe3DnnvDz8S4AeFHvPkDGMY4V&sz=w800"
+            },
+            {
+              "id": "1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV",
+              "full": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1Qn8kebhQg_rryr7p1Ww2wdK25uZKU4LV&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "27BR",
+          "sku": "27BRY",
+          "title": "8 CTS Round Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 1012,
+          "carat": 8.1,
+          "minCarat": 8.01,
+          "diamondCount": 49,
+          "metalWeight": 7.1,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0",
+          "image": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w800",
+          "gallery": [
+            {
+              "id": "1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0",
+              "full": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1hjX5ENb7DtLhX9X8gU7ToSkSuVKuR1S0&sz=w800"
+            },
+            {
+              "id": "10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI",
+              "full": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=10HUwQrL2TNlbeBlwlZ2E4h7L_ih6dXPI&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "26BR",
+      "slug": "7-cts-round-tennis-bracelet-26br",
+      "title": "7 CTS Round Tennis Bracelet",
+      "category": "Bracelets",
+      "categorySlug": "bracelets",
+      "designType": "Bracelet",
+      "shape": "Round",
+      "metal": "14K Gold",
+      "colour": "E-F",
+      "clarity": "VS-SI",
+      "origin": "Lab Grown",
+      "size": "7 INCH",
+      "carat": 7.1,
+      "minCarat": 7.01,
+      "diamondCount": 53,
+      "metalColours": [
+        "White",
+        "Yellow"
+      ],
+      "priceFrom": 832,
+      "priceTo": 832,
+      "caratFrom": 7.1,
+      "image": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800",
+      "variants": [
+        {
+          "designId": "26BR",
+          "sku": "26BRW",
+          "title": "7 CTS Round Tennis Bracelet",
+          "metalColour": "White",
+          "metal": "14K Gold",
+          "price": 832,
+          "carat": 7.1,
+          "minCarat": 7.01,
+          "diamondCount": 53,
+          "metalWeight": 5.52,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9",
+          "image": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800",
+          "gallery": [
+            {
+              "id": "1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9",
+              "full": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1AUkT5IJplr59woQD55Pg2LsXCY6pdwy9&sz=w800"
+            },
+            {
+              "id": "1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa",
+              "full": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1xz4rJXf-2s_zTqt4t3LloKZT0BCm2jOa&sz=w800"
+            }
+          ],
+          "video": null
+        },
+        {
+          "designId": "26BR",
+          "sku": "26BRY",
+          "title": "7 CTS Round Tennis Bracelet",
+          "metalColour": "Yellow",
+          "metal": "14K Gold",
+          "price": 832,
+          "carat": 7.1,
+          "minCarat": 7.01,
+          "diamondCount": 53,
+          "metalWeight": 5.52,
+          "shape": "Round",
+          "colour": "E-F",
+          "clarity": "VS-SI",
+          "origin": "Lab Grown",
+          "designType": "Bracelet",
+          "size": "7 INCH",
+          "imageId": "1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj",
+          "image": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w1600",
+          "thumbnail": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w800",
+          "gallery": [
+            {
+              "id": "1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj",
+              "full": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1K_JDpsetewZ-HyXRP3PvWgn9MIdvPZUj&sz=w800"
+            },
+            {
+              "id": "1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg",
+              "full": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w1600",
+              "thumb": "https://drive.google.com/thumbnail?id=1ZLbuv8diz4NPyJ9Zc-sUTkLwIMoV85tg&sz=w800"
+            }
+          ],
+          "video": null
+        }
+      ]
+    },
+    {
       "id": "25BR",
       "slug": "6-cts-round-tennis-bracelet-25br",
       "title": "6 CTS Round Tennis Bracelet",
@@ -3998,8 +3998,8 @@
         "White",
         "Yellow"
       ],
-      "priceFrom": 1250,
-      "priceTo": 1250,
+      "priceFrom": 762,
+      "priceTo": 762,
       "caratFrom": 6.1,
       "image": "https://drive.google.com/thumbnail?id=15sk88xPWvfErUWSWHtffcF5FdcROAjlU&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=15sk88xPWvfErUWSWHtffcF5FdcROAjlU&sz=w800",
@@ -4010,11 +4010,11 @@
           "title": "6 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 1250,
+          "price": 762,
           "carat": 6.1,
           "minCarat": 6.01,
           "diamondCount": 56,
-          "metalWeight": 9.964,
+          "metalWeight": 4.99,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4044,11 +4044,11 @@
           "title": "6 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 1250,
+          "price": 762,
           "carat": 6.1,
           "minCarat": 6.01,
           "diamondCount": 56,
-          "metalWeight": 9.964,
+          "metalWeight": 4.99,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4094,8 +4094,8 @@
         "White",
         "Yellow"
       ],
-      "priceFrom": 1075,
-      "priceTo": 1075,
+      "priceFrom": 677,
+      "priceTo": 677,
       "caratFrom": 5.1,
       "image": "https://drive.google.com/thumbnail?id=1eITpwVlld-VtgFam1lPTy_jZMslk9gNT&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1eITpwVlld-VtgFam1lPTy_jZMslk9gNT&sz=w800",
@@ -4106,11 +4106,11 @@
           "title": "5 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 1075,
+          "price": 677,
           "carat": 5.1,
           "minCarat": 5.01,
           "diamondCount": 62,
-          "metalWeight": 4.52,
+          "metalWeight": 4.9,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4140,11 +4140,11 @@
           "title": "5 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 1075,
+          "price": 677,
           "carat": 5.1,
           "minCarat": 5.01,
           "diamondCount": 62,
-          "metalWeight": 4.52,
+          "metalWeight": 4.9,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4190,8 +4190,8 @@
         "White",
         "Yellow"
       ],
-      "priceFrom": 950,
-      "priceTo": 950,
+      "priceFrom": 525,
+      "priceTo": 525,
       "caratFrom": 4.1,
       "image": "https://drive.google.com/thumbnail?id=1BYvT29YAbRJC94txg3cvARoaGE8EIV5v&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1BYvT29YAbRJC94txg3cvARoaGE8EIV5v&sz=w800",
@@ -4202,11 +4202,11 @@
           "title": "4 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 950,
+          "price": 525,
           "carat": 4.1,
           "minCarat": 4.01,
           "diamondCount": 70,
-          "metalWeight": 4.65,
+          "metalWeight": 4.15,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4236,11 +4236,11 @@
           "title": "4 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 950,
+          "price": 525,
           "carat": 4.1,
           "minCarat": 4.01,
           "diamondCount": 70,
-          "metalWeight": 4.65,
+          "metalWeight": 4.15,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4286,8 +4286,8 @@
         "White",
         "Yellow"
       ],
-      "priceFrom": 825,
-      "priceTo": 825,
+      "priceFrom": 494,
+      "priceTo": 494,
       "caratFrom": 3.1,
       "image": "https://drive.google.com/thumbnail?id=1BYvT29YAbRJC94txg3cvARoaGE8EIV5v&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1BYvT29YAbRJC94txg3cvARoaGE8EIV5v&sz=w800",
@@ -4298,11 +4298,11 @@
           "title": "3 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 825,
+          "price": 494,
           "carat": 3.1,
           "minCarat": 3.01,
           "diamondCount": 80,
-          "metalWeight": 4.42,
+          "metalWeight": 3.92,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4332,11 +4332,11 @@
           "title": "3 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 825,
+          "price": 494,
           "carat": 3.1,
           "minCarat": 3.01,
           "diamondCount": 80,
-          "metalWeight": 4.42,
+          "metalWeight": 3.92,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4382,8 +4382,8 @@
         "White",
         "Yellow"
       ],
-      "priceFrom": 750,
-      "priceTo": 750,
+      "priceFrom": 461,
+      "priceTo": 461,
       "caratFrom": 2.1,
       "image": "https://drive.google.com/thumbnail?id=1XjPCwaIO9ibOdzDzNFtgifDbO1HEoolY&sz=w1600",
       "thumbnail": "https://drive.google.com/thumbnail?id=1XjPCwaIO9ibOdzDzNFtgifDbO1HEoolY&sz=w800",
@@ -4394,11 +4394,11 @@
           "title": "2 CTS Round Tennis Bracelet",
           "metalColour": "White",
           "metal": "14K Gold",
-          "price": 750,
+          "price": 461,
           "carat": 2.1,
           "minCarat": 2,
           "diamondCount": 94,
-          "metalWeight": 4.15,
+          "metalWeight": 3.65,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4428,11 +4428,11 @@
           "title": "2 CTS Round Tennis Bracelet",
           "metalColour": "Yellow",
           "metal": "14K Gold",
-          "price": 750,
+          "price": 461,
           "carat": 2.1,
           "minCarat": 2,
           "diamondCount": 94,
-          "metalWeight": 4.15,
+          "metalWeight": 3.65,
           "shape": "Round",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4494,7 +4494,7 @@
           "carat": 15.5,
           "minCarat": 15,
           "diamondCount": 34,
-          "metalWeight": null,
+          "metalWeight": 8.4,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
@@ -4523,7 +4523,7 @@
           "carat": 15.5,
           "minCarat": 15,
           "diamondCount": 34,
-          "metalWeight": null,
+          "metalWeight": 8.4,
           "shape": "Mix",
           "colour": "E-F",
           "clarity": "VS-SI",
