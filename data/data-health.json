@@ -1,21 +1,18 @@
 {
-  "checkedAt": "2026-08-01T09:40:53.403Z",
+  "checkedAt": "2026-08-02T07:32:19.296Z",
   "errors": [
-    {
-      "code": "MISSING_IMAGE",
-      "message": "SKU 55BRW has no usable image link."
-    },
     {
       "code": "MISSING_PRICE",
       "message": "SKU 55BRW has no usable price."
     },
     {
-      "code": "MISSING_IMAGE",
-      "message": "SKU 55BRY has no usable image link."
-    },
-    {
       "code": "MISSING_PRICE",
       "message": "SKU 55BRY has no usable price."
+    },
+    {
+      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
+      "message": "One photo is used by unrelated designs: 21BR 21BRY, 22BR 22BRW, 22BR 22BRY, 23BR 23BRW, 23BR 23BRY.",
+      "detail": "https://drive.google.com/file/d/1BYvT29YAbRJC94txg3cvARoaGE8EIV5v/view"
     }
   ],
   "warnings": [
@@ -35,5 +32,14 @@
       "detail": "The metal colours may actually be different carat weights sharing one SKU number."
     }
   ],
-  "notes": []
+  "notes": [
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design bracelets/22BR uses one photo for all metal colours."
+    },
+    {
+      "code": "SHARED_IMAGE",
+      "message": "Design bracelets/23BR uses one photo for all metal colours."
+    }
+  ]
 }
