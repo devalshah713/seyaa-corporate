@@ -1,14 +1,6 @@
 {
-  "checkedAt": "2026-08-02T12:37:15.829Z",
+  "checkedAt": "2026-08-03T08:30:21.869Z",
   "errors": [
-    {
-      "code": "MISSING_PRICE",
-      "message": "SKU 55BRW has no usable price."
-    },
-    {
-      "code": "MISSING_PRICE",
-      "message": "SKU 55BRY has no usable price."
-    },
     {
       "code": "IMAGE_ON_MULTIPLE_DESIGNS",
       "message": "One photo is used by unrelated designs: 21BR 21BRY, 22BR 22BRW, 22BR 22BRY, 23BR 23BRW, 23BR 23BRY.",
