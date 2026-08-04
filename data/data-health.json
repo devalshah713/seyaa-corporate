@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-04T12:57:52.091Z",
+  "checkedAt": "2026-08-04T15:25:45.946Z",
   "errors": [
     {
       "code": "IMAGE_ON_MULTIPLE_DESIGNS",
@@ -7,13 +7,7 @@
       "detail": "https://drive.google.com/file/d/1BYvT29YAbRJC94txg3cvARoaGE8EIV5v/view"
     }
   ],
-  "warnings": [
-    {
-      "code": "TITLE_MISMATCH",
-      "message": "Design hoop-earrings/24HE has different titles per colour: 15 Pts Round Hoops Earrings / 16 Pts Round Hoops Earrings.",
-      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
-    }
-  ],
+  "warnings": [],
   "notes": [
     {
       "code": "SHARED_IMAGE",
