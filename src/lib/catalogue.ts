@@ -54,13 +54,15 @@ export type Category = { name: string; slug: string; count: number }
 
 export type Catalogue = {
   generatedAt: string
-  source: { sheetId: string; title: string }
+  // Null when no source sheet is configured, and the price bounds are null
+  // when there is nothing priced to take bounds of.
+  source: { sheetId: string | null }
   stats: {
     designs: number
     skus: number
     categories: number
-    priceFrom: number
-    priceTo: number
+    priceFrom: number | null
+    priceTo: number | null
   }
   filters: { shapes: string[]; metalColours: string[]; sizes: string[] }
   categories: Category[]

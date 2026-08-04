@@ -128,14 +128,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="border-t border-white/25">
             <div className="shell flex flex-col gap-2 py-6 text-xs text-white/75 sm:flex-row sm:items-center sm:justify-between">
               <p>© {new Date().getFullYear()} Seyaa Jewels. All rights reserved.</p>
-              <p>
-                {catalogue.stats.designs} designs · {catalogue.stats.skus} SKUs · updated{' '}
-                {new Date(catalogue.generatedAt).toLocaleDateString('en-GB', {
-                  day: 'numeric',
-                  month: 'short',
-                  year: 'numeric',
-                })}
-              </p>
+              {/* Counts are a sign of range; "0 designs · 0 SKUs" is only a
+                  sign of something broken. Drop the line while empty. */}
+              {catalogue.stats.designs > 0 && (
+                <p>
+                  {catalogue.stats.designs} designs · {catalogue.stats.skus} SKUs · updated{' '}
+                  {new Date(catalogue.generatedAt).toLocaleDateString('en-GB', {
+                    day: 'numeric',
+                    month: 'short',
+                    year: 'numeric',
+                  })}
+                </p>
+              )}
             </div>
           </div>
         </footer>

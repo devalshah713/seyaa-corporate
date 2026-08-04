@@ -1,27 +1,6 @@
 {
-  "checkedAt": "2026-08-04T09:59:16.126Z",
-  "errors": [
-    {
-      "code": "IMAGE_ON_MULTIPLE_DESIGNS",
-      "message": "One photo is used by unrelated designs: 21BR 21BRY, 22BR 22BRW, 22BR 22BRY, 23BR 23BRW, 23BR 23BRY.",
-      "detail": "https://drive.google.com/file/d/1BYvT29YAbRJC94txg3cvARoaGE8EIV5v/view"
-    }
-  ],
-  "warnings": [
-    {
-      "code": "TITLE_MISMATCH",
-      "message": "Design hoop-earrings/24HE has different titles per colour: 15 Pts Round Hoops Earrings / 16 Pts Round Hoops Earrings.",
-      "detail": "The metal colours may actually be different carat weights sharing one SKU number."
-    }
-  ],
-  "notes": [
-    {
-      "code": "SHARED_IMAGE",
-      "message": "Design bracelets/22BR uses one photo for all metal colours."
-    },
-    {
-      "code": "SHARED_IMAGE",
-      "message": "Design bracelets/23BR uses one photo for all metal colours."
-    }
-  ]
+  "generatedAt": "2026-08-04T16:07:17.053Z",
+  "errors": [],
+  "warnings": [],
+  "notes": []
 }

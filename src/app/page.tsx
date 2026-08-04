@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import CatalogueEmpty from '@/components/CatalogueEmpty'
 import ProductCard from '@/components/ProductCard'
 import { catalogue, designs, formatPrice } from '@/lib/catalogue'
 
@@ -13,6 +14,11 @@ function categoryHeroes() {
 }
 
 export default function HomePage() {
+  // No source connected, so nothing to show. The full page would render a hero
+  // reading "0 designs" over three empty grids, which looks broken rather than
+  // deliberate.
+  if (!designs.length) return <CatalogueEmpty />
+
   const heroes = categoryHeroes()
   const opener = heroes[0]?.hero
   const featured = [...designs].sort((a, b) => (b.carat ?? 0) - (a.carat ?? 0)).slice(0, 8)
