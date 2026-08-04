@@ -26,6 +26,20 @@ the sync needs no credentials or API keys.
 > fails with a clear error and the site simply keeps serving the last good
 > catalogue.
 
+**Which sheet is configuration, not code.** The Drive file id lives in the
+`SHEET_ID` environment variable, never in this repository — the repository is
+public, and the link grants read access to the entire price list. Set it in two
+places:
+
+- **Vercel →** Settings → Environment Variables → `SHEET_ID`, so each deploy
+  pulls the sheet.
+- **GitHub →** Settings → Secrets and variables → Actions → *Variables* →
+  `SHEET_ID`, so the hourly job pulls it too.
+
+With it unset the sync reports that it has nothing to pull, commits nothing and
+exits cleanly; the site keeps serving the committed catalogue. Repointing the
+site at a different sheet is a change to those two values and nothing else.
+
 ## Everyday tasks
 
 ```bash
@@ -116,9 +130,9 @@ the enquiry list (everything selected), and in the footer (a general question).
 
 ## Deploying
 
-Vercel, connected to this repository, deploying `main`. The one optional
-environment variable is the WhatsApp number above. The build
-command is:
+Vercel, connected to this repository, deploying `main`. `SHEET_ID` must be set
+for a deploy to pull fresh data; the WhatsApp number and sales address above are
+optional overrides. The build command is:
 
 ```
 node scripts/sync-sheet.mjs && next build

@@ -7,10 +7,14 @@ there is no cart and nothing is sold online. Buyers note a SKU and enquire.
 
 Everything on the site comes from one spreadsheet. Nothing is hand-authored.
 
-- **Sheet:** `JEWELERY PORTAL` — file id `1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U`
-- **Owner:** `seyaalabjewel@gmail.com`
+- **Sheet:** set by the `SHEET_ID` environment variable — the Drive file id of
+  the master sheet. It is deliberately **not** committed: the repository is
+  public, and the link grants read access to the whole price list. Set it in
+  Vercel and as a GitHub Actions repository variable of the same name.
+  Unset, the sync does nothing and the committed catalogue stands.
 - **Sharing:** *Anyone with the link can view* — **this must stay true**, or the
-  hourly sync breaks. It is what lets the sync run without credentials.
+  hourly sync breaks. It is what lets the sync run without credentials, and it
+  is also why the id belongs in configuration rather than in the source.
 - **Photography:** individual Drive files owned by `samkitgems713@gmail.com`,
   also shared publicly, named by SKU (`5BRW.png`). They are hot-linked through
   `drive.google.com/thumbnail?id=…`, so **adding a photo to Drive and pasting

@@ -40,7 +40,14 @@ jobs:
           node-version: 22
 
       # No credentials needed — the sheet is shared as "anyone with the link".
+      # Which sheet is configuration, set as a repository variable (Settings →
+      # Secrets and variables → Actions → Variables) rather than committed, so
+      # the source can be repointed without a commit and this public repository
+      # carries no link to the price list. Unset, the sync reports that and
+      # commits nothing.
       - name: Pull the sheet
+        env:
+          SHEET_ID: ${{ vars.SHEET_ID }}
         run: node scripts/sync-sheet.mjs
 
       - name: Summarise data health

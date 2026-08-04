@@ -18,8 +18,20 @@ import { readWorkbook } from './lib/xlsx.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
-/** Master sheet: "JEWELERY PORTAL" — owned by seyaalabjewel@gmail.com. */
-export const SHEET_ID = '1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U'
+/**
+ * Which sheet to pull, as a Drive file id. Configuration, not code: it is
+ * supplied by the environment so the source can be repointed — or retired —
+ * without a commit, and so the repository does not carry a live link to a
+ * publicly-readable business document.
+ *
+ * Set it in Vercel (Settings → Environment Variables) and as the GitHub Actions
+ * repository variable of the same name, or inline for a one-off run:
+ *
+ *   SHEET_ID=<drive-file-id> npm run sync
+ *
+ * Unset, the sync does nothing and the last committed catalogue stands.
+ */
+export const SHEET_ID = (process.env.SHEET_ID ?? '').trim()
 
 /**
  * Columns are located by their header text, not by position.
@@ -167,6 +179,15 @@ async function loadWorkbook() {
     const path = resolve(process.argv[fileArg + 1])
     console.log(`Reading local workbook ${path}`)
     return readWorkbook(await readFile(path))
+  }
+
+  if (!SHEET_ID) {
+    throw new Error(
+      'No sheet is configured. Set SHEET_ID to the Drive file id of the ' +
+        'master sheet — in Vercel, as a GitHub Actions repository variable, or ' +
+        'inline as `SHEET_ID=… npm run sync`. Until then there is nothing to ' +
+        'pull, and the committed catalogue is what the site serves.',
+    )
   }
 
   const url = `https://drive.google.com/uc?export=download&id=${SHEET_ID}`
@@ -440,7 +461,7 @@ async function main() {
   const prices = designs.flatMap((d) => d.variants.map((v) => v.price)).filter(Boolean)
   const catalogue = {
     generatedAt: new Date().toISOString(),
-    source: { sheetId: SHEET_ID, title: 'JEWELERY PORTAL' },
+    source: { sheetId: SHEET_ID || null },
     stats: {
       designs: designs.length,
       skus: designs.reduce((n, d) => n + d.variants.length, 0),
