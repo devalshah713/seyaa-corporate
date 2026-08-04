@@ -175,7 +175,7 @@ async function loadWorkbook() {
   if (!res.ok) {
     throw new Error(
       `Drive returned ${res.status} ${res.statusText}. The sheet must stay shared ` +
-        `as "Anyone with the link can view" for the daily sync to work.`,
+        `as "Anyone with the link can view" for the sync to work.`,
     )
   }
   const buf = Buffer.from(await res.arrayBuffer())

@@ -1,10 +1,15 @@
 name: Sync catalogue from Google Sheet
 
-# Pulls the master sheet every morning and commits any changes, which triggers
-# a redeploy. Adding a row to the sheet is all it takes to publish a product.
+# Pulls the master sheet and commits any changes, which triggers a redeploy.
+# Adding a row to the sheet is all it takes to publish a product.
+#
+# Hourly, not daily. Daily meant an edit made during the working day sat
+# invisible until the next morning, which reads as the site being broken. The
+# commit step exits early when nothing changed, so a quiet hour costs one
+# 40-second job and no deploy.
 on:
   schedule:
-    - cron: '0 5 * * *' # 05:00 UTC daily
+    - cron: '0 * * * *' # every hour, on the hour (UTC)
   workflow_dispatch: # lets anyone run it on demand from the Actions tab
 
 permissions:

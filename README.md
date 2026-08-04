@@ -12,17 +12,17 @@ Buyers note a SKU and enquire.
 
 The site has no CMS. One Google Sheet is the source of truth, and the product
 photographs live in Google Drive. Add a row to the sheet, paste the Drive link
-to the photo, and the piece appears on the site the next morning.
+to the photo, and the piece appears on the site within the hour.
 
 ```
 Google Sheet  ──►  npm run sync  ──►  data/products.json  ──►  Next.js build
-   (daily)          (GitHub Action)                             (Vercel)
+   (hourly)         (GitHub Action)                             (Vercel)
 ```
 
 Both the sheet and the photos are shared as *anyone with the link can view*, so
 the sync needs no credentials or API keys.
 
-> **Keep the sheet shared.** If link-sharing is turned off, the daily sync
+> **Keep the sheet shared.** If link-sharing is turned off, the sync
 > fails with a clear error and the site simply keeps serving the last good
 > catalogue.
 
@@ -49,7 +49,7 @@ It reports them rather than silently patching them, so the source can be fixed.
    **IMAGE 1**. A second angle goes in **IMAGE 2** — the product page then
    becomes a gallery the customer can swipe through, with thumbnails, arrows
    and a counter. (More than one link in a single cell works too.)
-4. The site updates itself the next morning, or run the *Sync catalogue*
+4. The site picks it up within the hour, or run the *Sync catalogue*
    workflow from the Actions tab to publish immediately.
 
 Every photo must be shared as *anyone with the link can view*, the same as the
@@ -132,7 +132,7 @@ loudly, rather than a Drive outage blocking an unrelated deploy.
 Two paths therefore keep the site current, and either alone is enough:
 
 ```
-sheet edited  ─►  05:00 UTC Action runs  ─►  commits data/  ─►  Vercel redeploys
+sheet edited  ─►  hourly Action runs     ─►  commits data/  ─►  Vercel redeploys
 any push      ─────────────────────────────────────────────►  Vercel redeploys
                                                               (re-syncs on the way)
 ```

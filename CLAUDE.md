@@ -10,7 +10,7 @@ Everything on the site comes from one spreadsheet. Nothing is hand-authored.
 - **Sheet:** `JEWELERY PORTAL` — file id `1Dw4N0s3shF_hnNUWjcCN_ppfLtq1os9U`
 - **Owner:** `seyaalabjewel@gmail.com`
 - **Sharing:** *Anyone with the link can view* — **this must stay true**, or the
-  daily sync breaks. It is what lets the sync run without credentials.
+  hourly sync breaks. It is what lets the sync run without credentials.
 - **Photography:** individual Drive files owned by `samkitgems713@gmail.com`,
   also shared publicly, named by SKU (`5BRW.png`). They are hot-linked through
   `drive.google.com/thumbnail?id=…`, so **adding a photo to Drive and pasting
@@ -23,8 +23,11 @@ npm run sync          # download the sheet, rebuild data/products.json
 npm run sync -- --file some.xlsx   # parse a local copy instead
 ```
 
-`.github/workflows/sync-catalogue.yml` runs this every morning at 05:00 UTC and
-commits any change, which redeploys the site.
+`.github/workflows/sync-catalogue.yml` runs this **hourly** and commits any
+change, which redeploys the site. It was daily until an edit made during the
+working day sat invisible until the next morning and read as a broken site.
+The commit step exits early when nothing changed, so a quiet hour costs one
+short job and no deploy.
 
 ## Columns are found by header, never by position
 
@@ -80,15 +83,14 @@ change back, and a permanent redirect would be cached in the browser past that.
 reports problems in the *source sheet* for the team to fix — it never silently
 "corrects" them. Known open issues at last sync:
 
-- `55BRW` and `55BRY` have a photo now but still no price, so both read
-  "On request". Two rows, not a parse failure — the guard below only trips when
-  the *proportion* collapses.
 - One photo (`1BYvT29…`) sits in `IMAGE 1` for five SKUs across three unrelated
   designs — 21BRY, 22BRW, 22BRY, 23BRW, 23BRY, the 2/3/4 CTS Round Tennis
   Bracelets. Their `IMAGE 2` values are all distinct, so it is the first photo
   that was copy-pasted, and `IMAGE 1` is what the collection grid shows.
-- Three hoop designs give different titles to their White and Yellow rows,
-  suggesting two carat weights share one SKU number.
+- `24HE` still gives different titles to its White and Yellow rows, suggesting
+  two carat weights share one SKU number.
+
+Every SKU now has a price, and 346 of 368 have a second photograph.
 
 Normalisation that *is* applied automatically: byte-identical duplicate rows are
 dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing
