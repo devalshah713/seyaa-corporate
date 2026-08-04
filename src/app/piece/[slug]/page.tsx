@@ -4,6 +4,7 @@ import { notFound, redirect } from 'next/navigation'
 import PieceDetail from '@/components/PieceDetail'
 import ProductCard from '@/components/ProductCard'
 import { designs, findByIdentifier, formatCarat, getDesign } from '@/lib/catalogue'
+import { siteUrl } from '@/lib/site'
 
 type Params = { params: Promise<{ slug: string }> }
 
@@ -17,12 +18,19 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!design) return { title: 'Piece not found' }
 
   const description = `${formatCarat(design.carat)} of lab-grown diamonds in ${design.metal}. Price on request.`
+  const url = siteUrl(`/piece/${design.slug}`)
   return {
     title: design.title,
     description,
+    // A piece is reachable at several addresses — its current slug, any older
+    // title-derived one, and its SKU — all of which redirect here. Naming the
+    // current slug as canonical keeps those from being read as duplicates.
+    alternates: { canonical: url },
     openGraph: {
       title: design.title,
       description,
+      type: 'website',
+      url,
       images: design.image ? [design.image] : undefined,
     },
   }

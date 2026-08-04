@@ -92,7 +92,7 @@ the design id at the end of the slug is the stable half. But to send a link that
 can never go stale, use the SKU:
 
 ```
-https://seyaa-showcase.vercel.app/piece/19BRW
+https://catalogue.seyaajewels.com/piece/19BRW
 ```
 
 That redirects to whatever the piece is called today. It is the right thing to
@@ -130,8 +130,16 @@ the enquiry list (everything selected), and in the footer (a general question).
 
 ## Deploying
 
-Vercel, connected to this repository, deploying `main`. `SHEET_ID` must be set
-for a deploy to pull fresh data; the WhatsApp number and sales address above are
+Vercel, connected to this repository, deploying `main`. Live at
+**catalogue.seyaajewels.com** — a subdomain, so DNS is a single CNAME on
+`catalogue` pointing at the target Vercel shows when the domain is added to the
+project. The apex `seyaajewels.com` is left alone, which is the point of using
+a subdomain: the main site can live anywhere without touching this one.
+
+`SHEET_ID` must be set for a deploy to pull fresh data. `NEXT_PUBLIC_SITE_URL`
+overrides the canonical origin if the address ever changes; it defaults to the
+domain above and is what makes Open Graph images absolute, so a link pasted into
+WhatsApp shows a preview card. The WhatsApp number and sales address are
 optional overrides. The build command is:
 
 ```

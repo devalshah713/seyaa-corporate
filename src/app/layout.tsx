@@ -7,6 +7,7 @@ import SiteHeader from '@/components/SiteHeader'
 import WhatsAppIcon from '@/components/WhatsAppIcon'
 import { CONTACT, hasWhatsApp, whatsappHref } from '@/lib/contact'
 import { catalogue } from '@/lib/catalogue'
+import { SITE_URL } from '@/lib/site'
 
 /**
  * The two typefaces the brand kit names. next/font downloads and subsets them
@@ -27,6 +28,10 @@ const allura = Allura({
 })
 
 export const metadata: Metadata = {
+  // Resolves relative asset paths below into the absolute URLs Open Graph
+  // requires. Absent, Next falls back to http://localhost:3000 and every
+  // shared link advertises a card image nobody can load.
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Seyaa Jewels — Lab Grown Diamond Jewellery',
     template: '%s · Seyaa Jewels',
@@ -38,6 +43,8 @@ export const metadata: Metadata = {
     description:
       'A curated showcase of 14K gold lab-grown diamond jewellery for corporate partners.',
     type: 'website',
+    siteName: 'Seyaa Jewels',
+    url: SITE_URL,
     images: ['/brand/og.jpg'],
   },
 }
