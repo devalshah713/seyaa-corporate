@@ -1,10 +1,10 @@
 # Seyaa Jewels — Lab Grown Diamond Jewellery
 
 A showcase catalogue of 14K gold lab-grown diamond jewellery for corporate
-partners. Photos, full specifications and prices — no cart, no checkout.
+partners. Photos and full specifications — no cart, no checkout, no prices.
 Buyers note a SKU and enquire.
 
-**196 designs · 368 SKUs · 6 categories**
+**191 designs · 363 SKUs · 6 categories**
 
 ---
 
@@ -75,7 +75,7 @@ on a live product page, which nothing else will catch.
 | Route | Purpose |
 | --- | --- |
 | `/` | Editorial home — category tiles, statement pieces |
-| `/collection` | All designs, filterable by category, metal, shape and price; searchable by name or SKU |
+| `/collection` | All designs, filterable by category, metal and shape; searchable by name or SKU |
 | `/piece/[slug]` | One design: gallery, metal-colour toggle, full specification |
 | `/piece/[SKU]` | The same page, by SKU — a link that never goes stale |
 | `/guide` | What E–F, VS–SI, carat and "lab grown" actually mean |
@@ -101,8 +101,8 @@ paste into an email or a WhatsApp message.
 ## Enquiries
 
 A buyer adds SKUs to an enquiry list as they browse, then sends the whole list
-to sales in one message — by WhatsApp or email, with every SKU, carat weight,
-size and price already written out.
+to sales in one message — by WhatsApp or email, with every SKU, carat weight
+and size already written out, and a request for pricing.
 
 The list is stored in the browser, so it survives a refresh and needs no login.
 A SKU is what gets added rather than a design, because metal colour is part of

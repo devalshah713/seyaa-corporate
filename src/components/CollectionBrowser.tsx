@@ -5,22 +5,15 @@ import { useSearchParams } from 'next/navigation'
 import ProductCard from './ProductCard'
 import { formatPrice, type Category, type Design } from '@/lib/catalogue'
 
-type Sort = 'featured' | 'price-asc' | 'price-desc' | 'carat-desc'
+// No price sort and no price filter: prices are not published, so both would
+// rank or narrow on a value the browser does not have — and a working price
+// band is itself a way to read a price off a catalogue that hides them.
+type Sort = 'featured' | 'carat-desc' | 'carat-asc'
 
 const SORTS: { value: Sort; label: string }[] = [
   { value: 'featured', label: 'Featured' },
-  { value: 'price-asc', label: 'Price: low to high' },
-  { value: 'price-desc', label: 'Price: high to low' },
   { value: 'carat-desc', label: 'Carat: high to low' },
-]
-
-/** Round bands are friendlier than a slider and survive new price points. */
-const PRICE_BANDS = [
-  { label: 'Under $1,000', min: 0, max: 1000 },
-  { label: '$1,000 – $2,500', min: 1000, max: 2500 },
-  { label: '$2,500 – $5,000', min: 2500, max: 5000 },
-  { label: '$5,000 – $10,000', min: 5000, max: 10000 },
-  { label: 'Over $10,000', min: 10000, max: Infinity },
+  { value: 'carat-asc', label: 'Carat: low to high' },
 ]
 
 type Props = {
@@ -35,24 +28,16 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const [category, setCategory] = useState<string>(params.get('category') ?? 'all')
   const [shape, setShape] = useState<string>('all')
   const [metal, setMetal] = useState<string>('all')
-  const [band, setBand] = useState<number | null>(null)
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState<Sort>('featured')
   const [filtersOpen, setFiltersOpen] = useState(false)
 
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase()
-    const range = band === null ? null : PRICE_BANDS[band]
-
     const filtered = designs.filter((d) => {
       if (category !== 'all' && d.categorySlug !== category) return false
       if (shape !== 'all' && d.shape !== shape) return false
       if (metal !== 'all' && !d.metalColours.includes(metal as Design['metalColours'][number])) return false
-
-      if (range) {
-        const price = d.priceFrom ?? 0
-        if (price < range.min || price >= range.max) return false
-      }
 
       if (needle) {
         // Buyers search by SKU as often as by name.
@@ -65,17 +50,15 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     })
 
     const sorted = [...filtered]
-    if (sort === 'price-asc') sorted.sort((a, b) => (a.priceFrom ?? 0) - (b.priceFrom ?? 0))
-    if (sort === 'price-desc') sorted.sort((a, b) => (b.priceFrom ?? 0) - (a.priceFrom ?? 0))
     if (sort === 'carat-desc') sorted.sort((a, b) => (b.carat ?? 0) - (a.carat ?? 0))
+    if (sort === 'carat-asc') sorted.sort((a, b) => (a.carat ?? 0) - (b.carat ?? 0))
     return sorted
-  }, [designs, category, shape, metal, band, query, sort])
+  }, [designs, category, shape, metal, query, sort])
 
   const activeCount =
     (category !== 'all' ? 1 : 0) +
     (shape !== 'all' ? 1 : 0) +
-    (metal !== 'all' ? 1 : 0) +
-    (band !== null ? 1 : 0)
+    (metal !== 'all' ? 1 : 0)
 
   // The sheet covers the grid on mobile; let it scroll, not the page behind it.
   useEffect(() => {
@@ -93,7 +76,6 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     setCategory('all')
     setShape('all')
     setMetal('all')
-    setBand(null)
     setQuery('')
   }
 
@@ -218,17 +200,6 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
             ))}
           </FilterGroup>
 
-          <FilterGroup label="Price">
-            <FilterOption active={band === null} onClick={() => setBand(null)}>
-              Any price
-            </FilterOption>
-            {PRICE_BANDS.map((b, i) => (
-              <FilterOption key={b.label} active={band === i} onClick={() => setBand(i)}>
-                {b.label}
-              </FilterOption>
-            ))}
-          </FilterGroup>
-
           {/* Pinned inside the sheet so the result count is always in view and
               dismissing never means scrolling back up. */}
           {filtersOpen && (
@@ -254,8 +225,8 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
             <div className="border border-ink-line px-6 py-24 text-center">
               <p className="font-display text-2xl">Nothing matches those filters</p>
               <p className="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-bone-dim">
-                Try widening the price range or clearing a filter to see more of the
-                collection.
+                Try clearing a filter, or search by name or SKU to find a specific
+                piece.
               </p>
               <button
                 onClick={reset}
@@ -307,4 +278,4 @@ function FilterOption({
   )
 }
 
-export { PRICE_BANDS, formatPrice }
+export { formatPrice }

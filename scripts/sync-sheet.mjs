@@ -69,18 +69,44 @@ const FIELDS = [
 ]
 
 /** Header row -> { field: columnIndex }, or null if the sheet is unusable. */
+/** 0 -> "A", 25 -> "Z", 26 -> "AA" — so a report names the column a human sees. */
+function columnLetter(index) {
+  let n = index
+  let out = ''
+  do {
+    out = String.fromCharCode(65 + (n % 26)) + out
+    n = Math.floor(n / 26) - 1
+  } while (n >= 0)
+  return out
+}
+
 function locateColumns(headerRow, tab) {
   const headers = (headerRow ?? []).map((h) => String(h ?? '').trim())
   const index = {}
   const missing = []
 
   for (const field of FIELDS) {
-    const at = headers.findIndex((h) => field.match.test(h))
-    if (at === -1) {
+    const hits = headers.reduce((all, h, i) => (field.match.test(h) ? [...all, i] : all), [])
+    if (!hits.length) {
       if (field.required) missing.push(field.key)
       continue
     }
-    index[field.key] = at
+
+    // Two columns under one header is ambiguous, and picking the leftmost is a
+    // guess. Say so by name rather than resolving it silently — the Bracelets
+    // tab arrived with a second "Price" holding a marked-up figure, and which
+    // one is meant is a question for the team, not for this script.
+    if (hits.length > 1) {
+      const letters = hits.map((i) => columnLetter(i)).join(', ')
+      flag(
+        'warnings',
+        'DUPLICATE_COLUMN',
+        `Tab "${tab}" has ${hits.length} columns headed "${headers[hits[0]]}" (${letters}). ` +
+          `Reading the first, ${columnLetter(hits[0])}.`,
+      )
+    }
+
+    index[field.key] = hits[0]
   }
 
   if (missing.length) {
@@ -458,7 +484,27 @@ async function main() {
     count: designs.filter((d) => d.categorySlug === slug).length,
   })).filter((c) => c.count > 0)
 
-  const prices = designs.flatMap((d) => d.variants.map((v) => v.price)).filter(Boolean)
+  /**
+   * Prices are withheld from customers: every piece reads "Price on request".
+   *
+   * They are dropped *here*, on the way out, rather than hidden in the
+   * components — because hiding them in the UI would not hide them at all.
+   * `data/products.json` is committed to a public repository and bundled into
+   * the pages the browser downloads, so a number that reaches this file is
+   * readable by anyone who opens devtools or the repo, whatever the markup
+   * says. The only way not to show a price is not to ship it.
+   *
+   * They are still parsed above, because the publish guard uses them: a sudden
+   * collapse in how many rows carry a price is the signal that the sheet's
+   * columns have moved, and that check is worth more than the field itself.
+   */
+  const published = designs.map((d) => ({
+    ...d,
+    priceFrom: null,
+    priceTo: null,
+    variants: d.variants.map((v) => ({ ...v, price: null })),
+  }))
+
   const catalogue = {
     generatedAt: new Date().toISOString(),
     source: { sheetId: SHEET_ID || null },
@@ -466,8 +512,8 @@ async function main() {
       designs: designs.length,
       skus: designs.reduce((n, d) => n + d.variants.length, 0),
       categories: categories.length,
-      priceFrom: Math.min(...prices),
-      priceTo: Math.max(...prices),
+      priceFrom: null,
+      priceTo: null,
     },
     filters: {
       shapes: [...new Set(designs.map((d) => d.shape).filter(Boolean))].sort(),
@@ -475,7 +521,7 @@ async function main() {
       sizes: [...new Set(designs.map((d) => d.size).filter(Boolean))].sort(),
     },
     categories,
-    designs,
+    designs: published,
   }
 
   await mkdir(resolve(ROOT, 'data'), { recursive: true })

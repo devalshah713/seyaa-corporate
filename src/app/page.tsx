@@ -2,13 +2,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import CatalogueEmpty from '@/components/CatalogueEmpty'
 import ProductCard from '@/components/ProductCard'
-import { catalogue, designs, formatPrice } from '@/lib/catalogue'
+import { catalogue, designs, formatCarat } from '@/lib/catalogue'
 
-/** The most substantial piece in each category makes the strongest tile. */
+/** The heaviest piece in each category makes the strongest tile. Carat, not
+ *  price: prices are no longer published, so they are null throughout. */
 function categoryHeroes() {
   return catalogue.categories.map((category) => {
     const pieces = designs.filter((d) => d.categorySlug === category.slug)
-    const hero = pieces.reduce((best, d) => ((d.priceFrom ?? 0) > (best.priceFrom ?? 0) ? d : best), pieces[0])
+    const hero = pieces.reduce((best, d) => ((d.carat ?? 0) > (best.carat ?? 0) ? d : best), pieces[0])
     return { category, hero }
   })
 }
@@ -89,7 +90,7 @@ export default function HomePage() {
               <div className="absolute -bottom-px left-0 max-w-[19rem] border-t border-gold/30 bg-ink/90 p-5 backdrop-blur-sm">
                 <p className="eyebrow">{opener.category}</p>
                 <p className="mt-2 font-display text-xl leading-snug">{opener.title}</p>
-                <p className="mt-1.5 text-sm text-gold-soft">{formatPrice(opener.priceFrom)}</p>
+                <p className="mt-1.5 text-sm text-gold-soft">{formatCarat(opener.carat)}</p>
               </div>
             </div>
           )}

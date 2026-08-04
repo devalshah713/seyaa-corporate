@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { hasWhatsApp, mailtoHref, whatsappHref } from '@/lib/contact'
 import WhatsAppIcon from './WhatsAppIcon'
-import { buildEnquiryMessage, enquiryTotal, useEnquiry } from '@/lib/enquiry'
+import { buildEnquiryMessage, useEnquiry } from '@/lib/enquiry'
 import { formatPrice } from '@/lib/catalogue'
 
 export default function EnquiryList() {
@@ -15,7 +15,6 @@ export default function EnquiryList() {
   const [copied, setCopied] = useState(false)
 
   const message = buildEnquiryMessage(items, { name, note })
-  const total = enquiryTotal(items)
 
   const subject = `Enquiry — ${items.length} ${items.length === 1 ? 'piece' : 'pieces'}`
 
@@ -101,8 +100,7 @@ export default function EnquiryList() {
 
         <div className="flex items-center justify-between gap-4 pt-5">
           <p className="text-sm text-bone-dim">
-            {items.length} {items.length === 1 ? 'piece' : 'pieces'} · indicative total{' '}
-            <span className="text-bone">{formatPrice(total)}</span>
+            {items.length} {items.length === 1 ? 'piece' : 'pieces'} selected
           </p>
           <button
             onClick={clear}

@@ -94,7 +94,8 @@ reports problems in the *source sheet* for the team to fix — it never silently
 - `24HE` still gives different titles to its White and Yellow rows, suggesting
   two carat weights share one SKU number.
 
-Every SKU now has a price, and 346 of 368 have a second photograph.
+Every SKU has a price in the sheet (not published), and most carry a second
+photograph.
 
 Normalisation that *is* applied automatically: byte-identical duplicate rows are
 dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing
@@ -189,7 +190,15 @@ disagree on first paint.
 
 ## House style
 
-- Prices are shown publicly, in whole dollars.
+- **Prices are not published.** Every piece reads "Price on request".
+  They are stripped in `sync-sheet.mjs` on the way into `data/products.json`,
+  not hidden in the components — the catalogue file is committed to a public
+  repository and bundled into the pages the browser downloads, so a number that
+  reaches it is readable whatever the markup says. The price filter and the
+  price sorts are gone for the same reason: a working price band is a way to
+  read a price off a catalogue that hides them.
+  Prices are still *parsed*, because the publish guard needs them: a collapse in
+  how many rows carry one is the signal that the sheet's columns have moved.
 - Trade grading is always paired with plain English (`E-F` → "Colourless").
   That mapping lives in `PLAIN_ENGLISH` in `src/lib/catalogue.ts`.
 - Product images use `object-contain`, never `cover` — cropping a solitaire out

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import PieceDetail from '@/components/PieceDetail'
 import ProductCard from '@/components/ProductCard'
-import { designs, findByIdentifier, formatCarat, getDesign, priceRange } from '@/lib/catalogue'
+import { designs, findByIdentifier, formatCarat, getDesign } from '@/lib/catalogue'
 
 type Params = { params: Promise<{ slug: string }> }
 
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const design = getDesign(slug)
   if (!design) return { title: 'Piece not found' }
 
-  const description = `${formatCarat(design.carat)} of lab-grown diamonds in ${design.metal}. ${priceRange(design)}.`
+  const description = `${formatCarat(design.carat)} of lab-grown diamonds in ${design.metal}. Price on request.`
   return {
     title: design.title,
     description,
@@ -41,13 +41,14 @@ export default async function PiecePage({ params }: Params) {
     notFound()
   }
 
-  // Nearest in price within the same category reads as a genuine alternative.
+  // Nearest in carat within the same category reads as a genuine alternative.
+  // This was price proximity until prices stopped being published.
   const related = designs
     .filter((d) => d.categorySlug === design.categorySlug && d.slug !== design.slug)
     .sort(
       (a, b) =>
-        Math.abs((a.priceFrom ?? 0) - (design.priceFrom ?? 0)) -
-        Math.abs((b.priceFrom ?? 0) - (design.priceFrom ?? 0)),
+        Math.abs((a.carat ?? 0) - (design.carat ?? 0)) -
+        Math.abs((b.carat ?? 0) - (design.carat ?? 0)),
     )
     .slice(0, 4)
 

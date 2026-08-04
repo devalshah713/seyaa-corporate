@@ -104,9 +104,17 @@ export function getCategory(slug: string): Category | undefined {
   return categories.find((c) => c.slug === slug)
 }
 
-/** Whole dollars — the catalogue has no cents worth showing at these values. */
+/**
+ * Prices are not published. The sync strips them before they reach
+ * `data/products.json`, so every value arriving here is null and this reads
+ * "Price on request" throughout.
+ *
+ * The formatting is kept rather than deleted because it is what makes turning
+ * prices back on a one-line change in the sync — and because a figure that
+ * somehow survives should still render as money rather than as a raw float.
+ */
 export function formatPrice(value: number | null | undefined): string {
-  if (typeof value !== 'number' || !isFinite(value)) return 'On request'
+  if (typeof value !== 'number' || !isFinite(value)) return 'Price on request'
   return value.toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD',

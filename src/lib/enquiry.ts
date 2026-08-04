@@ -98,12 +98,13 @@ export function useEnquiry() {
   }
 }
 
-const money = (v: number | null) =>
-  typeof v === 'number' ? `$${Math.round(v).toLocaleString('en-US')}` : 'price on request'
-
 /**
  * The message the buyer sends. Plain text on purpose — it has to survive
  * WhatsApp, an email client and a paste into anything else unchanged.
+ *
+ * It carries no prices. Not because there are none to carry, but because this
+ * message is composed in the customer's own WhatsApp: anything written into it
+ * is shown to them. Asking for the quote is the point of sending it.
  */
 export function buildEnquiryMessage(items: EnquiryItem[], from?: { name?: string; note?: string }) {
   const lines: string[] = [`Hello ${CONTACT.businessName}, I would like to enquire about:`, '']
@@ -113,22 +114,19 @@ export function buildEnquiryMessage(items: EnquiryItem[], from?: { name?: string
       `${item.title} (${item.metalColour} gold)`,
       item.carat ? `${item.carat} ct` : '',
       item.size,
-      money(item.price),
     ].filter(Boolean)
     lines.push(`${i + 1}. ${item.sku} — ${bits.join(' · ')}`)
   })
 
-  const total = items.reduce((sum, i) => sum + (i.price ?? 0), 0)
-  if (total > 0) {
-    lines.push('', `${items.length} ${items.length === 1 ? 'piece' : 'pieces'} · indicative total ${money(total)}`)
-  }
+  lines.push(
+    '',
+    `Please send pricing and availability for ${
+      items.length === 1 ? 'this piece' : `these ${items.length} pieces`
+    }.`,
+  )
 
   if (from?.name?.trim()) lines.push('', `From: ${from.name.trim()}`)
   if (from?.note?.trim()) lines.push(`Note: ${from.note.trim()}`)
 
   return lines.join('\n')
-}
-
-export function enquiryTotal(items: EnquiryItem[]) {
-  return items.reduce((sum, i) => sum + (i.price ?? 0), 0)
 }

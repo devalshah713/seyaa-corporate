@@ -6,7 +6,7 @@ import { catalogue, categories, designs } from '@/lib/catalogue'
 
 export const metadata: Metadata = {
   title: 'The Collection',
-  description: `Browse all ${catalogue.stats.designs} lab-grown diamond designs — filter by category, metal, diamond shape and price.`,
+  description: `Browse all ${catalogue.stats.designs} lab-grown diamond designs — filter by category, metal and diamond shape.`,
 }
 
 export default function CollectionPage() {
