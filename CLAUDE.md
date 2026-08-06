@@ -105,8 +105,17 @@ vanish into a bucket nobody reads. All 191 designs currently classify.
 
 They surface in four places: named on the home page under each category tile,
 as a chip row above the collection grid, nested under their parent in the
-filter panel, and in the product breadcrumb. `?category=…&type=…` makes any
-shelf a shareable link.
+filter panel, and in the product breadcrumb.
+
+**Diamond shape is the third level**, shown as a quieter row beneath the
+shelves — it refines a shelf rather than choosing one. It is derived from the
+pieces on the open shelf, with live counts, and rendered only when there is a
+real choice: half the shelves hold a single shape (every stud is round), and
+offering one option is worse than offering none. Tennis bracelets span seven,
+which is where it earns its place. Moving shelf keeps the chosen shape only if
+the new shelf has it, so a customer is never dropped onto an empty grid.
+
+`?category=…&type=…&shape=…` makes any of the three levels a shareable link.
 
 **The URL is synced from the handlers, not from an effect on the state.** An
 effect also fires on mount, and during a client-side transition it can run

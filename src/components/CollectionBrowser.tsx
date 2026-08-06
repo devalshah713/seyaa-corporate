@@ -29,7 +29,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const pathname = usePathname()
   const [category, setCategory] = useState<string>(params.get('category') ?? 'all')
   const [type, setType] = useState<string>(params.get('type') ?? 'all')
-  const [shape, setShape] = useState<string>('all')
+  const [shape, setShape] = useState<string>(params.get('shape') ?? 'all')
   const [metal, setMetal] = useState<string>('all')
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState<Sort>('featured')
@@ -70,6 +70,31 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const openShelf = shelves.find((s) => s.slug === type)
 
   /**
+   * The third level: which diamond shapes exist inside the shelf currently
+   * open, with a live count each.
+   *
+   * Derived from the pieces on the shelf rather than from the catalogue-wide
+   * list, and rendered only when there is a genuine choice. Half the shelves
+   * hold a single shape — every stud is round — and offering one option, or
+   * an option that returns nothing, is worse than offering none. Tennis
+   * bracelets span seven shapes, which is exactly where it earns its place.
+   */
+  const shapesHere = useMemo(() => {
+    const pool = designs.filter(
+      (d) =>
+        (category === 'all' || d.categorySlug === category) &&
+        (type === 'all' || d.subCategorySlug === type),
+    )
+    const counts = new Map<string, number>()
+    for (const d of pool) {
+      if (d.shape) counts.set(d.shape, (counts.get(d.shape) ?? 0) + 1)
+    }
+    return [...counts.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  }, [designs, category, type])
+
+  /**
    * Category and sub-category live in the address bar, so a refined view can be
    * sent to someone — "here are the tennis bracelets" is a link, not a set of
    * instructions.
@@ -83,10 +108,11 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
    * `replace` rather than `push` keeps Back going to wherever the customer came
    * from instead of walking them back through every filter they tried.
    */
-  const syncUrl = (nextCategory: string, nextType: string) => {
+  const syncUrl = (nextCategory: string, nextType: string, nextShape: string) => {
     const next = new URLSearchParams()
     if (nextCategory !== 'all') next.set('category', nextCategory)
     if (nextType !== 'all') next.set('type', nextType)
+    if (nextShape !== 'all') next.set('shape', nextShape)
     const query = next.toString()
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false })
   }
@@ -95,12 +121,33 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const chooseCategory = (slug: string) => {
     setCategory(slug)
     setType('all')
-    syncUrl(slug, 'all')
+    setShape('all')
+    syncUrl(slug, 'all', 'all')
   }
 
+  /**
+   * Moving shelf keeps the chosen shape only if the new shelf actually has it.
+   * Carrying "Emerald" from tennis bracelets into a shelf of round-only studs
+   * would land the customer on an empty grid they did not ask for.
+   */
   const chooseType = (slug: string) => {
+    const survives =
+      shape !== 'all' &&
+      designs.some(
+        (d) =>
+          (category === 'all' || d.categorySlug === category) &&
+          (slug === 'all' || d.subCategorySlug === slug) &&
+          d.shape === shape,
+      )
+    const nextShape = survives ? shape : 'all'
     setType(slug)
-    syncUrl(category, slug)
+    setShape(nextShape)
+    syncUrl(category, slug, nextShape)
+  }
+
+  const chooseShape = (next: string) => {
+    setShape(next)
+    syncUrl(category, type, next)
   }
 
   // The sheet covers the grid on mobile; let it scroll, not the page behind it.
@@ -121,7 +168,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     setShape('all')
     setMetal('all')
     setQuery('')
-    syncUrl('all', 'all')
+    syncUrl('all', 'all', 'all')
   }
 
   return (
@@ -138,9 +185,13 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
           {openCategory && <span aria-hidden> / {openCategory.name}</span>}
         </p>
         <h1 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
-          {openShelf && openCategory
-            ? `${openShelf.name} ${openCategory.name}`
-            : openCategory?.name ?? 'Every piece'}
+          {[
+            shape !== 'all' ? shapeLabel(shape) : '',
+            openShelf?.name ?? '',
+            openCategory?.name ?? (shape !== 'all' ? 'pieces' : 'Every piece'),
+          ]
+            .filter(Boolean)
+            .join(' ')}
         </h1>
       </div>
 
@@ -161,6 +212,26 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
                 {shelf.name}
                 <ChipCount>{shelf.count}</ChipCount>
               </Chip>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Third level. Deliberately quieter than the shelf row above it — this
+          refines a shelf rather than choosing one, and two rows of equal weight
+          would read as one confusing block of twelve buttons. */}
+      {shapesHere.length > 1 && (
+        <div className="mt-5 flex flex-wrap items-baseline gap-x-5 gap-y-2">
+          <span className="eyebrow text-bone-dim/70">Diamond shape</span>
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+            <ShapeLink active={shape === 'all'} onClick={() => chooseShape('all')}>
+              Any
+            </ShapeLink>
+            {shapesHere.map((s) => (
+              <ShapeLink key={s.name} active={shape === s.name} onClick={() => chooseShape(s.name)}>
+                {shapeLabel(s.name)}
+                <span className="ml-1 text-xs text-bone-dim/60">{s.count}</span>
+              </ShapeLink>
             ))}
           </div>
         </div>
@@ -289,11 +360,11 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
           </FilterGroup>
 
           <FilterGroup label="Diamond shape">
-            <FilterOption active={shape === 'all'} onClick={() => setShape('all')}>
+            <FilterOption active={shape === 'all'} onClick={() => chooseShape('all')}>
               Any shape
             </FilterOption>
             {shapes.map((s) => (
-              <FilterOption key={s} active={shape === s} onClick={() => setShape(s)}>
+              <FilterOption key={s} active={shape === s} onClick={() => chooseShape(s)}>
                 {s}
               </FilterOption>
             ))}
@@ -410,5 +481,33 @@ function Chip({
 const ChipCount = ({ children }: { children: React.ReactNode }) => (
   <span className="text-[0.625rem] opacity-60">{children}</span>
 )
+
+/** "Mix" is the sheet's word for a multi-shape setting; it needs saying properly. */
+function shapeLabel(shape: string) {
+  return shape === 'Mix' ? 'Mixed' : shape
+}
+
+/** A third-level refinement — lighter than a Chip, heavier than body text. */
+function ShapeLink({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean
+  onClick: () => void
+  children: React.ReactNode
+}) {
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`py-1.5 text-[0.8125rem] underline-offset-4 transition-colors ${
+        active ? 'text-gold-soft underline' : 'text-bone-dim hover:text-bone'
+      }`}
+    >
+      {children}
+    </button>
+  )
+}
 
 export { formatPrice }
