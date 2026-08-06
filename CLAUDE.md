@@ -27,11 +27,22 @@ npm run sync          # download the sheet, rebuild data/products.json
 npm run sync -- --file some.xlsx   # parse a local copy instead
 ```
 
-`.github/workflows/sync-catalogue.yml` runs this **hourly** and commits any
+`.github/workflows/sync-catalogue.yml` runs this on a schedule and commits any
 change, which redeploys the site. It was daily until an edit made during the
 working day sat invisible until the next morning and read as a broken site.
-The commit step exits early when nothing changed, so a quiet hour costs one
+The commit step exits early when nothing changed, so a quiet run costs one
 short job and no deploy.
+
+**It asks twice an hour, at :07 and :37, and that is not belt-and-braces.**
+GitHub's scheduler is best-effort — scheduled runs queue behind everything
+else and are dropped under load, worst at :00, which every cron asks for. One
+run an hour at :00 was delivering one every 2.5 hours, with start times
+scattered across the whole hour, and one queued run was cancelled before it
+ever started; GitHub reports that by email as "Run failed". Two attempts at odd
+minutes cost nothing on a quiet run.
+
+The push also rebases and retries: the job checks out `main` and pushes minutes
+later, and a rejected push is not a reason to lose a good sync.
 
 ## Columns are found by header, never by position
 

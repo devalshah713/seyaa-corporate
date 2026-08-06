@@ -5,11 +5,19 @@ name: Sync catalogue from Google Sheet
 #
 # Hourly, not daily. Daily meant an edit made during the working day sat
 # invisible until the next morning, which reads as the site being broken. The
-# commit step exits early when nothing changed, so a quiet hour costs one
+# commit step exits early when nothing changed, so a quiet run costs one
 # 40-second job and no deploy.
+#
+# Twice an hour, and never on the hour. GitHub's scheduler is best-effort: it
+# queues scheduled runs behind everything else and drops them under load, worst
+# of all at :00, which every cron in the world asks for. Asking for one run an
+# hour at :00 was actually delivering one every 2.5 hours, and one queued run
+# was cancelled without ever starting — which arrives by email as "Run failed".
+# Two attempts at odd minutes cost nothing when there is nothing to do, and get
+# the real interval back near the hour it claims.
 on:
   schedule:
-    - cron: '0 * * * *' # every hour, on the hour (UTC)
+    - cron: '7,37 * * * *' # twice an hour, off-peak minutes (UTC)
   workflow_dispatch: # lets anyone run it on demand from the Actions tab
 
 permissions:
@@ -29,6 +37,10 @@ env:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # Downloading a spreadsheet and writing two files takes under a minute. If
+    # it is still going after five, something is wedged and waiting longer only
+    # holds the queue open for the next run to be cancelled behind it.
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
@@ -83,4 +95,18 @@ jobs:
           fi
           git add data/
           git commit -m "chore: sync catalogue from Google Sheet"
-          git push origin "HEAD:${DEPLOY_BRANCH}"
+
+          # This job checked out main minutes ago and someone may have pushed
+          # since. A rejected push is not a reason to lose a good sync, so
+          # rebase onto whatever landed and try again.
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${DEPLOY_BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected — ${DEPLOY_BRANCH} moved. Rebasing and retrying."
+            git fetch origin "${DEPLOY_BRANCH}"
+            git rebase "origin/${DEPLOY_BRANCH}" || { git rebase --abort; exit 1; }
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
