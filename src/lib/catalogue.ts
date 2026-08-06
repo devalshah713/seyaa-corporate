@@ -33,6 +33,8 @@ export type Design = {
   categorySlug: string
   subCategory: string
   subCategorySlug: string
+  /** "Prong" / "Bezel", or null when the title does not say. */
+  setting: string | null
   designType: string
   shape: string
   metal: string

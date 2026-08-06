@@ -30,6 +30,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const [category, setCategory] = useState<string>(params.get('category') ?? 'all')
   const [type, setType] = useState<string>(params.get('type') ?? 'all')
   const [shape, setShape] = useState<string>(params.get('shape') ?? 'all')
+  const [setting, setSetting] = useState<string>(params.get('setting') ?? 'all')
   const [metal, setMetal] = useState<string>('all')
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState<Sort>('featured')
@@ -41,6 +42,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
       if (category !== 'all' && d.categorySlug !== category) return false
       if (type !== 'all' && d.subCategorySlug !== type) return false
       if (shape !== 'all' && d.shape !== shape) return false
+      if (setting !== 'all' && d.setting !== setting) return false
       if (metal !== 'all' && !d.metalColours.includes(metal as Design['metalColours'][number])) return false
 
       if (needle) {
@@ -57,12 +59,13 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     if (sort === 'carat-desc') sorted.sort((a, b) => (b.carat ?? 0) - (a.carat ?? 0))
     if (sort === 'carat-asc') sorted.sort((a, b) => (a.carat ?? 0) - (b.carat ?? 0))
     return sorted
-  }, [designs, category, type, shape, metal, query, sort])
+  }, [designs, category, type, shape, setting, metal, query, sort])
 
   const activeCount =
     (category !== 'all' ? 1 : 0) +
     (type !== 'all' ? 1 : 0) +
     (shape !== 'all' ? 1 : 0) +
+    (setting !== 'all' ? 1 : 0) +
     (metal !== 'all' ? 1 : 0)
 
   const openCategory = categories.find((c) => c.slug === category)
@@ -79,20 +82,32 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
    * an option that returns nothing, is worse than offering none. Tennis
    * bracelets span seven shapes, which is exactly where it earns its place.
    */
-  const shapesHere = useMemo(() => {
-    const pool = designs.filter(
-      (d) =>
-        (category === 'all' || d.categorySlug === category) &&
-        (type === 'all' || d.subCategorySlug === type),
-    )
-    const counts = new Map<string, number>()
-    for (const d of pool) {
-      if (d.shape) counts.set(d.shape, (counts.get(d.shape) ?? 0) + 1)
+  const [shapesHere, settingsHere] = useMemo(() => {
+    /**
+     * Options for one refinement, counted against everything *except* itself.
+     *
+     * Excluding the facet from its own pool is what keeps its other options
+     * visible once one is chosen — count "Oval" against the oval-only pool and
+     * every other shape reads zero and looks unavailable. Counting each facet
+     * against the *other* one is what stops dead options appearing: pick Bezel
+     * and only the shapes that come in bezel are offered.
+     */
+    const options = (facet: 'shape' | 'setting') => {
+      const counts = new Map<string, number>()
+      for (const d of designs) {
+        if (category !== 'all' && d.categorySlug !== category) continue
+        if (type !== 'all' && d.subCategorySlug !== type) continue
+        if (facet !== 'shape' && shape !== 'all' && d.shape !== shape) continue
+        if (facet !== 'setting' && setting !== 'all' && d.setting !== setting) continue
+        const value = facet === 'shape' ? d.shape : d.setting
+        if (value) counts.set(value, (counts.get(value) ?? 0) + 1)
+      }
+      return [...counts.entries()]
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
     }
-    return [...counts.entries()]
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
-  }, [designs, category, type])
+    return [options('shape'), options('setting')] as const
+  }, [designs, category, type, shape, setting])
 
   /**
    * Category and sub-category live in the address bar, so a refined view can be
@@ -108,11 +123,12 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
    * `replace` rather than `push` keeps Back going to wherever the customer came
    * from instead of walking them back through every filter they tried.
    */
-  const syncUrl = (nextCategory: string, nextType: string, nextShape: string) => {
+  const syncUrl = (nextCategory: string, nextType: string, nextShape: string, nextSetting: string) => {
     const next = new URLSearchParams()
     if (nextCategory !== 'all') next.set('category', nextCategory)
     if (nextType !== 'all') next.set('type', nextType)
     if (nextShape !== 'all') next.set('shape', nextShape)
+    if (nextSetting !== 'all') next.set('setting', nextSetting)
     const query = next.toString()
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false })
   }
@@ -122,7 +138,8 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     setCategory(slug)
     setType('all')
     setShape('all')
-    syncUrl(slug, 'all', 'all')
+    setSetting('all')
+    syncUrl(slug, 'all', 'all', 'all')
   }
 
   /**
@@ -131,23 +148,30 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
    * would land the customer on an empty grid they did not ask for.
    */
   const chooseType = (slug: string) => {
-    const survives =
-      shape !== 'all' &&
-      designs.some(
-        (d) =>
-          (category === 'all' || d.categorySlug === category) &&
-          (slug === 'all' || d.subCategorySlug === slug) &&
-          d.shape === shape,
-      )
-    const nextShape = survives ? shape : 'all'
+    const onNewShelf = designs.filter(
+      (d) =>
+        (category === 'all' || d.categorySlug === category) &&
+        (slug === 'all' || d.subCategorySlug === slug),
+    )
+    const keep = (value: string, read: (d: Design) => string | null) =>
+      value !== 'all' && onNewShelf.some((d) => read(d) === value) ? value : 'all'
+
+    const nextShape = keep(shape, (d) => d.shape)
+    const nextSetting = keep(setting, (d) => d.setting)
     setType(slug)
     setShape(nextShape)
-    syncUrl(category, slug, nextShape)
+    setSetting(nextSetting)
+    syncUrl(category, slug, nextShape, nextSetting)
   }
 
   const chooseShape = (next: string) => {
     setShape(next)
-    syncUrl(category, type, next)
+    syncUrl(category, type, next, setting)
+  }
+
+  const chooseSetting = (next: string) => {
+    setSetting(next)
+    syncUrl(category, type, shape, next)
   }
 
   // The sheet covers the grid on mobile; let it scroll, not the page behind it.
@@ -167,8 +191,9 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     setType('all')
     setShape('all')
     setMetal('all')
+    setSetting('all')
     setQuery('')
-    syncUrl('all', 'all', 'all')
+    syncUrl('all', 'all', 'all', 'all')
   }
 
   return (
@@ -187,8 +212,9 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
         <h1 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
           {[
             shape !== 'all' ? shapeLabel(shape) : '',
+            setting !== 'all' ? setting : '',
             openShelf?.name ?? '',
-            openCategory?.name ?? (shape !== 'all' ? 'pieces' : 'Every piece'),
+            openCategory?.name ?? (shape !== 'all' || setting !== 'all' ? 'pieces' : 'Every piece'),
           ]
             .filter(Boolean)
             .join(' ')}
@@ -217,25 +243,12 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
         </div>
       )}
 
-      {/* Third level. Deliberately quieter than the shelf row above it — this
-          refines a shelf rather than choosing one, and two rows of equal weight
-          would read as one confusing block of twelve buttons. */}
-      {shapesHere.length > 1 && (
-        <div className="mt-5 flex flex-wrap items-baseline gap-x-5 gap-y-2">
-          <span className="eyebrow text-bone-dim/70">Diamond shape</span>
-          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-            <ShapeLink active={shape === 'all'} onClick={() => chooseShape('all')}>
-              Any
-            </ShapeLink>
-            {shapesHere.map((s) => (
-              <ShapeLink key={s.name} active={shape === s.name} onClick={() => chooseShape(s.name)}>
-                {shapeLabel(s.name)}
-                <span className="ml-1 text-xs text-bone-dim/60">{s.count}</span>
-              </ShapeLink>
-            ))}
-          </div>
-        </div>
-      )}
+      {/* Third level. Deliberately quieter than the shelf row above it — these
+          refine a shelf rather than choosing one, and rows of equal weight
+          would read as one confusing block of buttons. Each appears only where
+          it offers a real choice. */}
+      <Refinement label="Diamond shape" options={shapesHere} value={shape} onChange={chooseShape} format={shapeLabel} />
+      <Refinement label="Setting" options={settingsHere} value={setting} onChange={chooseSetting} />
 
       <div className="mt-10 flex flex-col gap-3 border-y border-ink-line py-4 lg:flex-row lg:items-center lg:justify-between">
         <input
@@ -485,6 +498,52 @@ const ChipCount = ({ children }: { children: React.ReactNode }) => (
 /** "Mix" is the sheet's word for a multi-shape setting; it needs saying properly. */
 function shapeLabel(shape: string) {
   return shape === 'Mix' ? 'Mixed' : shape
+}
+
+/**
+ * One refinement row. Renders nothing unless there is a genuine choice —
+ * a single option is not a choice, and none at all is not a row.
+ *
+ * "Any" is always offered, and matters more than it looks: eleven of the forty
+ * tennis bracelets do not state a setting in their title, so they are reachable
+ * under Any and nowhere else. Showing customers a "Not specified" bucket would
+ * put a gap in the source data on the shop floor; the sync reports those pieces
+ * by name instead, for the team to fix at the sheet.
+ */
+function Refinement({
+  label,
+  options,
+  value,
+  onChange,
+  format = (v: string) => v,
+}: {
+  label: string
+  options: { name: string; count: number }[]
+  value: string
+  onChange: (next: string) => void
+  format?: (value: string) => string
+}) {
+  if (options.length < 2) return null
+  return (
+    <div className="mt-5 flex flex-wrap items-baseline gap-x-5 gap-y-2">
+      <span className="eyebrow text-bone-dim/70">{label}</span>
+      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <ShapeLink active={value === 'all'} onClick={() => onChange('all')}>
+          Any
+        </ShapeLink>
+        {options.map((option) => (
+          <ShapeLink
+            key={option.name}
+            active={value === option.name}
+            onClick={() => onChange(option.name)}
+          >
+            {format(option.name)}
+            <span className="ml-1 text-xs text-bone-dim/60">{option.count}</span>
+          </ShapeLink>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 /** A third-level refinement — lighter than a Chip, heavier than body text. */

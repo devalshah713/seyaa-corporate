@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-06T12:27:21.887Z",
+  "checkedAt": "2026-08-06T12:42:50.471Z",
   "errors": [
     {
       "code": "IMAGE_ON_MULTIPLE_DESIGNS",
@@ -26,6 +26,16 @@
     {
       "code": "SHARED_IMAGE",
       "message": "Design bracelets/23BR uses one photo for all metal colours."
+    },
+    {
+      "code": "SETTING_NOT_STATED",
+      "message": "11 of 40 tennis bracelets do not say Prong or Bezel in the title, so they cannot be filtered by setting.",
+      "detail": "36BR 29 CTS Round Tennis Bracelet | 50BR 10CT Pink & White Princess Tennis Bracelet | 29BR 15 CTS Round Tennis Bracelet | 28BR 10 CTS Round Tennis Bracelet | 27BR 8 CTS Round Tennis Bracelet | 26BR 7 CTS Round Tennis Bracelet | 25BR 6 CTS Round Tennis Bracelet | 24BR 5 CTS Round Tennis Bracelet | 23BR 4 CTS Round Tennis Bracelet | 22BR 3 CTS Round Tennis Bracelet | 21BR 2 CTS Round Tennis Bracelet"
+    },
+    {
+      "code": "SETTING_NOT_STATED",
+      "message": "10 of 11 symbols & letters pendants do not say Prong or Bezel in the title, so they cannot be filtered by setting.",
+      "detail": "13PD 10 CTS Yellow Heart Pendant | 29PD Football Pendant | 27PD M Letter Pendant Chain | 32PD Cross Pendant | 15PD Pear Round Fancy Circle Pendant | 19PD Heart Pear Dangling Pendant Chain | 12PD Cross Pendant | 1PD Butterfly Pendant | 9PD Heart Pendant Chain | 25PD Love Pendant Chain"
     }
   ]
 }

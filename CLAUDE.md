@@ -115,7 +115,20 @@ offering one option is worse than offering none. Tennis bracelets span seven,
 which is where it earns its place. Moving shelf keeps the chosen shape only if
 the new shelf has it, so a customer is never dropped onto an empty grid.
 
-`?category=…&type=…&shape=…` makes any of the three levels a shareable link.
+**Setting is the fourth**, on the same terms — `Prong` / `Bezel`, read out of
+the title by `readSetting` because the sheet has no column for it either.
+
+The two refinements are counted against each other, not just against the shelf:
+choosing Bezel narrows the shapes on offer to the ones that come in bezel, so
+no option ever returns nothing. Each facet is excluded from its own count,
+which is what keeps its alternatives visible once one is picked.
+
+Eleven of the forty tennis bracelets — the plain round line — do not state a
+setting, so they are reachable under "Any" and nowhere else. That is a gap in
+the source, not something to show a customer, so there is no "Not specified"
+option; `SETTING_NOT_STATED` lists the pieces by name for the team instead.
+
+`?category=…&type=…&shape=…&setting=…` makes any level a shareable link.
 
 **The URL is synced from the handlers, not from an effect on the state.** An
 effect also fires on mount, and during a client-side transition it can run

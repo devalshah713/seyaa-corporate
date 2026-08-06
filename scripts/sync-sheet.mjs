@@ -201,6 +201,18 @@ const SUBCATEGORIES = {
 
 const OTHER = { name: 'Other', slug: 'other' }
 
+/**
+ * How the stones are held — the other axis a buyer actually chooses on, and
+ * the only place it is recorded is the title again ("Oval Prong", "Emerald
+ * Bezel"). Null when the title does not say, which is not the same as "none":
+ * every tennis bracelet has a setting, some titles just omit it.
+ */
+function readSetting(title) {
+  if (/\bprong\b/i.test(title)) return 'Prong'
+  if (/\bbezel\b/i.test(title)) return 'Bezel'
+  return null
+}
+
 /** Which sub-category a title falls into, within its category. */
 function classify(title, categorySlug) {
   const rules = SUBCATEGORIES[categorySlug] ?? []
@@ -465,6 +477,7 @@ function buildDesigns(rows) {
       categorySlug: category.slug,
       subCategory: subCategory.name,
       subCategorySlug: subCategory.slug,
+      setting: readSetting(lead.title),
       designType: lead.designType,
       shape: lead.shape,
       metal: lead.metal,
@@ -564,6 +577,31 @@ async function main() {
 
     return { name, slug, count: inCategory.length, subCategories }
   }).filter((c) => c.count > 0)
+
+  /**
+   * A shelf where *some* titles state a setting and others do not is a gap
+   * worth naming: those pieces cannot be reached by the Prong/Bezel filter,
+   * only by "Any". Silence would leave them quietly less findable than their
+   * neighbours. A shelf where nobody states one is fine — nothing is missing.
+   */
+  for (const category of categories) {
+    for (const shelf of category.subCategories) {
+      const onShelf = designs.filter(
+        (d) => d.categorySlug === category.slug && d.subCategorySlug === shelf.slug,
+      )
+      const stated = onShelf.filter((d) => d.setting)
+      const silent = onShelf.filter((d) => !d.setting)
+      if (stated.length && silent.length) {
+        flag(
+          'notes',
+          'SETTING_NOT_STATED',
+          `${silent.length} of ${onShelf.length} ${shelf.name.toLowerCase()} ${category.name.toLowerCase()} ` +
+            `do not say Prong or Bezel in the title, so they cannot be filtered by setting.`,
+          silent.map((d) => `${d.id} ${d.title}`).join(' | '),
+        )
+      }
+    }
+  }
 
   // A piece nobody has named is a piece nobody can navigate to. Report them.
   for (const category of categories) {
