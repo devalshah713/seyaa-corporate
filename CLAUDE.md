@@ -81,6 +81,39 @@ last segment — the design id — and redirected to the current address
 permanent address worth sharing. The redirect is 307, not 308: a title can
 change back, and a permanent redirect would be cached in the browser past that.
 
+## Sub-categories are parsed out of the title
+
+The sheet has no column for them. `Design type` only repeats the category
+("Bracelet" on every bracelet row) and `Type` is empty throughout, so the only
+place the distinction exists is the title a human wrote — "Tennis Bracelet",
+"Martini Setting", "Eternity Band". `SUBCATEGORIES` in `sync-sheet.mjs` is the
+one table to change if a real column ever appears.
+
+First match wins, so order is precedence: a "Cushion Solitaire Halo Ring" is a
+halo before it is a solitaire. Anything unmatched falls to "Other" and is
+reported by name — a new product line should surface as a gap to name, not
+vanish into a bucket nobody reads. All 191 designs currently classify.
+
+| Category | Shelves |
+| --- | --- |
+| Bracelets | Tennis · Fancy & Mixed · Bangles & Cuffs |
+| Stud Earrings | Basket Setting · Martini Setting |
+| Hoop Earrings | Hoops · Drops & Danglers · Halo & Fancy Studs · Shaped |
+| Rings | Eternity Bands · Halo · Solitaire · Fancy · Classic |
+| Necklaces | Tennis · Statement |
+| Pendants | Hip-Hop & Character · Solitaire · Symbols & Letters · Fancy & Mixed · Classic Diamond |
+
+They surface in four places: named on the home page under each category tile,
+as a chip row above the collection grid, nested under their parent in the
+filter panel, and in the product breadcrumb. `?category=…&type=…` makes any
+shelf a shareable link.
+
+**The URL is synced from the handlers, not from an effect on the state.** An
+effect also fires on mount, and during a client-side transition it can run
+while `usePathname()` still reports the page being navigated away from — which
+rewrote a freshly-opened `/collection?category=…` back to `/` and bounced the
+customer to the home page. Only a real interaction should touch the address.
+
 ## Data health
 
 `npm run sync` also writes `data/data-health.json` and prints a summary. It

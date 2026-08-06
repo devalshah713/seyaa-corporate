@@ -49,10 +49,16 @@ export default async function PiecePage({ params }: Params) {
     notFound()
   }
 
-  // Nearest in carat within the same category reads as a genuine alternative.
-  // This was price proximity until prices stopped being published.
-  const related = designs
-    .filter((d) => d.categorySlug === design.categorySlug && d.slug !== design.slug)
+  // Same shelf first — a tennis bracelet next to other tennis bracelets is a
+  // real alternative; next to an eternity band it is a change of subject.
+  const sameShelf = designs.filter(
+    (d) => d.subCategorySlug === design.subCategorySlug && d.categorySlug === design.categorySlug && d.slug !== design.slug,
+  )
+  // Then nearest in carat, which is the closest thing to "similar piece" now
+  // that prices are not published.
+  const related = (sameShelf.length >= 4 ? sameShelf : designs.filter(
+    (d) => d.categorySlug === design.categorySlug && d.slug !== design.slug,
+  ))
     .sort(
       (a, b) =>
         Math.abs((a.carat ?? 0) - (design.carat ?? 0)) -
@@ -75,6 +81,15 @@ export default async function PiecePage({ params }: Params) {
           {design.category}
         </Link>
         <span aria-hidden>/</span>
+        {/* The shelf this piece sits on, and a way back to its neighbours —
+            the most useful link on the page for someone still comparing. */}
+        <Link
+          href={`/collection?category=${design.categorySlug}&type=${design.subCategorySlug}`}
+          className="inline-block py-3 hover:text-gold-soft"
+        >
+          {design.subCategory}
+        </Link>
+        <span aria-hidden>/</span>
         <span className="text-bone">{design.title}</span>
       </nav>
 
@@ -82,7 +97,9 @@ export default async function PiecePage({ params }: Params) {
 
       {related.length > 0 && (
         <section className="mt-24 border-t border-ink-line pt-14">
-          <h2 className="font-display text-3xl">More in {design.category}</h2>
+          <h2 className="font-display text-3xl">
+            More {sameShelf.length >= 4 ? design.subCategory.toLowerCase() : ''} in {design.category}
+          </h2>
           <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4">
             {related.map((d) => (
               <ProductCard key={d.slug} design={d} />

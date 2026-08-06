@@ -141,6 +141,72 @@ const CATEGORIES = [
   { name: 'Pendants', slug: 'pendants', match: /pendant/i },
 ]
 
+/**
+ * Sub-categories, derived from the title.
+ *
+ * The sheet has no column for them. `Design type` only repeats the category
+ * ("Bracelet" on every bracelet row) and `Type` is empty throughout, so the
+ * only place the distinction actually exists is the title a human wrote —
+ * "Tennis Bracelet", "Martini Setting", "Eternity Band". Reading it out is
+ * therefore a parse, not a lookup, and it is kept here beside the rest of the
+ * parsing rather than in the site: if the team later adds a real column, this
+ * table is the one thing that has to change.
+ *
+ * First match wins, so order encodes precedence. A "Cushion Solitaire Halo
+ * Ring" is a halo ring before it is a solitaire, and a "Heart Solitaire
+ * Pendant Chain" is a solitaire before it is a heart.
+ *
+ * Anything unmatched falls to "Other" and is reported by name, so a new line
+ * of pieces shows up as a gap to name rather than quietly vanishing into a
+ * bucket nobody looks at.
+ */
+const SUBCATEGORIES = {
+  bracelets: [
+    { name: 'Tennis', slug: 'tennis', match: /tennis/i },
+    { name: 'Fancy & Mixed', slug: 'fancy', match: /all\s*mix|fancy|colou?r\s+diamond/i },
+    { name: 'Bangles & Cuffs', slug: 'bangles', match: /tube|bangle|cuff/i },
+  ],
+  'stud-earrings': [
+    { name: 'Basket Setting', slug: 'basket', match: /basket/i },
+    { name: 'Martini Setting', slug: 'martini', match: /martini/i },
+  ],
+  'hoop-earrings': [
+    { name: 'Hoops', slug: 'hoops', match: /hoop/i },
+    { name: 'Drops & Danglers', slug: 'drops', match: /dangl|drop/i },
+    { name: 'Halo & Fancy Studs', slug: 'fancy-studs', match: /stud/i },
+    // Anything left is a shaped novelty piece — a sunflower, a leaf.
+    { name: 'Shaped', slug: 'shaped', match: /earring/i },
+  ],
+  rings: [
+    { name: 'Eternity Bands', slug: 'eternity', match: /eternity/i },
+    { name: 'Halo', slug: 'halo', match: /halo/i },
+    { name: 'Solitaire', slug: 'solitaire', match: /solitaire/i },
+    { name: 'Fancy', slug: 'fancy', match: /fancy|net|all\s*round/i },
+    { name: 'Classic', slug: 'classic', match: /ring|band/i },
+  ],
+  necklaces: [
+    { name: 'Tennis', slug: 'tennis', match: /tennis/i },
+    { name: 'Statement', slug: 'statement', match: /fancy|mix|knot|north\s*south|marquise|oval|pear|diamond\s+necklace/i },
+  ],
+  pendants: [
+    { name: 'Hip-Hop & Character', slug: 'hip-hop', match: /hip.?hop|labubu|messi|ronaldo|michael\s+jackson|money\s+heist|panda|monkey|mouse|bangbiz/i },
+    { name: 'Solitaire', slug: 'solitaire', match: /solitaire/i },
+    { name: 'Symbols & Letters', slug: 'symbols', match: /cross|heart|love|butterfly|football|letter|circle|knot/i },
+    { name: 'Fancy & Mixed', slug: 'fancy', match: /fancy|mix|graduated/i },
+    // A plain diamond pendant — no motif, no chain feature. The residue is a
+    // real class here, not a failure to classify.
+    { name: 'Classic Diamond', slug: 'classic', match: /pendant/i },
+  ],
+}
+
+const OTHER = { name: 'Other', slug: 'other' }
+
+/** Which sub-category a title falls into, within its category. */
+function classify(title, categorySlug) {
+  const rules = SUBCATEGORIES[categorySlug] ?? []
+  return rules.find((rule) => rule.match.test(title)) ?? OTHER
+}
+
 const health = { errors: [], warnings: [], notes: [] }
 const flag = (level, code, message, detail) =>
   health[level].push({ code, message, ...(detail ? { detail } : {}) })
@@ -386,6 +452,8 @@ function buildDesigns(rows) {
     if (slugs.has(slug)) slug = `${slug}-${slugs.size}`
     slugs.add(slug)
 
+    const subCategory = classify(lead.title, category.slug)
+
     const prices = variants.map((v) => v.price).filter((p) => typeof p === 'number')
     const carats = variants.map((v) => v.carat).filter((c) => typeof c === 'number')
 
@@ -395,6 +463,8 @@ function buildDesigns(rows) {
       title: lead.title,
       category: category.name,
       categorySlug: category.slug,
+      subCategory: subCategory.name,
+      subCategorySlug: subCategory.slug,
       designType: lead.designType,
       shape: lead.shape,
       metal: lead.metal,
@@ -478,11 +548,37 @@ async function main() {
   }
 
   // Only name and slug reach the site — `match` is a parsing detail.
-  const categories = CATEGORIES.map(({ name, slug }) => ({
-    name,
-    slug,
-    count: designs.filter((d) => d.categorySlug === slug).length,
-  })).filter((c) => c.count > 0)
+  const categories = CATEGORIES.map(({ name, slug }) => {
+    const inCategory = designs.filter((d) => d.categorySlug === slug)
+
+    // Declared order first so the navigation reads the way the table is
+    // written, then "Other" last if anything landed there.
+    const declared = [...(SUBCATEGORIES[slug] ?? []), OTHER]
+    const subCategories = declared
+      .map(({ name: subName, slug: subSlug }) => ({
+        name: subName,
+        slug: subSlug,
+        count: inCategory.filter((d) => d.subCategorySlug === subSlug).length,
+      }))
+      .filter((s) => s.count > 0)
+
+    return { name, slug, count: inCategory.length, subCategories }
+  }).filter((c) => c.count > 0)
+
+  // A piece nobody has named is a piece nobody can navigate to. Report them.
+  for (const category of categories) {
+    const unnamed = designs.filter(
+      (d) => d.categorySlug === category.slug && d.subCategorySlug === OTHER.slug,
+    )
+    if (unnamed.length) {
+      flag(
+        'notes',
+        'UNCLASSIFIED_DESIGN',
+        `${unnamed.length} ${category.name.toLowerCase()} did not match a sub-category and are filed under "Other".`,
+        unnamed.map((d) => `${d.id} ${d.title}`).join(' | '),
+      )
+    }
+  }
 
   /**
    * Prices are withheld from customers: every piece reads "Price on request".

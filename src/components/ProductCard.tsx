@@ -28,8 +28,11 @@ export default function ProductCard({ design, priority = false }: { design: Desi
           </div>
         )}
 
+        {/* The shelf, not the diamond shape. Shape is already a filter and is
+            spelled out in the specification; what a card needs to answer while
+            scanning a grid is "what kind of piece is this". */}
         <span className="absolute left-0 top-0 bg-ink/70 px-2.5 py-1.5 text-[0.625rem] uppercase tracking-label text-bone-dim backdrop-blur-sm">
-          {design.shape}
+          {design.subCategory}
         </span>
       </div>
 

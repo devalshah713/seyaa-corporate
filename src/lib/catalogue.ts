@@ -31,6 +31,8 @@ export type Design = {
   title: string
   category: string
   categorySlug: string
+  subCategory: string
+  subCategorySlug: string
   designType: string
   shape: string
   metal: string
@@ -50,7 +52,15 @@ export type Design = {
   variants: Variant[]
 }
 
-export type Category = { name: string; slug: string; count: number }
+export type SubCategory = { name: string; slug: string; count: number }
+
+export type Category = {
+  name: string
+  slug: string
+  count: number
+  /** Narrower shelves within the category — "Tennis", "Eternity Bands". */
+  subCategories: SubCategory[]
+}
 
 export type Catalogue = {
   generatedAt: string
@@ -102,6 +112,10 @@ export function findByIdentifier(slug: string): Design | undefined {
 
 export function getCategory(slug: string): Category | undefined {
   return categories.find((c) => c.slug === slug)
+}
+
+export function getSubCategory(categorySlug: string, subSlug: string): SubCategory | undefined {
+  return getCategory(categorySlug)?.subCategories.find((s) => s.slug === subSlug)
 }
 
 /**

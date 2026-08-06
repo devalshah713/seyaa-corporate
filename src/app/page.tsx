@@ -108,10 +108,10 @@ export default function HomePage() {
 
         <div className="mt-14 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {heroes.map(({ category, hero }) => (
+            <div key={category.slug}>
             <Link
-              key={category.slug}
               href={`/collection?category=${category.slug}`}
-              className="group"
+              className="group block"
             >
               <div className="well aspect-[4/3]">
                 {hero?.thumbnail && (
@@ -131,6 +131,27 @@ export default function HomePage() {
                 <span className="text-sm text-bone-dim">{category.count}</span>
               </div>
             </Link>
+
+            {/* The shelves, named on the home page rather than discovered
+                inside a filter. A customer who came for a tennis bracelet or a
+                hip-hop pendant can see it exists and reach it in one click,
+                which is the whole reason for having sub-categories at all. */}
+            {category.subCategories.length > 1 && (
+              <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+                {category.subCategories.map((shelf) => (
+                  <li key={shelf.slug}>
+                    <Link
+                      href={`/collection?category=${category.slug}&type=${shelf.slug}`}
+                      className="inline-block py-1 text-[0.8125rem] text-bone-dim underline-offset-4 transition-colors hover:text-gold-soft hover:underline"
+                    >
+                      {shelf.name}
+                      <span className="ml-1 text-xs text-bone-dim/60">{shelf.count}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+            </div>
           ))}
         </div>
       </section>

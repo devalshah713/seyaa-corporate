@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import ProductCard from './ProductCard'
 import { formatPrice, type Category, type Design } from '@/lib/catalogue'
 
@@ -25,7 +25,10 @@ type Props = {
 
 export default function CollectionBrowser({ designs, categories, shapes, metalColours }: Props) {
   const params = useSearchParams()
+  const router = useRouter()
+  const pathname = usePathname()
   const [category, setCategory] = useState<string>(params.get('category') ?? 'all')
+  const [type, setType] = useState<string>(params.get('type') ?? 'all')
   const [shape, setShape] = useState<string>('all')
   const [metal, setMetal] = useState<string>('all')
   const [query, setQuery] = useState('')
@@ -36,12 +39,13 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     const needle = query.trim().toLowerCase()
     const filtered = designs.filter((d) => {
       if (category !== 'all' && d.categorySlug !== category) return false
+      if (type !== 'all' && d.subCategorySlug !== type) return false
       if (shape !== 'all' && d.shape !== shape) return false
       if (metal !== 'all' && !d.metalColours.includes(metal as Design['metalColours'][number])) return false
 
       if (needle) {
         // Buyers search by SKU as often as by name.
-        const haystack = [d.title, d.shape, d.category, ...d.variants.map((v) => v.sku)]
+        const haystack = [d.title, d.shape, d.category, d.subCategory, ...d.variants.map((v) => v.sku)]
           .join(' ')
           .toLowerCase()
         if (!haystack.includes(needle)) return false
@@ -53,12 +57,51 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
     if (sort === 'carat-desc') sorted.sort((a, b) => (b.carat ?? 0) - (a.carat ?? 0))
     if (sort === 'carat-asc') sorted.sort((a, b) => (a.carat ?? 0) - (b.carat ?? 0))
     return sorted
-  }, [designs, category, shape, metal, query, sort])
+  }, [designs, category, type, shape, metal, query, sort])
 
   const activeCount =
     (category !== 'all' ? 1 : 0) +
+    (type !== 'all' ? 1 : 0) +
     (shape !== 'all' ? 1 : 0) +
     (metal !== 'all' ? 1 : 0)
+
+  const openCategory = categories.find((c) => c.slug === category)
+  const shelves = openCategory?.subCategories ?? []
+  const openShelf = shelves.find((s) => s.slug === type)
+
+  /**
+   * Category and sub-category live in the address bar, so a refined view can be
+   * sent to someone — "here are the tennis bracelets" is a link, not a set of
+   * instructions.
+   *
+   * Driven from the handlers rather than an effect on the state. An effect also
+   * fires on mount, and during a client-side transition it can run while
+   * `usePathname()` still reports the page being navigated *away from* — which
+   * rewrote a freshly-opened `/collection?category=…` straight back to `/` and
+   * bounced the customer home. Only a real interaction should touch the URL.
+   *
+   * `replace` rather than `push` keeps Back going to wherever the customer came
+   * from instead of walking them back through every filter they tried.
+   */
+  const syncUrl = (nextCategory: string, nextType: string) => {
+    const next = new URLSearchParams()
+    if (nextCategory !== 'all') next.set('category', nextCategory)
+    if (nextType !== 'all') next.set('type', nextType)
+    const query = next.toString()
+    router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false })
+  }
+
+  /** Picking a new category drops a shelf that does not exist inside it. */
+  const chooseCategory = (slug: string) => {
+    setCategory(slug)
+    setType('all')
+    syncUrl(slug, 'all')
+  }
+
+  const chooseType = (slug: string) => {
+    setType(slug)
+    syncUrl(category, slug)
+  }
 
   // The sheet covers the grid on mobile; let it scroll, not the page behind it.
   useEffect(() => {
@@ -74,21 +117,54 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
 
   const reset = () => {
     setCategory('all')
+    setType('all')
     setShape('all')
     setMetal('all')
     setQuery('')
+    syncUrl('all', 'all')
   }
 
   return (
     <div className="shell py-12 lg:py-16">
       <div className="max-w-2xl">
-        <p className="eyebrow">The collection</p>
+        <p className="eyebrow">
+          {openCategory ? (
+            <button onClick={() => chooseCategory('all')} className="hover:text-gold-soft">
+              The collection
+            </button>
+          ) : (
+            'The collection'
+          )}
+          {openCategory && <span aria-hidden> / {openCategory.name}</span>}
+        </p>
         <h1 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
-          {category === 'all'
-            ? 'Every piece'
-            : categories.find((c) => c.slug === category)?.name ?? 'Every piece'}
+          {openShelf && openCategory
+            ? `${openShelf.name} ${openCategory.name}`
+            : openCategory?.name ?? 'Every piece'}
         </h1>
       </div>
+
+      {/* The shelves inside the open category, always visible rather than
+          buried in the filter panel. This is the whole point of the hierarchy:
+          a customer who wants a tennis bracelet should reach it in two taps,
+          not by opening a filter sheet and hunting. It scrolls sideways on a
+          phone so a long row never wraps into a wall of chips. */}
+      {shelves.length > 1 && (
+        <div className="mt-8 -mx-5 overflow-x-auto px-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="flex w-max gap-2.5">
+            <Chip active={type === 'all'} onClick={() => chooseType('all')}>
+              All {openCategory?.name.toLowerCase()}
+              <ChipCount>{openCategory?.count}</ChipCount>
+            </Chip>
+            {shelves.map((shelf) => (
+              <Chip key={shelf.slug} active={type === shelf.slug} onClick={() => chooseType(shelf.slug)}>
+                {shelf.name}
+                <ChipCount>{shelf.count}</ChipCount>
+              </Chip>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="mt-10 flex flex-col gap-3 border-y border-ink-line py-4 lg:flex-row lg:items-center lg:justify-between">
         <input
@@ -163,18 +239,41 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
           </div>
 
           <FilterGroup label="Category">
-            <FilterOption active={category === 'all'} onClick={() => setCategory('all')}>
+            <FilterOption active={category === 'all'} onClick={() => chooseCategory('all')}>
               All categories
             </FilterOption>
             {categories.map((c) => (
-              <FilterOption
-                key={c.slug}
-                active={category === c.slug}
-                onClick={() => setCategory(c.slug)}
-                count={c.count}
-              >
-                {c.name}
-              </FilterOption>
+              <li key={c.slug}>
+                <FilterOption
+                  active={category === c.slug}
+                  onClick={() => chooseCategory(c.slug)}
+                  count={c.count}
+                  bare
+                >
+                  {c.name}
+                </FilterOption>
+
+                {/* Sub-categories nest under their parent, and only the open
+                    one expands — showing all six categories' shelves at once
+                    would be a list of twenty-odd options to read past. */}
+                {category === c.slug && c.subCategories.length > 1 && (
+                  <ul className="mb-1 ml-3 border-l border-ink-line pl-3">
+                    <FilterOption active={type === 'all'} onClick={() => chooseType('all')}>
+                      Everything
+                    </FilterOption>
+                    {c.subCategories.map((shelf) => (
+                      <FilterOption
+                        key={shelf.slug}
+                        active={type === shelf.slug}
+                        onClick={() => chooseType(shelf.slug)}
+                        count={shelf.count}
+                      >
+                        {shelf.name}
+                      </FilterOption>
+                    ))}
+                  </ul>
+                )}
+              </li>
             ))}
           </FilterGroup>
 
@@ -251,31 +350,65 @@ function FilterGroup({ label, children }: { label: string; children: React.React
   )
 }
 
+/**
+ * `bare` renders without the wrapping <li>, for the category rows that own a
+ * nested <ul> of sub-categories and so supply their own list item.
+ */
 function FilterOption({
   active,
   onClick,
   count,
+  bare,
   children,
 }: {
   active: boolean
   onClick: () => void
   count?: number
+  bare?: boolean
+  children: React.ReactNode
+}) {
+  const button = (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`flex w-full items-baseline justify-between gap-3 py-2.5 text-left text-sm transition-colors ${
+        active ? 'text-gold-soft' : 'text-bone-dim hover:text-bone'
+      }`}
+    >
+      <span className={active ? 'border-b border-gold/60' : ''}>{children}</span>
+      {typeof count === 'number' && <span className="text-xs text-bone-dim/70">{count}</span>}
+    </button>
+  )
+  return bare ? button : <li>{button}</li>
+}
+
+/** A shelf button in the row above the grid. */
+function Chip({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean
+  onClick: () => void
   children: React.ReactNode
 }) {
   return (
-    <li>
-      <button
-        onClick={onClick}
-        aria-pressed={active}
-        className={`flex w-full items-baseline justify-between gap-3 py-2.5 text-left text-sm transition-colors ${
-          active ? 'text-gold-soft' : 'text-bone-dim hover:text-bone'
-        }`}
-      >
-        <span className={active ? 'border-b border-gold/60' : ''}>{children}</span>
-        {typeof count === 'number' && <span className="text-xs text-bone-dim/70">{count}</span>}
-      </button>
-    </li>
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`flex shrink-0 items-center gap-2 whitespace-nowrap border px-4 py-2.5 text-[0.6875rem] uppercase tracking-label transition-colors ${
+        active
+          ? 'border-gold bg-gold text-onGold'
+          : 'border-ink-line text-bone-dim hover:border-gold/50 hover:text-gold-soft'
+      }`}
+    >
+      {children}
+    </button>
   )
 }
+
+const ChipCount = ({ children }: { children: React.ReactNode }) => (
+  <span className="text-[0.625rem] opacity-60">{children}</span>
+)
 
 export { formatPrice }
