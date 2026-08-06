@@ -31,6 +31,32 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
   const [type, setType] = useState<string>(params.get('type') ?? 'all')
   const [shape, setShape] = useState<string>(params.get('shape') ?? 'all')
   const [setting, setSetting] = useState<string>(params.get('setting') ?? 'all')
+
+  /**
+   * Follow the address bar when it changes underneath us.
+   *
+   * `useState` reads the URL once, at mount. But a header link to
+   * /collection?category=rings is a client-side navigation to the route this
+   * component is *already* on, so nothing remounts and nothing re-reads: the
+   * address changed to rings while the view went on showing the hoop earrings,
+   * shelf and shape the customer had picked before.
+   *
+   * Reading the URL in an effect is safe in a way that writing it is not — this
+   * only ever follows the address, so it cannot fight a navigation. Clicking a
+   * filter sets state and the URL together, and this then re-applies the same
+   * values, which is a no-op.
+   */
+  const urlCategory = params.get('category') ?? 'all'
+  const urlType = params.get('type') ?? 'all'
+  const urlShape = params.get('shape') ?? 'all'
+  const urlSetting = params.get('setting') ?? 'all'
+
+  useEffect(() => {
+    setCategory(urlCategory)
+    setType(urlType)
+    setShape(urlShape)
+    setSetting(urlSetting)
+  }, [urlCategory, urlType, urlShape, urlSetting])
   const [metal, setMetal] = useState<string>('all')
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState<Sort>('featured')
@@ -213,7 +239,8 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
           {[
             shape !== 'all' ? shapeLabel(shape) : '',
             setting !== 'all' ? setting : '',
-            openShelf?.name ?? '',
+            // "Hoops" inside "Hoop Earrings" would read "Hoops Hoop Earrings".
+            redundant(openShelf?.name, openCategory?.name) ? '' : openShelf?.name ?? '',
             openCategory?.name ?? (shape !== 'all' || setting !== 'all' ? 'pieces' : 'Every piece'),
           ]
             .filter(Boolean)
@@ -494,6 +521,17 @@ function Chip({
 const ChipCount = ({ children }: { children: React.ReactNode }) => (
   <span className="text-[0.625rem] opacity-60">{children}</span>
 )
+
+/**
+ * Whether naming the shelf would just repeat a word the category already says
+ * — "Hoops" within "Hoop Earrings", "Studs" within "Stud Earrings". Compared
+ * without the plural so "Hoops" still matches "Hoop".
+ */
+function redundant(shelf: string | undefined, category: string | undefined) {
+  if (!shelf || !category) return false
+  const singular = shelf.toLowerCase().replace(/s$/, '')
+  return category.toLowerCase().includes(singular)
+}
 
 /** "Mix" is the sheet's word for a multi-shape setting; it needs saying properly. */
 function shapeLabel(shape: string) {

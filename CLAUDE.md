@@ -130,11 +130,18 @@ option; `SETTING_NOT_STATED` lists the pieces by name for the team instead.
 
 `?category=…&type=…&shape=…&setting=…` makes any level a shareable link.
 
-**The URL is synced from the handlers, not from an effect on the state.** An
-effect also fires on mount, and during a client-side transition it can run
-while `usePathname()` still reports the page being navigated away from — which
-rewrote a freshly-opened `/collection?category=…` back to `/` and bounced the
-customer to the home page. Only a real interaction should touch the address.
+**The URL is written from the handlers and read back by an effect, and the
+direction matters.** Writing it from an effect on the state was wrong: an
+effect also fires on mount, and mid-transition `usePathname()` can still report
+the page being navigated away from, which rewrote a freshly-opened
+`/collection?category=…` back to `/`. Only a real interaction may write.
+
+Reading it, though, has to be an effect. `useState(params.get(…))` initialises
+once, and a header link to `/collection?category=rings` is a client-side
+navigation to the route the browser is *already* on — nothing remounts, so
+nothing re-reads. Tapping "Rings" from a filtered hoop-earrings view left the
+address on rings and the page on hoop earrings. Following the address can never
+fight a navigation, so that direction is safe.
 
 ## Data health
 
