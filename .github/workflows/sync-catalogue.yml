@@ -8,17 +8,24 @@ name: Sync catalogue from Google Sheet
 # commit step exits early when nothing changed, so a quiet run costs one
 # 40-second job and no deploy.
 #
-# Twice an hour, and never on the hour. GitHub's scheduler is best-effort: it
-# queues scheduled runs behind everything else and drops them under load, worst
-# of all at :00, which every cron in the world asks for. Asking for one run an
-# hour at :00 was actually delivering one every 2.5 hours, and one queued run
-# was cancelled without ever starting — which arrives by email as "Run failed".
-# Two attempts at odd minutes cost nothing when there is nothing to do, and get
-# the real interval back near the hour it claims.
+# THE SCHEDULE IS OFF, DELIBERATELY. Re-enable it by uncommenting the two
+# `schedule` lines below — but only once `SHEET_ID` is set, because until then
+# this job has nothing to pull and every run is noise.
+#
+# Why it is off: from 16:04 UTC on 6 Aug every run — scheduled and manually
+# dispatched alike — sat queued for fifteen minutes without ever being given a
+# runner, and was then cancelled. GitHub reports a cancelled run to the repo
+# owner by email as "Run failed", so a platform problem arrived looking like a
+# broken build. Nothing in this file causes it and nothing in this file can fix
+# it: the job never starts, so `timeout-minutes` never applies either.
+#
+# It is not worth paging anyone over. This job is a best-effort refresh, and
+# the site does not depend on it — `npm run build` runs the same sync, so every
+# Vercel deploy pulls the sheet fresh regardless.
 on:
-  schedule:
-    - cron: '7,37 * * * *' # twice an hour, off-peak minutes (UTC)
-  workflow_dispatch: # lets anyone run it on demand from the Actions tab
+  # schedule:
+  #   - cron: '7,37 * * * *' # twice an hour, off-peak minutes (UTC)
+  workflow_dispatch: # run it on demand from the Actions tab
 
 permissions:
   contents: write

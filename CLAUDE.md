@@ -33,13 +33,17 @@ working day sat invisible until the next morning and read as a broken site.
 The commit step exits early when nothing changed, so a quiet run costs one
 short job and no deploy.
 
-**It asks twice an hour, at :07 and :37, and that is not belt-and-braces.**
-GitHub's scheduler is best-effort — scheduled runs queue behind everything
-else and are dropped under load, worst at :00, which every cron asks for. One
-run an hour at :00 was delivering one every 2.5 hours, with start times
-scattered across the whole hour, and one queued run was cancelled before it
-ever started; GitHub reports that by email as "Run failed". Two attempts at odd
-minutes cost nothing on a quiet run.
+**The schedule is currently commented out.** From 16:04 UTC on 6 Aug every run
+— scheduled and manually dispatched alike — sat queued for fifteen minutes
+without being given a runner and was then cancelled, which GitHub emails to the
+repo owner as "Run failed". Nothing in the workflow causes that and nothing in
+it can fix it; the job never starts, so `timeout-minutes` never applies either.
+Re-enable the two `schedule` lines once `SHEET_ID` is set and Actions is
+healthy. Until `SHEET_ID` is set the job has nothing to pull anyway.
+
+Losing it costs less than it sounds: `npm run build` runs the same sync, so
+every Vercel deploy pulls the sheet fresh. The schedule only decides how often
+a deploy is *triggered*.
 
 The push also rebases and retries: the job checks out `main` and pushes minutes
 later, and a rejected push is not a reason to lose a good sync.
