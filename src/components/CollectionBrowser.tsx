@@ -239,7 +239,7 @@ export default function CollectionBrowser({ designs, categories, shapes, metalCo
           {[
             shape !== 'all' ? shapeLabel(shape) : '',
             setting !== 'all' ? setting : '',
-            // "Hoops" inside "Hoop Earrings" would read "Hoops Hoop Earrings".
+            // "Studs" inside "Stud Earrings" would read "Studs Stud Earrings".
             redundant(openShelf?.name, openCategory?.name) ? '' : openShelf?.name ?? '',
             openCategory?.name ?? (shape !== 'all' || setting !== 'all' ? 'pieces' : 'Every piece'),
           ]
@@ -524,8 +524,8 @@ const ChipCount = ({ children }: { children: React.ReactNode }) => (
 
 /**
  * Whether naming the shelf would just repeat a word the category already says
- * — "Hoops" within "Hoop Earrings", "Studs" within "Stud Earrings". Compared
- * without the plural so "Hoops" still matches "Hoop".
+ * — "Studs" within "Stud Earrings". Compared without the plural so a shelf
+ * called "Studs" still matches a category called "Stud Earrings".
  */
 function redundant(shelf: string | undefined, category: string | undefined) {
   if (!shelf || !category) return false

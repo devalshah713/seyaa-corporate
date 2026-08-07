@@ -113,7 +113,7 @@ vanish into a bucket nobody reads. All 191 designs currently classify.
 | --- | --- |
 | Bracelets | Tennis · Fancy & Mixed · Bangles & Cuffs |
 | Stud Earrings | Basket Setting · Martini Setting |
-| Hoop Earrings | Hoops · Drops & Danglers · Halo & Fancy Studs · Shaped |
+| Earrings | Hoops · Drops & Danglers · Halo & Fancy Studs · Shaped |
 | Rings | Eternity Bands · Halo · Solitaire · Fancy · Classic |
 | Necklaces | Tennis · Statement |
 | Pendants | Hip-Hop & Character · Solitaire · Symbols & Letters · Fancy & Mixed · Classic Diamond |

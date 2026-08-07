@@ -135,7 +135,12 @@ function locateColumns(headerRow, tab) {
 const CATEGORIES = [
   { name: 'Bracelets', slug: 'bracelets', match: /bracelet/i },
   { name: 'Stud Earrings', slug: 'stud-earrings', match: /stud/i },
-  { name: 'Hoop Earrings', slug: 'hoop-earrings', match: /hoop|earring/i },
+  // Displayed as "Earrings" — the sheet's own tab name. The slug stays
+  // `hoop-earrings` deliberately: it is in the address bar of any link already
+  // shared, and renaming a URL for cosmetic reasons weeks before a trade show
+  // is the wrong trade. A slug is an identifier; the name is what a customer
+  // reads.
+  { name: 'Earrings', slug: 'hoop-earrings', match: /hoop|earring/i },
   { name: 'Rings', slug: 'rings', match: /^\s*rings?\s*$/i },
   { name: 'Necklaces', slug: 'necklaces', match: /necklace/i },
   { name: 'Pendants', slug: 'pendants', match: /pendant/i },
