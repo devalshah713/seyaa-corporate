@@ -78,6 +78,8 @@ on a live product page, which nothing else will catch.
 | `/collection` | All designs, filterable by category, metal and shape; searchable by name or SKU |
 | `/piece/[slug]` | One design: gallery, metal-colour toggle, full specification |
 | `/piece/[SKU]` | The same page, by SKU — a link that never goes stale |
+| `/company` | Who we are — the Surat factory, the offices, IGI, leadership |
+| `/oceania` | The GJEPC trade delegation: itinerary, terms, what we bring |
 | `/guide` | What E–F, VS–SI, carat and "lab grown" actually mean |
 | `/enquiry` | The buyer's selected SKUs, ready to send in one message |
 
@@ -108,7 +110,7 @@ The list is stored in the browser, so it survives a refresh and needs no login.
 A SKU is what gets added rather than a design, because metal colour is part of
 the SKU and White and Yellow are separate things to quote for.
 
-Enquiries go to **+1 917 801 6060** on WhatsApp and **devalshah713@gmail.com**
+Enquiries go to **+852 6570 9821** on WhatsApp and **seyaadiam@yahoo.com**
 by email. To change either, both routes work and the environment wins:
 
 - **Vercel → Settings → Environment Variables →** `NEXT_PUBLIC_WHATSAPP_NUMBER`,
