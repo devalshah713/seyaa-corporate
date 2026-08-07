@@ -57,6 +57,28 @@ const PROOF = [
   },
 ]
 
+/**
+ * Third-party certification, given its own section rather than a line in a
+ * list. For a buyer in Australia or New Zealand this is not a badge — lab-grown
+ * disclosure is a consumer-law obligation there, and a certificate is what
+ * moves that obligation off their counter and onto a laboratory's letterhead.
+ */
+const LABS = [
+  {
+    name: 'IGI',
+    full: 'International Gemological Institute',
+    body: 'One of the largest independent gemmological laboratories in the world, and the reference most retailers already recognise for lab-grown stones.',
+  },
+  {
+    // Expanded deliberately vaguely: the acronym was given to us as "CGL" and
+    // guessing at the laboratory's full name on a page buyers read would be a
+    // fabrication. Replace `full` with the exact registered name.
+    name: 'CGL',
+    full: 'Independent gemmological laboratory',
+    body: 'A second independent grading route, so a buyer with a house preference is not forced onto ours.',
+  },
+]
+
 export default function CompanyPage() {
   // The portrait is dropped in as a file rather than committed by the build, so
   // the page has to survive its absence — a monogram is a design decision, a
@@ -165,6 +187,34 @@ export default function CompanyPage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* --------------------------------------------------------- certified */}
+      <section className="shell py-16 lg:py-24">
+        <div className="max-w-2xl">
+          <p className="eyebrow">Independently graded</p>
+          <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
+            IGI and CGL certified
+          </h2>
+          <p className="mt-7 text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
+            Our jewellery is supplied with independent laboratory certification. The
+            grade on the certificate is not our word for it — which is the point, and
+            the reason it belongs on the counter with the piece rather than in a
+            drawer.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-10 sm:grid-cols-2">
+          {LABS.map((lab) => (
+            <div key={lab.name} className="border-t border-ink-line pt-6">
+              <div className="flex items-baseline gap-4">
+                <span className="font-display text-4xl text-brand">{lab.name}</span>
+                <span className="text-sm text-bone-dim">{lab.full}</span>
+              </div>
+              <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">{lab.body}</p>
+            </div>
+          ))}
         </div>
       </section>
 

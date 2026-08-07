@@ -219,11 +219,12 @@ export default function OceaniaPage() {
             </div>
             <div>
               <p className="font-display text-5xl leading-none text-brand/30">03</p>
-              <h3 className="mt-5 font-display text-2xl">Disclosed, on every SKU</h3>
+              <h3 className="mt-5 font-display text-2xl">Certified, not asserted</h3>
               <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
-                Origin, colour, clarity, carat weight and stone count are published for
-                every piece, in plain English alongside the trade grading. A retailer
-                passing that to a customer is passing on something already written down.
+                Our jewellery is supplied with independent IGI and CGL certification, and
+                origin, colour, clarity, carat weight and stone count are published for
+                every SKU. Where disclosure is a legal obligation on your counter, a
+                laboratory certificate is what discharges it.
               </p>
             </div>
           </div>

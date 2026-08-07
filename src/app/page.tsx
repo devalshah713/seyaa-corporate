@@ -51,7 +51,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-ink-line">
         <div className="shell grid items-center gap-12 py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:py-24">
           <div className="animate-rise">
-            <p className="eyebrow">Lab Grown · 14K Gold · E–F · VS–SI</p>
+            <p className="eyebrow">Lab Grown · 14K Gold · IGI &amp; CGL Certified</p>
 
             <h1 className="mt-6 font-display text-[2.75rem] leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               Brilliance,
