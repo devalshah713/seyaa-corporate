@@ -8,6 +8,7 @@ import { useEnquiry } from '@/lib/enquiry'
 
 const LINKS = [
   { href: '/collection', label: 'Collection' },
+  { href: '/company', label: 'The Company' },
   { href: '/guide', label: 'Diamond Guide' },
 ]
 

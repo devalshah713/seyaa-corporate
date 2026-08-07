@@ -100,6 +100,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p className="eyebrow text-white/70">Information</p>
               <ul className="mt-3 space-y-0.5">
                 <li>
+                  <Link href="/company" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
+                    The company
+                  </Link>
+                </li>
+                <li>
                   <Link href="/guide" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
                     Understanding your diamond
                   </Link>
