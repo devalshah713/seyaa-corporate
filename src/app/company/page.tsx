@@ -61,28 +61,6 @@ const PROOF = [
   },
 ]
 
-/**
- * Third-party certification, given its own section rather than a line in a
- * list. For a buyer in Australia or New Zealand this is not a badge — lab-grown
- * disclosure is a consumer-law obligation there, and a certificate is what
- * moves that obligation off their counter and onto a laboratory's letterhead.
- */
-const LABS = [
-  {
-    name: 'IGI',
-    full: 'International Gemological Institute',
-    body: 'One of the largest independent gemmological laboratories in the world, and the reference most retailers already recognise for lab-grown stones.',
-  },
-  {
-    // Expanded deliberately vaguely: the acronym was given to us as "CGL" and
-    // guessing at the laboratory's full name on a page buyers read would be a
-    // fabrication. Replace `full` with the exact registered name.
-    name: 'CGL',
-    full: 'Independent gemmological laboratory',
-    body: 'A second independent grading route, so a buyer with a house preference is not forced onto ours.',
-  },
-]
-
 export default function CompanyPage() {
   // The portrait is dropped in as a file rather than committed by the build, so
   // the page has to survive its absence — a monogram is a design decision, a
@@ -165,7 +143,7 @@ export default function CompanyPage() {
             </h2>
           </div>
 
-          <div className="mt-12 grid gap-10 lg:grid-cols-3">
+          <div className="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             <div>
               <h3 className="font-display text-2xl">Made, not assembled</h3>
               <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
@@ -183,6 +161,14 @@ export default function CompanyPage() {
               </p>
             </div>
             <div>
+              <h3 className="font-display text-2xl">No minimum, seven days</h3>
+              <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
+                One piece is an order — there is no carton to commit to before testing a
+                line. Anything in stock in India dispatches in 7 working days, and a
+                customised piece in 13.
+              </p>
+            </div>
+            <div>
               <h3 className="font-display text-2xl">Built for a range, not a piece</h3>
               <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
                 {catalogue.stats.designs} designs already exist in {catalogue.stats.skus}{' '}
@@ -195,30 +181,29 @@ export default function CompanyPage() {
       </section>
 
       {/* --------------------------------------------------------- certified */}
+      {/* One laboratory, so this is a statement rather than a grid of cards.
+          For a buyer in Australia or New Zealand it is not a badge: lab-grown
+          disclosure is a consumer-law obligation on their counter, and a
+          certificate is what moves it onto a laboratory's letterhead. */}
       <section className="shell py-16 lg:py-24">
-        <div className="max-w-2xl">
-          <p className="eyebrow">Independently graded</p>
-          <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
-            IGI and CGL certified
-          </h2>
-          <p className="mt-7 text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
-            Our jewellery is supplied with independent laboratory certification. The
-            grade on the certificate is not our word for it — which is the point, and
-            the reason it belongs on the counter with the piece rather than in a
-            drawer.
-          </p>
-        </div>
-
-        <div className="mt-12 grid gap-10 sm:grid-cols-2">
-          {LABS.map((lab) => (
-            <div key={lab.name} className="border-t border-ink-line pt-6">
-              <div className="flex items-baseline gap-4">
-                <span className="font-display text-4xl text-brand">{lab.name}</span>
-                <span className="text-sm text-bone-dim">{lab.full}</span>
-              </div>
-              <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">{lab.body}</p>
-            </div>
-          ))}
+        <div className="grid gap-10 lg:grid-cols-[auto_1fr] lg:items-start lg:gap-16">
+          <p className="font-display text-7xl leading-none text-brand sm:text-8xl">IGI</p>
+          <div className="max-w-2xl">
+            <p className="eyebrow">Independently graded</p>
+            <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
+              Certified by the International Gemological Institute
+            </h2>
+            <p className="mt-7 text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
+              Our jewellery is supplied with IGI certification — one of the largest
+              independent gemmological laboratories in the world, and the reference
+              most retailers already recognise for lab-grown stones.
+            </p>
+            <p className="mt-5 text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
+              The grade on the certificate is not our word for it. That is the whole
+              point of it, and the reason it belongs on the counter with the piece
+              rather than in a drawer behind it.
+            </p>
+          </div>
         </div>
       </section>
 

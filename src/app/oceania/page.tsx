@@ -75,6 +75,32 @@ function offering() {
   ]
 }
 
+/**
+ * How we trade, stated plainly.
+ *
+ * This is the first question every buying group asks and the answer most
+ * exporters hedge. No minimum is the one that changes who can buy from us at
+ * all — an independent with a single window does not have to commit to a
+ * carton to test a line.
+ */
+const TERMS = [
+  {
+    figure: 'No',
+    unit: 'minimum order',
+    body: 'One piece is an order. Test a line in a single window before committing a season to it.',
+  },
+  {
+    figure: '7',
+    unit: 'working days',
+    body: 'Dispatch for anything held in stock in India — which, with 191 designs already made, is most of this catalogue.',
+  },
+  {
+    figure: '13',
+    unit: 'working days',
+    body: 'Where the piece is customised. Our own floor, so the date is one we set rather than one we are quoted.',
+  },
+]
+
 export default function OceaniaPage() {
   const categories = offering()
 
@@ -188,6 +214,32 @@ export default function OceaniaPage() {
         </div>
       </section>
 
+      {/* ---------------------------------------------------------- how we trade */}
+      <section className="border-y border-ink-line bg-brand text-white">
+        <div className="shell py-16 lg:py-20">
+          <div className="max-w-2xl">
+            <p className="text-[0.6875rem] uppercase tracking-label text-white/70">How we trade</p>
+            <h2 className="mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
+              No minimum. Seven days.
+            </h2>
+          </div>
+
+          <dl className="mt-12 grid gap-10 sm:grid-cols-3">
+            {TERMS.map((term) => (
+              <div key={term.unit} className="border-t border-white/30 pt-6">
+                <dt className="flex items-baseline gap-3">
+                  <span className="font-display text-6xl leading-none">{term.figure}</span>
+                  <span className="text-[0.6875rem] uppercase tracking-label text-white/80">
+                    {term.unit}
+                  </span>
+                </dt>
+                <dd className="mt-5 text-[0.9375rem] leading-relaxed text-white/85">{term.body}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       {/* --------------------------------------------------------- why India */}
       <section className="border-y border-ink-line bg-ink-soft">
         <div className="shell py-16 lg:py-24">
@@ -221,9 +273,9 @@ export default function OceaniaPage() {
               <p className="font-display text-5xl leading-none text-brand/30">03</p>
               <h3 className="mt-5 font-display text-2xl">Certified, not asserted</h3>
               <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
-                Our jewellery is supplied with independent IGI and CGL certification, and
-                origin, colour, clarity, carat weight and stone count are published for
-                every SKU. Where disclosure is a legal obligation on your counter, a
+                Our jewellery is supplied with IGI certification, and origin, colour,
+                clarity, carat weight and stone count are published for every SKU. Where
+                disclosure is a legal obligation on your counter, an independent
                 laboratory certificate is what discharges it.
               </p>
             </div>
