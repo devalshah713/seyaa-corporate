@@ -80,7 +80,7 @@ on a live product page, which nothing else will catch.
 | `/piece/[SKU]` | The same page, by SKU — a link that never goes stale |
 | `/company` | Who we are — the Surat factory, the offices, IGI, leadership |
 | `/oceania` | The GJEPC trade delegation: itinerary, terms, what we bring |
-| `/guide` | What E–F, VS–SI, carat and "lab grown" actually mean |
+| `/guide` | What E–F, VVS–VS, carat and "lab grown" actually mean |
 | `/enquiry` | The buyer's selected SKUs, ready to send in one message |
 
 ## Sharing a link to a piece

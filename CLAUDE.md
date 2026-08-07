@@ -174,6 +174,14 @@ reports problems in the *source sheet* for the team to fix — it never silently
 Every SKU has a price in the sheet (not published), and most carry a second
 photograph.
 
+**One value is overridden rather than reported.** Every row's `Diamonds clarity`
+reads `VS-SI` while the grade actually supplied is `VVS-VS`, so
+`CLARITY_OVERRIDE` in `sync-sheet.mjs` rewrites it on the way through and
+raises a `CLARITY_OVERRIDDEN` warning on every run. This is a correction, not a
+normalisation, and it belongs in the sheet — a clarity grade is a quality claim
+made to a trade buyer. Delete the override the day the column is fixed, and
+before any stock genuinely graded `VS-SI` is listed.
+
 Normalisation that *is* applied automatically: byte-identical duplicate rows are
 dropped, `16.5 NCH` → `16.5 INCH`, `14KT`/`14K` casing is unified, trailing
 spaces are trimmed, float noise (`633.0600000000001`) is rounded, and multiple

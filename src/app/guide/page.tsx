@@ -5,7 +5,7 @@ import { catalogue } from '@/lib/catalogue'
 export const metadata: Metadata = {
   title: 'Understanding Your Diamond',
   description:
-    'What E–F colour, VS–SI clarity, carat weight and lab-grown origin actually mean — in plain English.',
+    'What E–F colour, VVS–VS clarity, carat weight and lab-grown origin actually mean — in plain English.',
 }
 
 const SECTIONS = [
@@ -26,11 +26,11 @@ const SECTIONS = [
     ],
   },
   {
-    eyebrow: 'Clarity · VS–SI',
+    eyebrow: 'Clarity · VVS–VS',
     title: 'Why you will not see an inclusion',
     body: [
       'Almost every diamond contains tiny natural marks called inclusions. Clarity grades how easy they are to see, from Flawless down to Included.',
-      'VS ("very slightly included") and SI ("slightly included") mean inclusions require magnification to locate. Worn on the wrist, ear or neck, the stone is eye-clean.',
+      'VVS ("very very slightly included") and VS ("very slightly included") sit near the top of that scale — inclusions take magnification to locate at all. Worn on the wrist, ear or neck, the stone is eye-clean.',
     ],
   },
   {

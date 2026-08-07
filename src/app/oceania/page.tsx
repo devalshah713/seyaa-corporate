@@ -51,7 +51,7 @@ function offering() {
     {
       title: 'Lab-grown diamond jewellery',
       count: designs.length,
-      body: 'Every piece in our catalogue. E–F colour, VS–SI clarity, stated as lab grown on each SKU — the disclosure Australian and New Zealand consumer law expects, published rather than promised.',
+      body: 'Every piece in our catalogue. E–F colour, VVS–VS clarity, stated as lab grown on each SKU — the disclosure Australian and New Zealand consumer law expects, published rather than promised.',
       href: '/collection',
     },
     {

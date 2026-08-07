@@ -161,10 +161,10 @@ export const PLAIN_ENGLISH: Record<string, { label: string; meaning: string }> =
     meaning:
       'E–F sits in the top colour band. The diamond reads as pure white to the eye, with no warm tint.',
   },
-  'VS-SI': {
+  'VVS-VS': {
     label: 'Eye-clean',
     meaning:
-      'VS–SI means any natural inclusions need magnification to find. Nothing is visible while it is being worn.',
+      'VVS–VS sits near the top of the clarity scale. Any inclusions take magnification to find, and nothing is visible to the eye at any distance.',
   },
   'Lab Grown': {
     label: 'Lab grown',

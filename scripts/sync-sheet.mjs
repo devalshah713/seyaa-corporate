@@ -207,6 +207,31 @@ const SUBCATEGORIES = {
 const OTHER = { name: 'Other', slug: 'other' }
 
 /**
+ * The clarity band the business actually supplies, overriding the sheet.
+ *
+ * Every row still reads "VS-SI" while the grade supplied is VVS-VS. That is a
+ * correction, not a normalisation, and it belongs in the sheet rather than
+ * here — a clarity grade is a quality claim made to a trade buyer, and code
+ * that quietly rewrites one is exactly what the rest of this script refuses to
+ * do.
+ *
+ * It exists only so the site does not publish a grade the business does not
+ * sell, and it reports itself on every run so it cannot be forgotten. Delete it
+ * the day the sheet's `Diamonds clarity` column is corrected — and delete it
+ * before any stock genuinely graded VS-SI is listed, or the site will misstate
+ * it.
+ */
+const CLARITY_OVERRIDE = { from: 'VS-SI', to: 'VVS-VS' }
+let clarityOverridden = 0
+
+function readClarity(value) {
+  const clean = tidy(value)
+  if (clean.toUpperCase() !== CLARITY_OVERRIDE.from) return clean
+  clarityOverridden += 1
+  return CLARITY_OVERRIDE.to
+}
+
+/**
  * How the stones are held — the other axis a buyer actually chooses on, and
  * the only place it is recorded is the title again ("Oval Prong", "Emerald
  * Bezel"). Null when the title does not say, which is not the same as "none":
@@ -416,7 +441,7 @@ function toVariant(row) {
     metalWeight: round(row.metalWeight, 3),
     shape: tidy(row.shape),
     colour: tidy(row.colour),
-    clarity: tidy(row.clarity),
+    clarity: readClarity(row.clarity),
     origin: tidy(row.origin),
     designType: tidy(row.designType),
     size: size(row.size),
@@ -606,6 +631,16 @@ async function main() {
         )
       }
     }
+  }
+
+  if (clarityOverridden) {
+    flag(
+      'warnings',
+      'CLARITY_OVERRIDDEN',
+      `${clarityOverridden} rows read "${CLARITY_OVERRIDE.from}" in the sheet and were published ` +
+        `as "${CLARITY_OVERRIDE.to}". Correct the sheet's clarity column and remove ` +
+        `CLARITY_OVERRIDE from sync-sheet.mjs.`,
+    )
   }
 
   // A piece nobody has named is a piece nobody can navigate to. Report them.

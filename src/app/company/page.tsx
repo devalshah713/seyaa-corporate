@@ -56,7 +56,7 @@ const PROOF = [
   },
   {
     figure: 'E–F',
-    label: 'Colour, VS–SI clarity',
+    label: 'Colour, VVS–VS clarity',
     body: 'The grade band every piece in the catalogue is held to. Colourless, eye-clean, stated per SKU.',
   },
 ]

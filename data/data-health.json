@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-07T05:57:02.870Z",
+  "checkedAt": "2026-08-07T06:00:42.430Z",
   "errors": [
     {
       "code": "IMAGE_ON_MULTIPLE_DESIGNS",
@@ -16,6 +16,10 @@
       "code": "TITLE_MISMATCH",
       "message": "Design hoop-earrings/24HE has different titles per colour: 15 Pts Round Hoops Earrings / 16 Pts Round Hoops Earrings.",
       "detail": "The metal colours may actually be different carat weights sharing one SKU number."
+    },
+    {
+      "code": "CLARITY_OVERRIDDEN",
+      "message": "363 rows read \"VS-SI\" in the sheet and were published as \"VVS-VS\". Correct the sheet's clarity column and remove CLARITY_OVERRIDE from sync-sheet.mjs."
     }
   ],
   "notes": [

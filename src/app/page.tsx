@@ -61,7 +61,7 @@ export default function HomePage() {
 
             <p className="mt-7 max-w-lg text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
               {stats.designs} designs in 14K gold, set with lab-grown diamonds graded E–F
-              colour and VS–SI clarity, made in our own factory in Surat. Every
+              colour and VVS–VS clarity, made in our own factory in Surat. Every
               specification is published in full — carat weight, stone count, metal weight
               and finish — so a buyer choosing a range has nothing left to ask.
             </p>
@@ -185,7 +185,7 @@ export default function HomePage() {
               body: 'Lab-grown diamonds share the exact chemical, physical and optical properties of mined stones. The difference is origin — and price.',
             },
             {
-              title: 'Graded E–F, VS–SI',
+              title: 'Graded E–F, VVS–VS',
               body: 'Every stone in this catalogue sits in the colourless band and is eye-clean. No visible tint, no visible inclusions.',
             },
             {
