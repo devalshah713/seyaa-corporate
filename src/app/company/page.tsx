@@ -11,12 +11,12 @@ import { siteUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'The Company',
   description:
-    'Seyaa Jewels manufactures 14K gold lab-grown diamond jewellery in Surat, India, with offices in New York, Dubai, Hong Kong and India serving retail partners worldwide.',
+    'Seyaa Jewels manufactures 14K gold lab-grown diamond jewellery at its own factory in Surat, with head office in Mumbai and offices in New York, Dubai and Hong Kong.',
   alternates: { canonical: siteUrl('/company') },
   openGraph: {
     title: 'Seyaa Jewels — The Company',
     description:
-      'A manufacturer, not an intermediary. 100+ people, one factory floor in Surat, four offices, and a catalogue specified to the stone.',
+      'A manufacturer, not an intermediary. 100+ people on one factory floor in Surat, head office in Mumbai, offices in New York, Dubai and Hong Kong.',
     url: siteUrl('/company'),
     images: ['/brand/og.jpg'],
   },
@@ -26,12 +26,16 @@ export const metadata: Metadata = {
  * Where we are. Deliberately city-level: an office is a person a buyer can
  * reach in their own working day, which is the thing that matters to them, and
  * street addresses on a public page invite mail rather than orders.
+ *
+ * Surat is not in this list. It is the factory, not an office, and it gets a
+ * section of its own below — collapsing the two would give away the one thing
+ * that separates us from an exporter with a desk.
  */
 const OFFICES = [
   { city: 'New York', country: 'United States', role: 'North American accounts' },
   { city: 'Dubai', country: 'United Arab Emirates', role: 'Middle East & Africa' },
   { city: 'Hong Kong', country: 'SAR, China', role: 'East Asia & sourcing' },
-  { city: 'Surat', country: 'India', role: 'Manufacturing & head office' },
+  { city: 'Mumbai', country: 'India', role: 'Head office' },
 ]
 
 const PROOF = [
@@ -43,7 +47,7 @@ const PROOF = [
   {
     figure: '4',
     label: 'Offices',
-    body: 'New York, Dubai, Hong Kong and India, so an order is answered inside the buyer’s own working day.',
+    body: 'New York, Dubai, Hong Kong and Mumbai, so an order is answered inside the buyer’s own working day.',
   },
   {
     figure: `${catalogue.stats.designs}`,
@@ -134,9 +138,9 @@ export default function CompanyPage() {
             Four offices, one factory
           </h2>
           <p className="mt-7 text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
-            The factory is in Surat. The offices exist so that a buyer in Auckland or
-            Melbourne is not waiting overnight for a reply from a time zone that is
-            asleep.
+            The head office is in Mumbai and the factory is in Surat. The rest exist
+            so that a buyer in Auckland or Melbourne is not waiting overnight for a
+            reply from a time zone that is asleep.
           </p>
         </div>
 
@@ -157,7 +161,7 @@ export default function CompanyPage() {
           <div className="max-w-2xl">
             <p className="eyebrow">The factory</p>
             <h2 className="rule-gold mt-4 font-display text-4xl leading-tight tracking-tight sm:text-5xl">
-              Surat, and why it matters to you
+              Surat, where they are actually made
             </h2>
           </div>
 

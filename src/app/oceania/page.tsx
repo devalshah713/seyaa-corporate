@@ -203,9 +203,9 @@ export default function OceaniaPage() {
               <p className="font-display text-5xl leading-none text-brand/30">01</p>
               <h3 className="mt-5 font-display text-2xl">Your morning, not ours</h3>
               <p className="mt-4 text-[0.9375rem] leading-relaxed text-bone-dim">
-                Offices in New York, Dubai, Hong Kong and India mean a question sent from
-                Auckland at nine is answered inside your working day, not overnight from a
-                single time zone.
+                Our head office is in Mumbai, with offices in New York, Dubai and Hong
+                Kong, so a question sent from Auckland at nine is answered inside your
+                working day rather than overnight from a single time zone.
               </p>
             </div>
             <div>
