@@ -9,6 +9,7 @@ import { useEnquiry } from '@/lib/enquiry'
 const LINKS = [
   { href: '/collection', label: 'Collection' },
   { href: '/company', label: 'The Company' },
+  { href: '/oceania', label: 'Australia & NZ' },
   { href: '/guide', label: 'Diamond Guide' },
 ]
 
@@ -79,15 +80,11 @@ export default function SiteHeader({ categories }: { categories: Category[] }) {
               {item.label}
             </Link>
           ))}
-          {categories.slice(0, 3).map((c) => (
-            <Link
-              key={c.slug}
-              href={`/collection?category=${c.slug}`}
-              className="py-2 text-[0.8125rem] tracking-wide text-bone-dim transition-colors hover:text-gold-soft"
-            >
-              {c.name}
-            </Link>
-          ))}
+          {/* The first three categories used to sit here too. Seven links wrapped
+              onto a second row and squeezed the wordmark; the categories are one
+              click into Collection, and every one of them is in the menu and the
+              footer. The pages a buyer cannot guess the existence of win the
+              space. */}
         </nav>
 
         <div className="flex items-center gap-2">

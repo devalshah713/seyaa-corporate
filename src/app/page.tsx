@@ -27,6 +27,26 @@ export default function HomePage() {
 
   return (
     <>
+      {/* A buyer who took a card in Sydney lands here first. The delegation is
+          the reason they are looking, so it goes above the hero rather than
+          inside it — and it is one line, because it is a signpost. */}
+      <Link
+        href="/oceania"
+        className="group block bg-brand text-white transition-opacity hover:opacity-95"
+      >
+        <div className="shell flex flex-wrap items-center justify-center gap-x-3 gap-y-1 py-3.5 text-center">
+          <span className="text-[0.6875rem] uppercase tracking-label text-white/80">
+            19–26 August
+          </span>
+          <span className="text-[0.9375rem]">
+            Meeting buyers in Melbourne, Sydney, Brisbane &amp; Auckland
+          </span>
+          <span className="text-[0.6875rem] uppercase tracking-label underline underline-offset-4">
+            Details
+          </span>
+        </div>
+      </Link>
+
       {/* ---------------------------------------------------------------- hero */}
       <section className="relative overflow-hidden border-b border-ink-line">
         <div className="shell grid items-center gap-12 py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:py-24">
@@ -40,10 +60,10 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-7 max-w-lg text-[0.9375rem] leading-relaxed text-bone-dim sm:text-base">
-              A curated catalogue of {stats.designs} designs in 14K gold, each set with
-              lab-grown diamonds graded E–F colour and VS–SI clarity. Every specification
-              is listed in full — carat weight, stone count, metal weight and finish — so
-              there is nothing left to guess.
+              {stats.designs} designs in 14K gold, set with lab-grown diamonds graded E–F
+              colour and VS–SI clarity, made in our own factory in Surat. Every
+              specification is published in full — carat weight, stone count, metal weight
+              and finish — so a buyer choosing a range has nothing left to ask.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">

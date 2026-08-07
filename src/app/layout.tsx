@@ -105,6 +105,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 </li>
                 <li>
+                  <Link href="/oceania" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
+                    Australia &amp; New Zealand
+                  </Link>
+                </li>
+                <li>
                   <Link href="/guide" className="block py-2.5 text-sm text-white/85 transition-colors hover:text-white">
                     Understanding your diamond
                   </Link>
